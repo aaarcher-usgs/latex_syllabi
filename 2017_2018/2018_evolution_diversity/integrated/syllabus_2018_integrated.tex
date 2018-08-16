@@ -1,0 +1,712 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{BIOL 122: Evolution \& Diversity 2018 -- Syllabus}										% change each year
+\author{Tuesday/Thursday 10:30am--1:15pm}										% change per section
+\date{256 Integrated Science Center}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~ArchMiller\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 222 Integrated Science Center\\
+Phone: 218.299.3793; Email: aarchmil@cord.edu\\
+Twitter: @aaarchmiller\\
+Office Hours:  MW 10:30-11:30am; TR 2:00-3:00pm\\
+TA: Matt Nelson
+
+
+\begin{fullwidth}
+
+\subsection{Course Goals}
+
+Students in Evolution and Diversity will understand how evolution is the fundamental concept of biology, be able to identify and describe eukaryotic organisms and develop the knowledge, skills and language needed for future courses in biology. Following the course, the student should expect to:
+
+\begin{itemize}
+	\item Recognize how science is a process
+	\item Explain the theory of evolution by natural selection and understand when evolution can occur
+	\item Demonstrate understanding of the roll of Hardy-Weinberg Theory in explaining population genetics
+	\item Describe modes of speciation and radiation of new species
+	\item Understand what selection pressures (agents) are and their role in adaptation
+	\item Demonstrate an understanding of evolution as the foundation of biology
+	\item Describe the unique evolutionary pathways and characteristics of each Kingdom
+	\item Demonstrate knowledge of the Kingdoms Protista, Fungi, Plantae, and Animalia
+	\item Compare and contrast various taxonomic groups
+	\item Recognize the diversity of adaptations organisms have for solving life's problems
+	\item Know major characteristics of taxa and how these are used in classification and phylogenies
+	\item Be familiar with general laboratory investigation techniques (i.e., microscope use, hypothesis and experiment development, basic analysis and dissection techniques, etc.)
+\end{itemize}
+
+\subsection{Required Textbooks \& Lab Material}
+
+\begin{itemize}
+	\item Urry, Cain, Wasserman, Minorsky, and Reece. 2016. \emph{Campbell Biology}. 11th Edition. Pearson Education.
+	\item MasteringBiology -- An interactive learning tool that goes with our text. Make sure you purchase the textbook with the access codes to MasteringBiology. Other options to purchase MasteringBiology are available online when you go to complete the first assignment.
+	\item Lab packet is available on Moodle. Print each week's material ahead of time and prepare prior to lab. Keep the lab material in a 3-ring binder as your lab notebook. 
+	\item Colored pencils
+	\item Strete and Vodopich. 2011. \emph{Photo atlas for general biology}. McGraw-Hill (*Strongly recommended)
+	\item SimUText Darwinian Snails (instructions for purchase/installation will be posted on Moodle)
+\end{itemize}
+
+\section{Attendance Policy}
+
+Regular attendance and participation in class is critical to your success in this class and at Concordia College. Because any absence, excused or unexcused, detracts from the learning experience, \textbf{you are expected to attend all classes}. Although attendance is not formally included in your course grade, absenses will be reflected in exam and lab practical scores. The material can be very challenging and there is no substitute for attending class. 
+
+%The nature of this integrated class (integrated lecture and lab with long class periods)I also value the educational experience afforded by student participation in co-curricular activities; however, you are responsible for notifying me of scheduled absences (e.g., co-curricular activities) at the beginning of the semester, or as soon as that information is available (but no less than 24 hours in advance). 
+
+
+
+If you know you will be gone for a school sanctioned event, please let me know ahead of time. If you are ill, please email me as soon as possible. \textbf{No matter the nature of your absence, you are still responsible for obtaining and understanding the material you missed.} If you do need to miss a class period, you may ask whether you could attend Dr.\ ArchMiller's other class section. You may also use the open lab time on Friday to review and make-up the laboratory portion of class with TAs; however, you must still obtain class notes from someone in your section.  If you miss an exam or lab practical for an excused absence (e.g. documented illness, travel for school sports or music) you must make arrangements with me to make up the exam in a time reasonable for the absence. The format of the make-up exam may be different than the one given in class (e.g. combination of written and oral exam). In-class activities can not be made up.
+
+If absences become what I determine to be excessive (from 10-15\% of classes, without valid college-recognized excuses), points will be deducted from your final percentage. In extreme cases (4 unexcused absences), I will assign a failing grade. 
+
+\section{Accommodations for Students with Disabilities}
+
+In accordance with the Americans with Disabilities Act, Concordia College and your instructor are committed to making reasonable accommodations to assist individuals with documented disabilities to reach their academic potential. Such disabilities include, but are not limited to, learning or psychological disabilities, or impairments to health, hearing, sight, or mobility. If you believe you require accommodations for a disability that may impact your performance in this course, you must schedule an appointment with Disability Services to determine eligibility. Students are then responsible for giving instructors a letter from Disability Services indicating the type of accommodation to be provided; please note that accommodations will not be retroactive. The Disability Services office is in Academy 106, phone 218-299-3514; https://www.concordiacollege.edu/directories/offices-services/counseling-center-and-disabilityservices/disability/ 
+
+\section{Respect for Diversity}
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Disrespectful, rude, or exclusive behavior will not be tolerated.
+
+\end{fullwidth}
+
+\section{Academic Integrity (from Student Handbook)}
+
+\marginnote{I will not tolerate any instance of academic dishonesty, including cheating, plagiarism, falsification, facilitating others' violations, or impeding (see student handbook for definitions). }
+
+%``Every member of our academic community is charged with the responsibility of maintaining an environment of integrity. Faculty bear special responsibilities in encouraging integrity. Their first responsibility is to function as models of academic integrity. 
+
+``Students are responsible for maintaining and encouraging academic integrity at the college. We expect all students to act with integrity in the classroom and in completing and submitting assignments. Ultimately, students bear the responsibility of ensuring the integrity of their own work. Students are expected to meet at least the minimal requirements of each course with work of appropriate quality. 
+
+\marginnote{Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty. All academic integrity violations will be reported to the Office of Academic Affairs.}
+
+``At no time is cheating on examinations, quizzes, or assignments acceptable at Concordia. Students are also expected to exercise appropriate caution to avoid plagiarism on written assignments.''
+
+\section{Grades}
+
+
+
+%\begin{table}
+\begin{tabular}{l l l rr}
+Category & Item & Date & Partial \% & Total \% \\
+\hline
+Lecture Exams & & &  & 50\\
+& Exam 1 & Feb.\ 1 & 12 \\							% change date for each unit
+& Exam 2 & Mar.\ 6 & 12 \\							% change date  for each unit
+& Exam 3 & Mar.\ 27 & 12 \\						% change date for each unit
+& Final Exam & May 2 & 14 \\ 							% change date for each unit
+\hline 
+Participation \& &  & various  & & 10 \\
+Quizzes & & & \\
+\hline
+Laboratory & & & & 40\\
+& Assignments/Pre-labs & various & 5 \\
+& Writing Assignment & Jan.\ 30 & 1 &  \\
+& Lab Practical 1 & Feb.\ 1 & 7 & \\
+& Lab Practical 2 & Mar.\ 6 & 9 & \\
+& Lab Practical 3 & Mar.\ 27 & 9 & \\
+& Lab Practical 4 & Apr.\ 26 &9 & \\
+& Lab Notebook$^*$ \\
+\hline
+& & & &  100\%
+\end{tabular}
+%\end{table}
+
+
+\begin{margintable}
+Final grades will be based on the following scale:\\
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge94$ & A \\
+90-93.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+
+\begin{fullwidth}
+
+
+
+
+
+This course will be a combination of quizzes, brief lectures, questions, discussion, activities, and laboratory. In order to learn the material, students must actively participate in learning. There is a limited amount of time; therefore you must come prepared to dive into the material. 
+
+\newthought{Lecture}
+
+\textbf{{Lecture Exams}} will be of variable format, including---but not limited to---multiple choice, true/false, matching, short answer, and brief essays. All exams will be cumulative by nature; however $\sim$30\% of the final exam will be designated for cumulative material. 
+
+\textbf{{Participation \& Quizzes}} includes in-class participation and exercises, MasteringBiology assignments, and occasional homework assignments. MasteringBiology will be used to provide reading quizzes that will be due on various dates (pay attention to Moodle and email announcements for specifics). 
+
+\newthought{Laboratory}
+
+{{Laboratory}} is worth 40\% of your final course grade. There will be one writing project and four lab practical exams. 
+
+There is no extra credit or additional means to improve lab practical scores, so it is essential that you prepare for each lab in advance and review each lab soon after its completion. Past students have found success using various study techniques such as flash cards, a student-run Biology 122 Facebook page, reviewing on Fridays in open lab, and group study sessions. 
+
+Bring colored pencils to lab. You are also encouraged to bring a laptop or tablet to lab for lab activities. Laptops will be made available if you need one. For lab safety reasons, coats, backpacks, and other gear should be placed in the cubbies near the front of the lab. 
+
+{\textbf{$^*$Lab Notebook}} You will turn in your lab notebook for grading at each lab practical exam. You are expected to date each lab, have notes that reflect the information on the board, notes from the lab introduction, and detailed, labeled drawings (color is better). Each lab notebook check will be 5pts of that lab practical exam's grade. 
+
+\section{Extra Credit}
+
+Extra credit may be earned by attending special lectures scheduled throughout the semester.  You will be required to hand in a summary and your reaction of the lecture to receive the extra credit (1 page, 1.5 spacing, 1 inch margins).  I will announce these in advance.  There will be several opportunities during the semester.  Known opportunities include:
+
+\begin{itemize}
+\item Martin Luther King, Jr. Day events. For extra credit, you must attend one of the concurrent sessions and write a reflection paper (1-page, 1.5-spaced paper with 12-point Times New Roman font, 1 inch margins) that discusses how diversity enriches the human experience. 
+\item Celebration of Student Scholarship, April 11.  This program will highlight some of the student research going on at Concordia and elsewhere.  I encourage you to attend and begin to think about participating in this event. For extra credit, you must attend either 5 poster presentations or 3 oral presentations, or some combination of the two.  Your reflection paper must include complete title, authors and session for each presentation, a 1 paragraph summary for each presentation (oral or poster), and your reflections on the presentation (1-page, 1.5-spaced paper with 12-point Times New Roman font, 1 inch margins).  	
+\end{itemize}
+
+\section{Biology Department Policy on Use of Electronic Devices}
+
+\begin{enumerate}
+\item All electronic devices (including cellular phones) must be set to silent during scheduled lecture and laboratory sessions.
+\item No electronic devices (laptop computers, PDA, cell phones, MP3 players, digital cameras, etc) should be brought into the classroom during exams, with the exception of materials needed for the exam (e.g., a calculator is permitted if mathematical analysis is required).
+\item If you wish to use a calculator during an exam, it must be a simple calculator that is non-programmable and non-text-storing. Examples include Aurora HC 108X and HC 206, available at the bookstore. 
+\item Sharing of calculators on exams is not permitted.
+\end{enumerate}
+
+Although it has been proven in many studies that taking notes by hand on paper is the most effective for learning, I am not opposed to using laptops to take notes in class. However, the inappropriate use of laptops can be distracting to students and is viewed as a serious disruption of the learning environment. I reserve the right to check laptops at any time and to ask you to put them away or leave if I see you using them inappropriately. \textbf{Please be respectful and turn your cell phones off during class.}		
+
+
+
+
+
+
+
+\newpage
+\section{Course Schedule (version dated 1/9/2018)}
+%
+%\begin{itemize}
+%	\item Lecture: Lecture Topic
+%	\item Lab: Lab Topic
+%	%\item MB: MasteringBiology Assignments
+%	\item Campbell Biology: Campbell Biology Chapters
+%	%\item OH: Dr.~ArchMiller's office hours, ISC 222 (MW 10:30-11:30am; TR 2:00-3:00pm)
+%\end{itemize}
+
+\newthought{Lecture:} You are expected to read the Campbell Biology chapters prior to coming to lecture.  There will be MasteringBiology quizzes throughout the semester that will test you on reading comprehension prior to that day's lecture. Pay attention to Moodle and email announcements for specific due dates for MasteringBiology quizzes.
+
+\newthought{Lab:} You are expected to print and read-through the required lab material before lab. Pre-labs will be due at the beginning of lab. Keep all lab materials (handouts, pre-labs, whiteboard notes, etc) in a 3-ring-binder as your ``lab notebook.'' 
+
+\newthought{Important dates:} 
+
+Martin Luther King, Jr.\ Day: January 15, 2018
+
+Last day to drop: March 12, 2018
+
+Registration: Week of March 12, 2018
+
+COSS: April 11, 2018
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/8/18}{17}
+
+ \skipday% \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+ \skipday% \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+% \calday[Friday]{\noclassday} % Friday
+    \skipday\skipday % weekend (no class)
+    \skipday
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 1
+\caltext{1/9/18}{\textbf{First Day of Class}} % Lecture/Lab 1
+\caltext{1/9/18}{Lecture: Intro to Biology}
+\caltext{1/9/18}{Campbell Biology: Ch 1\dotfill}
+\caltext{1/9/18}{Lab: No Lab}
+
+\caltext{1/11/18}{Lecture: Evidence of Evolution}% Lecture/Lab 2
+\caltext{1/11/18}{Campbell Biology: Ch 22\dotfill}
+\caltext{1/11/18}{Lab: Introduction to Judgement Day \& Darwinian Snails (Part I during Open Friday Lab)}
+\caltext{1/11/18}{
+	\begin{itemize}
+	\item Bring laptop/tablet
+	\item Print/Bring: ``Judgement Day'' from Moodle
+	\item Print/Bring: ``Darwinian Snails''  from Moodle
+	\end{itemize}
+}
+
+%\caltext{1/8/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{1/9/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{1/10/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{1/11/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 2
+\caltext{1/15/18}{MLK Jr.\ Day} % Special Note 
+
+\caltext{1/16/18}{Lecture: Evolutionary change in populations (microevolution)} % Lecture/Lab 1
+\caltext{1/16/18}{Campbell Biology: Ch 23\dotfill}
+\caltext{1/16/18}{Lab: No Lab}
+
+\caltext{1/18/18}{Lecture: Natural Selection} % Lecture/Lab 2
+\caltext{1/18/18}{Campbell Biology: Ch 23\dotfill}
+\caltext{1/18/18}{Lab: Discuss Judgement Day Video; Darwinian Snails Simulation; Discuss Writing in the Sciences}
+%\caltext{1/18/18}{LabM: Read/Print ``Intense Natural Selection...''} 
+\caltext{1/18/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Read ``Intense Natural Selection...''
+	\item Find/Print/Read 1 other article
+	\item Bring laptop/tablet
+	\item Due: Judgement Day Questions (Moodle)
+	\item Due: Darwinian Snails Part I (graded questions)
+	\end{itemize}
+}
+
+%\caltext{1/15/18}{No office hours} %Monday OH
+%\caltext{1/16/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{1/17/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{1/18/18}{OH: 2pm-3pm} %Thurs OH
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 3
+\caltext{1/23/18}{Lecture: Speciation and Macroevolution} % Lecture/Lab 1
+\caltext{1/23/18}{Campbell Biology: Ch 24\dotfill}
+\caltext{1/23/18}{Lab: Hardy-Weinberg Equilibrium}
+\caltext{1/23/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Hardy Weinberg''
+	\item Print/Bring: ``Sickle Cell Anemia''
+	\item Due: Darwinian Snails Part II
+	\end{itemize}
+}
+
+\caltext{1/25/18}{Lecture:Evolutionary Relationships} % Lecture/Lab 2
+\caltext{1/25/18}{Campbell Biology: Ch 26\dotfill}
+\caltext{1/25/18}{Lab: Fruity Phylogeny}
+\caltext{1/25/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring ``Constructing Phylogenetic Trees: A Fruity Approach''
+	\item Due: Hardy Weinberg Practice Problems
+	\end{itemize}
+}
+%
+%\caltext{1/22/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{1/23/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{1/24/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{1/25/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 4
+\caltext{1/30/18}{Lecture: Origin of Life, History of Life} % Lecture/Lab 1
+\caltext{1/30/18}{Campbell Biology: Ch 25\dotfill}
+\caltext{1/30/18}{Lab: Molecular Evolution: Determining Relatedness via AA Sequences}
+\caltext{1/30/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Molecular Evolution''
+	\item Due: Darwinian Snails Results Paper
+	\end{itemize}
+}
+
+\caltext{2/1/18}{\textbf{Exam 1}} % Lecture/Lab 2
+%\caltext{2/1/18}{Campbell Biology: Ch 26\dotfill}
+\caltext{2/1/18}{Lab: \textbf{Lab Practical 1}}
+\caltext{2/1/18}{%Lab Material:
+	\begin{itemize}
+	\item Lab Notebook Check
+	\end{itemize}
+}
+
+
+%\caltext{1/29/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{1/30/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{1/31/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{2/1/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 5
+\caltext{2/6/18}{Lecture: Introduction to Animal Kingdom} % Lecture/Lab 1
+\caltext{2/6/18}{Campbell Biology: Ch 32\dotfill}
+\caltext{2/6/18}{Lab: Microscope Techniques; Porifera \& Cnidaria}
+\caltext{2/6/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Introduction to the Microscope''
+	\item Print/Bring: ``Porifera and Cnidaria''
+	\item Pre-lab Due: Microscope, Porifera, Cnidaria
+	\end{itemize}
+}
+
+\caltext{2/8/18}{Lecture: Porifera, Cnidaria, Ctenophora, Acoelomates, Platyhelminthes, Acoela, Nemertea, Ciliophora} % Lecture/Lab 2
+\caltext{2/8/18}{Campbell Biology: Ch 32\dotfill}
+\caltext{2/8/18}{Lab: Platyhelminthes}
+\caltext{2/8/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Platyhelminthes''
+	\item Print/Bring: ``Worm Comparison''
+	\item Pre-lab Due: Platyhelminthes
+	\end{itemize}
+}
+
+%\caltext{2/5/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{2/6/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{2/7/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{2/8/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 6
+\caltext{2/13/18}{Lecture: Pseudocoelomates: Nematoda and Rotifera} % Lecture/Lab 1
+\caltext{2/13/18}{Campbell Biology: Ch 33\dotfill}
+\caltext{2/13/18}{Lab: Nematoda \& Annelida}
+\caltext{2/13/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Nematoda and Annelida''
+	\item Pre-lab Due: Nematoda and Annelida
+	\end{itemize}
+}
+
+\caltext{2/15/18}{Lecture: Coelomates: Mullusca and Annelida} % Lecture/Lab 2
+\caltext{2/15/18}{Campbell Biology: Ch 33\dotfill}
+\caltext{2/15/18}{Lab: Mullusca}
+\caltext{2/15/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Mullusca''
+	\item Pre-lab Due: Mullusca
+	\item Table Due: Worm comparison
+	\end{itemize}
+}
+
+%
+%\caltext{2/12/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{2/13/18}{No office hours} %Tuesday OH
+%\caltext{2/14/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{2/15/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 7
+\caltext{2/20/18}{Lecture: Bryozoa, Brachiopoda, Arthropoda} % Lecture/Lab 1
+\caltext{2/20/18}{Campbell Biology: Ch 33\dotfill}
+\caltext{2/20/18}{Lab: Arthropoda}
+\caltext{2/20/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Arthropoda''
+	\item Pre-lab Due: Arthropoda
+	\end{itemize}
+}
+
+\caltext{2/22/18}{Lecture: Echinodermata} % Lecture/Lab 2
+\caltext{2/22/18}{Campbell Biology: Ch 33\dotfill}
+\caltext{2/22/18}{Lab: Echinodermata}
+\caltext{2/22/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Echinodermata''
+	\item Pre-lab Due: Echinodermata
+	\end{itemize}
+}
+
+%\caltext{2/19/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{2/20/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{2/21/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{2/22/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 8
+\caltext{2/26/18}{Break: No class} %Monday 
+\caltext{2/27/18}{Break: No class} %Tuesday 
+\caltext{2/28/18}{Break: No class} %Wednesday 
+\caltext{3/1/18}{Break: No class} %Thurs 
+\caltext{3/2/18}{Break: No class}
+
+%\caltext{2/26/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{2/27/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{2/28/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{3/1/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 9
+\caltext{3/6/18}{\textbf{Exam 2}} % Lecture/Lab 1
+%\caltext{3/6/18}{Campbell Biology: Ch 33\dotfill}
+\caltext{3/6/18}{Lab: \textbf{Lab Practical 2}}
+\caltext{3/6/18}{%Lab Material:
+	\begin{itemize}
+	\item Lab Notebook Check 
+	\end{itemize}
+}
+
+\caltext{3/8/18}{Lecture: Fungi} % Lecture/Lab 2
+\caltext{3/8/18}{Campbell Biology: Ch 31\dotfill}
+\caltext{3/8/18}{No Lab}
+
+%
+%\caltext{3/5/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{3/6/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{3/7/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{3/8/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 10
+\caltext{3/13/18}{Lecture: Fungi (continued)} % Lecture/Lab 1
+\caltext{3/13/18}{Campbell Biology: Ch 31\dotfill}
+\caltext{3/13/18}{Lab: Fungi Part 1}
+\caltext{3/13/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Fungi''
+	\item Pre-lab Due: Fungi
+	\end{itemize}
+}
+
+
+\caltext{3/15/18}{Lecture: Protista} % Lecture/Lab 2
+\caltext{3/15/18}{Campbell Biology: Ch 28\dotfill}
+\caltext{3/15/18}{Lab: Fungi Part 2}
+\caltext{3/15/18}{%Lab Material: NA
+	%\begin{itemize}
+	%\item Lab Notebook Check 
+	%\end{itemize}
+}
+
+%
+%\caltext{3/12/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{3/13/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{3/14/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{3/15/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 11
+\caltext{3/20/18}{Lecture: Protista (continued)} % Lecture/Lab 1
+\caltext{3/20/18}{Campbell Biology: Ch 28\dotfill}
+\caltext{3/20/18}{Lab: Protista Part 1 (Heterotrophs)}
+\caltext{3/20/18}{%Lab Material:
+	\begin{itemize}
+	\item Print/Bring: ``Protista''
+	\item Pre-lab Due: Protista
+	\end{itemize}
+}
+
+\caltext{3/22/18}{Lecture: Bacteria and Archea} % Lecture/Lab 2
+\caltext{3/22/18}{Campbell Biology: Ch 27\dotfill}
+\caltext{3/22/18}{Lab: Protista Part 2 (Autotrophs)}
+\caltext{3/22/18}{%Lab Material: NA
+	%\begin{itemize}
+	%\item Lab Notebook Check 
+	%\end{itemize}
+}
+
+%\caltext{3/19/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{3/20/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{3/21/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{3/22/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 12
+\caltext{3/28/18}{Easter: No Class} %Wednesday 
+\caltext{3/29/18}{Easter: No Class} %Thurs 
+\caltext{3/30/18}{Easter: No Class} %Friday
+
+\caltext{3/27/18}{Lecture: \textbf{Exam 3}} % Lecture/Lab 1
+%\caltext{3/27/18}{Campbell Biology: Ch 28\dotfill}
+\caltext{3/27/18}{Lab: \textbf{Lab Practical 3}}
+\caltext{3/27/18}{%Lab Material: Lab Notebook Check
+	\begin{itemize}
+	\item Lab Notebook Check 
+	\end{itemize}
+}
+
+%\caltext{3/22/18}{Lecture: Bacteria and Archea} % Lecture/Lab 2
+%\caltext{3/22/18}{Campbell Biology: Ch 27\dotfill}
+%\caltext{3/22/18}{Lab: Review}
+%\caltext{3/22/18}{Lab Material: NA
+	%\begin{itemize}
+	%\item Print/Bring: ``Protista''
+	%\item Pre-lab Due: Protista
+	%\end{itemize}
+%}
+
+%\caltext{3/26/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{3/27/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{3/28/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{3/29/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 13
+\caltext{4/2/18}{Easter: No Class} % Special Note
+
+\caltext{4/3/18}{Lecture: Introduction to Plant Kingdom} % Lecture/Lab 1
+\caltext{4/3/18}{Campbell Biology: Ch 29\dotfill}
+\caltext{4/3/18}{Lab: No Lab}
+%\caltext{4/3/18}{Lab Material: 
+%	\begin{itemize}
+%	\item Print/Bring: ``Bryophytes''
+%	\item Pre-lab Due: Bryophytes
+%	\end{itemize}
+%}
+
+\caltext{4/5/18}{Lecture: Bryophytes} % Lecture/Lab 2
+\caltext{4/5/18}{Campbell Biology: Ch 29\dotfill}
+\caltext{4/5/18}{Lab: Bryophytes (Mosses \& Liverworts)}
+\caltext{4/5/18}{%Lab Material: 
+	\begin{itemize}
+	\item Print/Bring: ``Bryophytes''
+	\item Pre-lab Due: Bryophytes
+	\end{itemize}
+}
+
+%\caltext{4/2/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{4/3/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{4/4/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{4/5/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 14
+\caltext{4/11/18}{COSS} % Special Note
+
+\caltext{4/10/18}{Lecture: Ferns} % Lecture/Lab 1
+\caltext{4/10/18}{Campbell Biology: Ch 29\dotfill}
+\caltext{4/10/18}{Lab: Seedless Vascular Plants (Ferns, etc)}
+\caltext{4/10/18}{%Lab Material: 
+	\begin{itemize}
+	\item Print/Bring: ``Ferns''
+	\item Pre-lab Due: Ferns
+	\item Assignment Given: Tree Walk
+	\end{itemize}
+}
+
+\caltext{4/12/18}{Lecture: Gymnosperms} % Lecture/Lab 2
+\caltext{4/12/18}{Campbell Biology: Ch 30\dotfill}
+\caltext{4/12/18}{Lab: No Lab}
+%\caltext{4/12/18}{Lab Material: 
+%	\begin{itemize}
+%	\item Print/Bring: ``Bryophytes''
+%	\item Pre-lab Due: Bryophytes
+%	\end{itemize}
+%}
+
+%\caltext{4/9/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{4/10/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{4/11/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{4/12/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 15
+\caltext{4/17/18}{Lecture: Gymnosperms (continued)} % Lecture/Lab 1
+\caltext{4/17/18}{Campbell Biology: Ch 30\dotfill}
+\caltext{4/17/18}{Lab: Gymnosperms}
+\caltext{4/17/18}{%Lab Material: 
+	\begin{itemize}
+	\item Print/Bring: ``Gymnosperms''
+	\item Pre-lab Due: Gymnosperms
+	\end{itemize}
+}
+
+\caltext{4/19/18}{Lecture: Angiosperms Structure} % Lecture/Lab 2
+\caltext{4/19/18}{Campbell Biology: Ch 35.1-35.4\dotfill}
+\caltext{4/19/18}{Lab: Angiosperms I}
+\caltext{4/19/18}{%Lab Material: 
+	\begin{itemize}
+	\item Print/Bring: ``Angiosperms I''
+	\item Pre-lab Due: Angiosperms I
+	\item Assignment Due: Tree Walk
+	\end{itemize}
+}
+
+
+%\caltext{4/16/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{4/17/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{4/18/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{4/19/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 16
+\caltext{4/24/18}{Lecture: Angiosperm Reproduction} % Lecture/Lab 1
+\caltext{4/24/18}{Campbell Biology: Ch 38.1\dotfill}
+\caltext{4/24/18}{Lab: Angiosperms II}
+\caltext{4/24/18}{%Lab Material: 
+	\begin{itemize}
+	\item Print/Bring: ``Angiosperms II''
+	\item Pre-lab Due: Angiosperms II
+	\end{itemize}
+}
+
+\caltext{4/26/18}{Lecture: Plant Ecology} % Lecture/Lab 2
+\caltext{4/26/18}{Campbell Biology: NA\dotfill}
+\caltext{4/26/18}{Lab: \textbf{Lab Practical 4}}
+\caltext{4/26/18}{%Lab Material: Lab Notebook Check
+	%\begin{itemize}
+	%\item Lab Notebook Check
+	%\end{itemize}
+}
+
+%\caltext{4/23/18}{OH:10:30-11:30am} %Monday OH
+%\caltext{4/24/18}{OH: 2pm-3pm} %Tuesday OH
+%\caltext{4/25/18}{OH:10:30-11:30am} %Wednesday OH
+%\caltext{4/26/18}{OH: 2pm-3pm} %Thurs OH
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 17
+\caltext{5/1/18}{Study Day}
+\caltext{5/2/18}{Final Exam: 11am-1pm}											% change for each unit
+
+  \end{calendar}
+
+\newthought{Final Exam: May 2, 2018 from 11am--1pm in ISC 256}
+
+\end{fullwidth}
+
+
+
+\newpage
+
+\subsection{Syllabus Acknowledgement}
+
+I, \underline{\hspace{5cm}}, have received a copy of the syllabus for BIOL 122 Evolution and Diversity, and understand all of the policies and procedures outlined herein. 
+
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+
+\subsection{Use of Photographic Likeness Release}
+
+For good and valuable consideration, I authorize Dr.~ArchMiller to record photographs of me and use, reproduce, modify, distribute, and exhibit such photographs, in whole or in part, without restrictions or limitation for marketing and instructional purposes. 
+
+I release Dr.~ArchMiller, Concordia College, its successors and assigns, agents, and all persons for whom it is acting from any liability by virtue of any blurring, distortion, alteration, optical illusion, or use in composite form, whether intentional or otherwise, that may occur or be produced in the photographic process and waive any right that I may have to inspect or approve the finished recordings.
+
+\newthought{Printed name}  \hrulefill
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+\subsection{Optional Information}
+
+\newthought{Preferred name or nickname} \hrulefill
+
+\newthought{Major} \hrulefill
+
+\newthought{Contact phone number} \hrulefill
+
+\newthought{Where's ``home?''} \hrulefill
+
+
+\newthought{Way(s) you are similar to other Cobbers} \hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\newthought{Way(s) you are unique compared to other Cobbers}\hrulefill
+
+\hrulefill
+
+\hrulefill
+\end{document}                              

@@ -1,0 +1,439 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{2017 Syllabus for Biology 221: Ecology}										% change each year
+\author{Tuesday/Thursday 8:00am--9:40am}										% change per section
+\date{132 Integrated Science Center}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~ArchMiller\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 222 Integrated Science Center\\
+218.299.3793 (office) / 218.556.8053 (cell)\\
+Email: aarchmil@cord.edu\\
+Twitter: @aaarchmiller\\
+Office Hours:  MWF (see course schedule) or by appointment
+
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+Covers the basic principles of energy and nutrient movement through the ecosystems, the forces that structure ecosystems, and the interactions between organisms and the environment and each other. This course emphasizes quantitative skills. Two lectures and four hours of laboratory per week.
+
+\subsection{Course Goals}
+
+The primary objective of this course is to provide a basis for your understanding of ecology, which includes the complex interactions between organisms and their environment. You will learn to draw together elements from biology, chemistry, physics, geology, and mathematics to gain a greater understanding of ecological relationships in the natural world. The goals of the course are to:
+
+\begin{enumerate}
+	\item Discuss classical and current ecological issues and methodology
+	\item Address natural diversity and how humans interact with the environment
+	\item Examine biodiversity and sustainability of natural systems
+	\item Explore the benefits and limitations of scientific efforts to understand ecological relationships
+	\item Critically evaluate environmental issues locally, regionally, and globally
+	\item Practice communicating your ecological and scientific knowledge in meaningful and effective ways
+\end{enumerate}
+
+\subsection{Learning Outcomes}
+
+\begin{enumerate}
+	\item Access, critically evaluate, and correctly use scientific literature
+	\item Classify organizational levels observed in ecology
+	\item Explain how populations are regulated and how data can be collected, analyzed, and interpreted using statistics, life tables, graphs, and survivorship curves
+	\item Describe the interactions between different species and how they impact one another
+	\item Illustrate the major forces responsible for community structure, how community structure can be represented by food webs, and how communities change in both space and time
+	\item Discuss patterns and measurements of biodiversity and predict the consequences of continued species loss
+	\item Communicate your interpretations, questions, and critiques of the readings with your colleagues during Moodle group discussions
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item SimUText Ecology
+	\item Carrol, S.B. 2016. \emph{The Serengeti Rules}. Princeton University Press, Princeton. 263pp.
+	\item Pollan, M. 2006 \emph{The Omnivore's Dilemma}. Penguin Press, New York. 451pp.
+	\item Leopold, A. 1987. \emph{A Sand County Almanac and Sketches Here and There}. Oxford University Press, New York. 228pp.
+	\item McMillan, V.E. 2012. \emph{Writing Papers in the Biological Sciences}. 5th ed. New York: Bedford/St. Martin's
+	%\item Supplemental material available on Moodle
+\end{itemize}
+
+\section{Attendance Policy}
+
+Regular attendance and participation in class is critical to your success at Concordia College. Because any absence, excused or unexcused, detracts from the learning experience, you are expected to attend all classes. Dr.~ArchMiller also values the educational experience afforded by student participation in co-curricular activities; however, you are responsible for notifying Dr.~ArchMiller of scheduled absences (e.g., co-curricular activities) at the beginning of the semester, or as soon as that information is available (but no less than 24 hours in advance). 
+
+If absences become what Dr.~ArchMiller determines to be excessive (from 10-15\% of classes, without valid college-recognized excuses), points will be deducted from your final percentage. In extreme cases ($>20$\% of classes or 6 unexcused absences), Dr.~ArchMiller will assign a failing grade. \textbf{I strongly recommend that you are present and participate in the class.}
+
+\newthought{Participation} in class and lab will not go towards your grade directly. However, a record throughout the semester of exemplary participation and attendance can help in the case of a borderline final grade. Active participation also nurtures learning, and will improve the quality of future recommendation letters from your instructors.  
+
+\section{Accommodations for Students with Disabilities}
+
+In accordance with the Americans with Disabilities Act, Concordia College and your instructor are committed to making reasonable accommodations to assist individuals with documented disabilities to reach their academic potential. Such disabilities include, but are not limited to, learning or psychological disabilities, or impairments to health, hearing, sight, or mobility. If you believe you require accommodations for a disability that may impact your performance in this course, you must schedule an appointment with Disability Services to determine eligibility. Students are then responsible for giving instructors a letter from Disability Services indicating the type of accommodation to be provided; please note that accommodations will not be retroactive. The Disability Services office is in Academy 106, phone 218-299-3514; https://www.concordiacollege.edu/directories/offices-services/counseling-center-and-disabilityservices/disability/ 
+
+\section{Respect for Diversity}
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Disrespectful, rude, or exclusive behavior will not be tolerated.
+
+\section{Grades}
+
+%Final grades will be based on the following:
+
+\begin{table}
+\begin{tabular}{l l l r}
+Category & Item & Details & \% \\
+\hline
+SimUText Readings & \\
+& Reading Completion & Pass/Fail for each assignment & 5 \\
+& Graded Questions & 2 lowest scores dropped & 5 \\
+\hline
+Exams \& Quizzes \\
+& Quizzes & 2 lowest scores dropped$^*$ & 10 \\
+& Exam 1 & Oct.~5; Unit 1 material & 10 \\
+& Exam 2 & Nov.~9; Unit 2 material & 10 \\
+& Final Exam & Dec.~13; 66\% Unit 3; 34\% Units 1\&2 & 15 \\ 							% change for each unit
+\hline 
+Discussions \& Paper \\
+& Group Discussions & Participate through Moodle & 10 \\
+ & Symposium Paper & Due Sept.~28 & 5 \\
+%& Homework & varying dates & 5 \\
+\hline
+Laboratory & & \emph{see laboratory syllabus} & 30 \\
+\hline
+& & & Total 100
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+\newthought{SimUText Readings} are from the interactive textbook for this class, and each module has integrated, feedback-focused questions followed by a series of graded questions. 
+
+\textbf{Reading Completion} will be evaluated with the feedback-focused, ungraded questions and will be assessed with a pass-fail grade (completed or not) for each SimUText assignment. The \textbf{Graded Questions} will be worth another 5\% of your final grade; however, the two lowest scores will be dropped before final grades are completed. 
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge94$ & A \\
+90-93.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+While the reading completion and graded questions for each SimUText Unit are not officially due until the Monday night before that Unit's exam (see schedule), I will give daily quizzes on the SimUText Material. Thus, I \textbf{strongly} encourage that you complete the SimUText reading and graded questions as we move through the material, rather than waiting for the due date. (Although, it may help to complete the graded questions after the material has been covered in lecture.)  You may work through the SimUText material with your peers; however, mastering the material is your individual responsibility.
+
+\begin{fullwidth}	
+
+\newthought{Exams and Quizzes}
+
+\newthought{\textbf{Quizzes}} are designed to quickly check for reading and comprehension of that lecture date's SimUText material and record attendance. Quizzes will be short (2 or 3 questions) and given at the beginning of class time on most days. 
+
+I expect you to come to class having read through the SimUText material, but I also understand that this is not your only class. Thus, I will drop the two lowest quiz scores.
+
+$^*$In addition, I will make homework available for students that have excused absenses. If you have an excused absense (thus a 0 for that quiz), you may---up to 3 times over the course of the semester---complete homework to replace a zero quiz score. The homework assignments will be designed to give you more hands-on practice with quantitative topics covered in lecture and in the SimUText readings; however, they will be more difficult than quizzes.
+	
+
+\newthought{\textbf{Lecture Exams}} will be of variable format, including---but not limited to---multiple choice, true/false, matching, short answer, and brief essays. All exams will be somewhat cumulative but will primarily focus on the associated SimUText Unit material (see table above); in addition, the final exam will be one-third cumulative. 
+						
+\newthought{Discussions and Paper}
+												
+\newthought{\textbf{Group Discussions}} allow you to work as a team of scientists with your colleagues to critically discuss three separate books, \emph{The Serengeti Rules}, \emph{The Omnivore's Dilemma}, and \emph{A Sand County Almanac}. Group discussions will occur in forum format on Moodle. Groups will be assigned at random and will be reassigned for each new book 
+(i.e., by October 16 and November 20). 											% change for each year
+You will be graded based on the quantity, quality and timing of your comments (see grading rubric below). Each discussion is worth a total of 5 points.
+
+The group as a whole is responsible for completing the assignment; in this case providing a good discussion and coming to a better understanding of ecology and evolution. Everyone should contribute to the discussion, and you are expected to provide at least two comments; ideally one will be an original question or discussion point, and one will be a reply to another group member's comment. You should take this opportunity to learn from and respectfully teach each other.
+
+%\begin{table}
+\begin{tabular}{l l l l}
+\\
+\hline
+\textbf{Grading Criteria} & \textbf{Exemplary} & \textbf{Adequate} & \textbf{Poor} \\
+\hline
+Quantity of Comments & $>$2 Comments & 2 Comments & 1 Comment \\
+& (2pts) & (1.5pts) & (1pt) \\
+\hline
+Quality of Comments & Focused on ecological & Indicated a superficial & Conveyed little \\
+& aspects and tackled & understanding of reading & understanding of reading; \\
+& central themes of & or focused on details w/o& not relevant to ecology \\
+& reading &  conveying importance to & or main themes of text \\
+& & ecology or main themes & \\
+& & of text & \\
+& (2pts) & (1.5pts) & (1pt) \\
+\hline
+Timing of 1$^\mathrm{st}$ Comment & $>$48 hrs before noon & 24--48 hrs before noon & $<$24 hrs before noon \\
+& (1pt) & (0.5pt) & (0pts) \\
+\hline \\
+\end{tabular}
+%\end{table}
+
+\newthought{\textbf{The Symposium Paper}} is a 3-page, 1.5-spaced paper with 12-point font, that is due at 
+11:59pm on Thursday, September 28 (upload on Moodle). 											% change each year
+The 2017 Faith, Reason \& World Affairs Symposium--Reformation: Transforming the World One Door at a Time % change each year
+takes place on September 19--20, 													 % change each year
+and you are required to attend \textbf{one} of the following concurrent sessions (taking place Wednesday afternoon):
+
+\begin{itemize}
+\item Planetary Solidarity: Faith, Climate and Gender Justice in Global Perspective 
+\item The Effects of Humans, Climate Change, and Pollution on the Everglades and Other National Parks
+\item The Thaw
+\item Transforming Anderson Commons One Plate at a Time
+\end{itemize}
+
+The Symposium Paper should name and summarize the session you attended, including two questions/answers raised during the Q/A of the session, and your reaction. At least one page of your paper should explore how the symposia relate to ecology, the environment and/or campus life. You will be graded out of 100 points based on the following (a detailed rubric is provided on Moodle): 
+
+\begin{itemize}
+\item Spelling and grammar (10pts)
+\item Summary of session and one Q/A (40pts)
+\item Relation of session topic to ecology and the environment (30pts)
+\item Relation of session topic to campus life and/or Fargo-Moorhead region (20pts)
+\end{itemize}
+
+%\newthought{\textbf{Homework}} will be designed to give you more hands-on practice with quantitative topics covered in lecture and in the SimUText readings. The due date and timewill be specified on each homework assignment. 
+
+
+
+\section{Biology Department Policy on Use of Electronic Devices}
+
+\begin{enumerate}
+\item All electronic devices (including cellular phones) must be set to silent during scheduled lecture and laboratory sessions.
+\item No electronic devices (laptop computers, PDA, cell phones, MP3 players, digital cameras, etc) should be brought into the classroom during exams, with the exception of materials needed for the exam (e.g., a calculator is permitted if mathematical analysis is required).
+\item If you wish to use a calculator during an exam, it must be a simple calculator that is non-programmable and non-text-storing. Examples include Aurora HC 108X and HC 206, available at the bookstore. 
+\item Sharing of calculators on exams is not permitted.
+\end{enumerate}
+
+Although it has been proven in many studies that taking notes by hand on paper is the most effective for learning, I am not opposed to using laptops to take notes in class. However, the inappropriate use of laptops can be distracting to students and is viewed as a serious disruption of the learning environment. I reserve the right to check laptops at any time and to ask you to put them away or leave if I see you using them inappropriately. \textbf{Please be respectful and turn your cell phones off during class.}
+
+\end{fullwidth}
+
+\section{Academic Integrity (from Student Handbook)}
+
+\marginnote{I will not tolerate any instance of academic dishonesty, including cheating, plagiarism, falsification, facilitating others' violations, or impeding (see student handbook for definitions). }
+
+%``Every member of our academic community is charged with the responsibility of maintaining an environment of integrity. Faculty bear special responsibilities in encouraging integrity. Their first responsibility is to function as models of academic integrity. 
+
+``Students are responsible for maintaining and encouraging academic integrity at the college. We expect all students to act with integrity in the classroom and in completing and submitting assignments. Ultimately, students bear the responsibility of ensuring the integrity of their own work. Students are expected to meet at least the minimal requirements of each course with work of appropriate quality. 
+
+\marginnote{Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty. All academic integrity violations will be reported to the Office of Academic Affairs.}
+
+``At no time is cheating on examinations, quizzes, or assignments acceptable at Concordia. Students are also expected to exercise appropriate caution to avoid plagiarism on written assignments.''
+
+\begin{fullwidth}
+
+\section{Course Schedule (version dated 8/28/2017}
+
+\begin{itemize}
+	\item SimUText Sections: You are expected to come to class prepared by reading that lecture's associated SimUText Module. There will be quizzes on reading material at the beginning of lecture.
+	\item GD: Group discussions on Moodle. You will be graded based on your participation and are expected to post to each discussion section at least twice by noon the day each discussion unit is due.
+	\item OH: Dr.~ArchMiller's office hours, ISC 222 (MWF, but at varying times; see schedule for details)
+\end{itemize}
+
+
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{8/28/17}{16}
+
+  \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+  \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+  \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{8/31/17}{\textbf{First Day of Class}}
+\caltext{8/31/17}{\emph{SimUText Unit 1: Understanding Experimental Design 1-2}}
+\caltext{9/1/17}{OH: 8am-9am}
+
+% Week 2
+\caltext{9/4/17}{OH: 3pm-4pm}
+\caltext{9/5/17}{\emph{SimUText Unit 1: Evolution for Ecology 1-2}}
+\caltext{9/6/17}{OH: 11am-12pm}
+\caltext{9/7/17}{\emph{SimUText Unit 1: Evolution for Ecology 3-4}}
+\caltext{9/8/17}{OH: 8am-9am}
+
+
+
+% Week 3
+\caltext{9/11/17}{\textbf{GD:} The Serengeti Rules p1--46 (by noon) \\ OH: 3pm-4pm }
+\caltext{9/12/17}{\emph{SimUText Unit 1: Biogeography 3-4}}
+\caltext{9/13/17}{OH: 11am-12pm}
+\caltext{9/14/17}{\emph{SimUText Unit 1: Physiological Ecology 1-2}}
+\caltext{9/15/17}{OH: 8am-9am}
+
+% Week 4
+\caltext{9/18/17}{\textbf{GD:} The Serengeti Rules p47--105 (by noon) \\ OH: 3pm-4pm}
+\caltext{9/19/17}{\emph{SimUText Unit 1: Physiological Ecology 3-4}}
+\caltext{9/20/17}{\textbf{Symposium} \\ No office hours}
+\caltext{9/21/17}{\emph{SimUText Unit 1: Ecosystem Ecology 1-2}}
+\caltext{9/22/17}{OH: 8am-9am}
+
+% Week 5
+\caltext{9/25/17}{\textbf{Dr.~ArchMiller at TWS} \\ \textbf{GD:} The Serengeti Rules p107--168 (by noon) \\ No office hours}
+\caltext{9/26/17}{\textbf{Dr.~ArchMiller at TWS} \\ Library Materials Lecture in \textbf{Library Lab Classroom}}
+\caltext{9/27/17}{\textbf{Dr.~ArchMiller at TWS} \\ No office hours}
+\caltext{9/28/17}{\textbf{Symposium Paper due 11:59pm} \\ \emph{SimUText Unit 1: Ecosystem Ecology 3-4}}
+\caltext{9/29/17}{OH: 8am-9am}
+
+% Week 6
+\caltext{10/2/17}{\textbf{SimUText Unit~1 due by 11:59pm} \\ OH: 2:30pm-4pm }
+\caltext{10/3/17}{\emph{SimUText Unit 2: Climate Change 1-3}}
+\caltext{10/4/17}{OH: 11am-12pm}
+\caltext{10/5/17}{\textbf{EXAM 1}}
+\caltext{10/6/17}{OH: 8am-9am}
+
+% Week 7
+\caltext{10/9/17}{\textbf{GD:} The Serengeti Rules p169--214 (by noon) \\ OH: 3pm-4pm}
+\caltext{10/10/17}{\emph{SimUText Unit 2: Climate Change 4-5, Nutrient Cycling 1}}
+\caltext{10/11/17}{OH: 11am-12pm}
+\caltext{10/12/17}{\emph{SimUText Unit 2: Nutrient Cycling 2-4}}
+\caltext{10/13/17}{OH: 8am-9am}
+
+% Week 8
+\caltext{10/16/17}{\textbf{GD:} Omnivore's Dilemma p1--56 (by noon) \\OH: 3pm-4pm}
+\caltext{10/17/17}{\emph{SimUText Unit 2: Life History 1-2}\\ March Book 3 Presentation 9:20am--10:20am}
+\caltext{10/18/17}{OH: 11am-12pm}
+\caltext{10/19/17}{\emph{SimUText Unit 2: Life History 3-4}}
+\caltext{10/20/17}{OH: 8am-9am}
+
+% Week 9
+\caltext{10/23/17}{\textbf{Mid Semester Break--No Class}}
+\caltext{10/24/17}{\textbf{Mid Semester Break--No Class}}
+\caltext{10/25/17}{\textbf{GD:} Omnivore's Dilemma p65--99 (by noon) \\OH: 11am-12pm}
+\caltext{10/26/17}{\emph{SimUText Unit 2: Population Growth 1}}
+\caltext{10/27/17}{OH: 8am-9am}
+
+% Week 10
+\caltext{10/30/17}{\textbf{GD:} Omnivore's Dilemma pp 123-140; 158--162; 169--173; 364--390 (by noon) \\OH: 3pm-4pm}
+\caltext{10/31/17}{\emph{SimUText Unit 2: Population Growth 2-3}}
+\caltext{11/1/17}{OH: 11am-12pm}
+\caltext{11/2/17}{\emph{SimUText Unit 2: Population Growth 4-5}}
+\caltext{11/3/17}{OH: 8am-9am}
+
+% Week 11
+\caltext{11/6/17}{\textbf{SimUText Unit~2 due by 11:59pm} \\ OH: 2:30pm-4pm}
+\caltext{11/7/17}{\emph{SimUText Unit 3: Competition 1-2}}
+\caltext{11/8/17}{OH: 11am-12pm}
+\caltext{11/9/17}{\textbf{EXAM 2}}
+\caltext{11/10/17}{OH: 8am-9am}
+
+% Week 12
+\caltext{11/13/17}{\textbf{GD:} Omnivore's Dilemma pp 185--225; 262--273; 410-441 (by noon) \\OH: 3pm-4pm}
+\caltext{11/14/17}{\emph{SimUText Unit 3: Competition 3-4}}
+\caltext{11/15/17}{OH: 11am-12pm}
+\caltext{11/16/17}{\emph{SimUText Unit 3: Predation, Herbivory, Parasitism 1-2}}
+\caltext{11/17/17}{OH: 8am-9am}
+
+% Week 13
+\caltext{11/20/17}{\textbf{GD:} Sand County Almanac pp vii--52 (by noon) \\OH: 3pm-4pm}
+\caltext{11/21/17}{\emph{SimUText Unit 3: Predation, Herbivory, Parasitism 3-4}}
+\caltext{11/22/17}{OH: 11am-12pm}
+\caltext{11/23/17}{\textbf{Thanksgiving Break--No Class}}
+\caltext{11/24/17}{\textbf{Thanksgiving Break--No Class} \\ No office hours}
+
+% Week 14
+\caltext{11/27/17}{\textbf{GD:} Sand County Almanac pp 53--92 (by noon) \\OH: 3pm-4pm}
+\caltext{11/28/17}{\emph{SimUText Unit 3: Predation 5; Community Dynamics 1}}
+\caltext{11/29/17}{OH: 11am-12pm}
+\caltext{11/30/17}{\emph{SimUText Unit 3: Community Dynamics 2-3}}
+\caltext{12/1/17}{OH: 8am-9am}
+
+% Week 15
+\caltext{12/4/17}{\textbf{GD:} Sand County Almanac pp 95-112; 129--137; 165--176 (by noon) \\OH: 3pm-4pm}
+\caltext{12/5/17}{\emph{SimUText Unit 3: Community Dynamics 4-5}}
+\caltext{12/6/17}{OH: 11am-12pm}
+\caltext{12/7/17}{\emph{SimUText Unit 3: Biogeography 1-2}}
+\caltext{12/8/17}{OH: 8am-9am}
+
+% Week 16
+\caltext{12/11/17}{\textbf{GD:} Sand County Almanac pp 188--226 (by noon) \\ \textbf{SimUText Unit~3 due by 11:59pm} \\OH: 3pm-5pm}
+\caltext{12/12/17}{\textbf{Last Class - Review}}
+\caltext{12/13/17}{OH: 11am-12pm\\ \textbf{FINAL EXAM 2pm-4pm}}							% change by section
+\caltext{12/14/17}{OH: 8am-11am}
+\caltext{12/15/17}{OH: 8am-9am}
+
+
+  \end{calendar}
+
+
+
+\end{fullwidth}
+
+
+
+\newpage
+
+\subsection{Syllabus Acknowledgement}
+
+I, \underline{\hspace{5cm}}, have received a copy of the syllabus for BIOL 221, Ecology, and understand all of the policies and procedures outlined herein. 
+
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+
+\subsection{Use of Photographic Likeness Release}
+
+For good and valuable consideration, I authorize Dr.~ArchMiller to record photographs of me and use, reproduce, modify, distribute, and exhibit such photographs, in whole or in part, without restrictions or limitation for marketing and instructional purposes. 
+
+I release Dr.~ArchMiller, Concordia College, its successors and assigns, agents, and all persons for whom it is acting from any liability by virtue of any blurring, distortion, alteration, optical illusion, or use in composite form, whether intentional or otherwise, that may occur or be produced in the photographic process and waive any right that I may have to inspect or approve the finished recordings.
+
+\newthought{Printed name}  \hrulefill
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+\subsection{Optional Information}
+
+\newthought{Preferred name or nickname} \hrulefill
+
+\newthought{Major} \hrulefill
+
+\newthought{Contact phone number} \hrulefill
+
+\newthought{Where's ``home?''} \hrulefill
+
+
+\newthought{Ways you are similar to other Cobbers} \hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\newthought{Ways you are unique compared to other Cobbers}\hrulefill
+
+\hrulefill
+
+\hrulefill
+\end{document}                              

@@ -1,0 +1,279 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{2017 Syllabus for Biology 221: Ecology Lab}
+\author{Wednesday 1:20pm--5:20pm; 251 ISC (or) }										% change per section
+\date{Thursday 12:40pm--4:40pm; 251 ISC}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~ArchMiller\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 222 Integrated Science Center\\
+218.299.3793 (office) / 218.556.8053 (cell)\\
+Email: aarchmil@cord.edu\\
+Twitter: @aaarchmiller\\
+Office Hours: Mon 3pm-4pm \& Wed 11am-12pm \& Fri 8-9am 
+
+\begin{fullwidth}
+
+\section{Course Description \& Goals}
+
+This field course will provide students with a foundation in ecological principles through hands-on work in the field. Students will develop their skills in framing scientific questions, arriving at testable hypotheses, and collecting, analyzing, and presenting data. After a brief introduction to the field, students will work in groups of 3--4 to select and develop their own group research projects. Research projects will be presented as scientific posters in a poster session at the end of the semester. Additional indoor laboratories will introduce students to modeling ecological processes, using data spreadsheets and applying statistics in ecology.
+
+\newthought{The primary goal of this course} is to enhance your understanding of ecology, which includes the complex interactions between organisms and their environment, through interactive, hands-on activities in the field and laboratory. 
+
+\newthought{Learning Outcomes}
+
+\begin{enumerate}
+	\item Observe and identify organisms
+	\item Detect and interpret ecological interactions amongst organisms
+	\item Investigate the relationships between organisms and the environment
+	\item Accurately and effectively document field observations with field notes and data collection
+	\item Link field observations with key ecological concepts and relevant scientific literature
+	\item Execute the scientific method, including formulating scientific hypotheses, designing experiments and surveys to test these hypotheses, justifying research methods with a research proposal, collecting data to evaluate testable hypotheses, and analyzing and summarizing quantitative results
+	\item Present scientific research results in the form of a scientific paper
+\end{enumerate}
+
+\newthought{Required Textbook:} McMillan, V.E. 2012. \emph{Writing Papers in the Biological Sciences}. 5th ed. New York: Bedford/St. Martin's.
+
+\section{Attendance Policy}
+
+\textbf{Attendance in labs is required.} If you miss a lab, you are responsible for getting the material you missed. Dr.~ArchMiller also values the educational experience afforded by student participation in co-curricular activities; however, you are responsible for notifying Dr.~ArchMiller of scheduled absences (e.g., co-curricular activities) at the beginning of the semester, or as soon as that information is available (but no less than 24 hours in advance). You must make up any missed assignments either before your absence or before the next class meeting. Any work missed because of a valid, college-recognized emergency absence (accompanied by a written excuse) must be made up as soon as possible after your return. Assignments are due at the beginning of the class period unless otherwise specified. Late assignments will be penalized 10\% per day.
+
+\newthought{Most labs will be off-campus.} Please arrive promptly for class and prepared for a walk \emph{in all types of weather}. Please, bring the following items to each lab:
+
+\begin{tabular}{lll}
+Sturdy shoes for walking & Rain gear & Hand lens (optional)\\
+Sunscreen and/or sunhat & Calculator & Field guides (optional)\\
+Water bottle & Pencil or waterproof pen
+\end{tabular}
+
+
+\newthought{You are required to maintain field notes} each day that you are in the field. Field note forms will be available on Moodle for you to print and bring to lab each week (instructor will provide forms for the first lab only). Please also bring a 3-ring binder for storing your notes and to write in during lab.
+
+\subsection{Participation}
+
+You will be working in groups, so participation---while it does not affect your grade directly---is essential to the quality of everyone's learning. Furthermore, a record throughout the semester of exemplary participation and attendance can help in the case of a borderline final grade. Active participation nurtures learning, and will improve the quality of future recommendation letters from your instructors.  
+
+\section{Accommodations for Students with Disabilities}
+
+In accordance with the Americans with Disabilities Act, Concordia College and your instructor are committed to making reasonable accommodations to assist individuals with documented disabilities to reach their academic potential. Such disabilities include, but are not limited to, learning or psychological disabilities, or impairments to health, hearing, sight, or mobility. If you believe you require accommodations for a disability that may impact your performance in this course, you must schedule an appointment with Disability Services to determine eligibility. Students are then responsible for giving instructors a letter from Disability Services indicating the type of accommodation to be provided; please note that accommodations will not be retroactive. The Disability Services office is in Academy 106, phone 218-299-3514; https://www.concordiacollege.edu/directories/offices-services/counseling-center-and-disabilityservices/disability/ 
+
+\section{Respect for Diversity}
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness; disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+
+\newpage 
+
+\newthought{Final grades} will be based on the following items. (Your laboratory grade will be 30\% of your final Ecology grade)	
+				
+												% change each year
+
+\begin{table}
+\begin{tabular}{l l l r r}
+Category & Item & Details & Points  & \% \\
+\hline
+Research Proposal & & &  & 17\\
+& First Draft & Due Week 3 & 20 \\
+& Final Revised & Due Week 5 & 30 \\
+\hline
+Research Poster & & & & 33 \\
+& Content: Quality of Presented Research && 60 \\
+&  Layout: Clarity of Design && 30 \\
+&  Peer Assessment && 10 \\
+\hline 
+Lab Assignments & & & & 33 \\
+& Library assignment & Due Week 6 & 20 \\
+ & Isle Royale Ecobeaker: Completion & In-Lab Week 10 & 20 \\
+& Isle Royale Ecobreaker: Graded Questions & Due Week 11 & 10 \\
+& JMP \& Excel Tutorials & Due Week 4 & 25 \\
+& Data Analysis Assignment & Due Week 5 & 25 \\
+\hline
+Field Notes & & Due Week 7 & 50  & 17 \\
+\hline
+& & & Total 300 & 100\% \\
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+
+\section{Biology Department Policy on Use of Electronic Devices}
+
+\begin{itemize}
+\item All electronic devices (including cellular phones) must be set to silent during scheduled lecture and laboratory sessions.
+\end{itemize}
+
+\begin{margintable}
+\begin{tabular}{cc}
+Percentage & Grade \\
+\hline 
+$\ge94$ & A \\
+90-93.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+Although I expect you may occasionally wish to take photographs with your cell phone or other electronic device, I also expect you to be respectful with your use of cell phones during lab. \textbf{Distracting or inappropriate use of electronic devices will not be tolerated.}
+
+\section{Academic Integrity (from Student Handbook)}
+
+\marginnote{I will not tolerate any instance of academic dishonesty, including cheating, plagiarism, falsification, facilitating others' violations, or impeding (see student handbook for definitions). }
+
+%``Every member of our academic community is charged with the responsibility of maintaining an environment of integrity. Faculty bear special responsibilities in encouraging integrity. Their first responsibility is to function as models of academic integrity. 
+
+``Students are responsible for maintaining and encouraging academic integrity at the college. We expect all students to act with integrity in the classroom and in completing and submitting assignments. Ultimately, students bear the responsibility of ensuring the integrity of their own work. Students are expected to meet at least the minimal requirements of each course with work of appropriate quality. 
+
+\marginnote{Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty. All academic integrity violations will be reported to the Office of Academic Affairs.}
+
+``At no time is cheating on examinations, quizzes, or assignments acceptable at Concordia. Students are also expected to exercise appropriate caution to avoid plagiarism on written assignments.''
+
+\section{Course Schedule}
+
+\begin{tabular}{l l l}
+Week & Topic(s) & Deliverable(s) \\
+\hline
+Week 1: & Introduction to Long Lake \\ 
+9/4--9/8 & Taking Good Field Notes \\
+& Framing Research Questions \\
+\hline
+Week 2: & Long Lake Ecology & \textbf{Form Research Groups (3--4)} \\
+9/11--9/15 & Effects of Fire on Plant Communities \\
+& Sampling and Identification in the Field \\
+\hline
+Week 3: & Introduction to Buffalo River/Bluestem Prairie & \textbf{**Symposium Week**} \\
+9/18--9/22 & Diversity of Benthic Macroinvertebrates & \textbf{Draft Research Proposal Due} \\
+& Wet Sampling: Identification in the Field \\
+\hline
+Week 4: & Introduction to Data Analysis & \textbf{JMP \& Excel Tutorials Due} \\
+9/25--9/29 &  & \\
+%& \emph{Appointments to discuss Research Projects} \\
+\hline
+Week 5: & Research Projects: Data Collection & \textbf{Final Revised Proposal Due}\\
+10/2--10/6 & & \\
+\hline 
+Week 6: & Research Projects: Data Collection & \textbf{Data Analysis Assignment Due} \\
+10/9--10/13 & \\
+\hline 
+Week 7: & Research Projects: Data Analysis \& &  \textbf{Library Assignment Due} \\
+10/16--10/20 & Result Graphs/Tables & \\
+\hline
+Week 8: & Fall Break -- \textbf{No Formal Lab} & \\
+10/23--10/27 & Work with Research Groups \\
+\hline 
+Week 9: & Registration Advising -- \textbf{No Formal Lab} & \\
+10/30--11/3 & Work with Research Groups \\
+\hline 
+Week 10: & SimUText Ecobeaker & \\
+11/6--11/10 & Isle Royale: Predator Prey Dynamics & \\
+\hline
+Week 11: & Present Poster in Lab \& Discussion & \textbf{Isle Royale Due 11/18 at 11:59pm} \\
+11/13--11/17 \\
+\hline
+Week 12: & Thanksgiving -- \textbf{No Formal Lab} \\
+11/20--11/24 \\
+\hline
+Week 13: & Open Poster Lab & \textbf{Poster Draft Due at 11:59pm}\\
+11/27--12/1 & Work with Research Groups \\
+\hline 
+Week 14: & Poster Presentations -- \textbf{No Formal Lab} & \textbf{Poster Session} (ISC 325 Commons)\\
+12/4-12/8 & & Friday, December 8, 1:30-4:30pm \\
+\hline
+\\
+\end{tabular}
+
+\begin{fullwidth}
+
+\textbf{**Symposium Week**} 											% change each year
+
+Classes are reconvened on Wednesday, September 20, 2017. Students in the Wednesday lab must attend an alternate lab session this week. Available lab sessions are:
+\begin{itemize}
+	\item Tuesday, 12:40--4:40pm
+	\item Thursday, 12:40-4:40pm
+	\item Friday, 1:20-5:20pm
+\end{itemize}
+A sign-up sheet for alternative lab sessions will be available in the first lab meeting.
+
+\end{fullwidth}
+
+\newpage
+
+\subsection{Syllabus Acknowledgement}
+
+I, \underline{\hspace{5cm}}, have received a copy of the syllabus for BIOL 221, Ecology, and understand all of the policies and procedures outlined herein. 
+
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+
+\subsection{Use of Photographic Likeness Release}
+
+For good and valuable consideration, I authorize Dr.~ArchMiller to record photographs of me and use, reproduce, modify, distribute, and exhibit such photographs, in whole or in part, without restrictions or limitation for marketing and instructional purposes. 
+
+I release Dr.~ArchMiller, Concordia College, its successors and assigns, agents, and all persons for whom it is acting from any liability by virtue of any blurring, distortion, alteration, optical illusion, or use in composite form, whether intentional or otherwise, that may occur or be produced in the photographic process and waive any right that I may have to inspect or approve the finished recordings.
+
+\newthought{Printed name}  \hrulefill
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+\subsection{Optional Information}
+
+\newthought{Preferred name or nickname} \hrulefill
+
+\newthought{Major} \hrulefill
+
+\newthought{Contact phone number} \hrulefill
+
+\newthought{Where's ``home?''} \hrulefill
+
+
+\newthought{Medical issues the instructor should be aware of} \hrulefill
+
+\hrulefill
+
+\newthought{Favorite animal} \hrulefill
+
+\newthought{Favorite plant} \hrulefill
+
+\newthought{Favorite ecosystem and why}\hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\end{document}                              
