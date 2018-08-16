@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.8)  16 AUG 2018 13:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.8)  16 AUG 2018 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -911,27 +911,31 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@month=\count290
 \c@year=\count291
 )
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (616.0pt) is ignored.
+
 (./syllabus_2018_archmiller.aux)
 \openout1 = `syllabus_2018_archmiller.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -939,59 +943,59 @@ LaTeX Font Info:    ... okay on input line 34.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
-LaTeX Font Info:    Redeclaring math accent \check on input line 34.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 45.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 45.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 45.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 45.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 45.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 45.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 45.
+LaTeX Font Info:    Redeclaring math accent \check on input line 45.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 45.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 45.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 45.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 45.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 34.
+(Font)              `operators' in the math version `normal' on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 34.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 45.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 34.
+(Font)              `operators' in the math version `bold' on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 34.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 34.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 34.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 34.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 34.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 34.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 45.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 45.
 \AtBeginShipoutBox=\box81
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1001,9 +1005,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
 
 (./syllabus_2018_archmiller.out) (./syllabus_2018_archmiller.out)
 \@outlinefile=\write3
@@ -1011,7 +1015,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 34.
+LaTeX Info: Redefining \selectfont on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1021,12 +1025,12 @@ LaTeX Info: Redefining \selectfont on input line 34.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside asymmetric 
-* h-part:(L,W,R)=(72.26999pt, 312.0pt, 230.02501pt)
-* v-part:(T,H,B)=(72.26999pt, 616.0pt, 106.7pt)
+* h-part:(L,W,R)=(72.26999pt, 300.0pt, 242.02501pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=312.0pt
-* \textheight=616.0pt
+* \textwidth=300.0pt
+* \textheight=650.43001pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
 * \topmargin=-42.0pt
@@ -1054,42 +1058,45 @@ LaTeX Warning: Marginpar on page 1 moved.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 55; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 66; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 77; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 70.
+(Font)              <7> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 70.
-
-Overfull \hbox (12.37pt too wide) in paragraph at lines 82--83
-\TU/lmr/m/n/10 https://www.concordiacollege.edu/directories/offices-services/co
-unseling-center-and-disabilityservices/disability/  
- []
-
+(Font)              <5> on input line 84.
 [1
 
 ]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 84; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 98; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 92; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 106; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 
 LaTeX Warning: Marginpar on page 2 moved.
@@ -1100,162 +1107,135 @@ LaTeX Warning: Marginpar on page 2 moved.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 108; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 122; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 118.
+(Font)              <8> on input line 132.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 118.
+(Font)              <6> on input line 132.
 
 
 LaTeX Warning: Marginpar on page 3 moved.
 
 
-Overfull \hbox (7.41006pt too wide) in paragraph at lines 137--162
+Overfull \hbox (19.41006pt too wide) in paragraph at lines 151--176
 [][] 
  []
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 180; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 182; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 184; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 File: example_notebook.jpg Graphic file (type bmp)
 <example_notebook.jpg>
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 188; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 202; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 [3]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 188; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 202; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 191; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 205; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 193; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 207; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 219; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 233; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 [4]
-Overfull \hbox (155.55504pt too wide) in alignment at lines 329--329
+Overfull \hbox (167.55504pt too wide) in alignment at lines 343--343
 [] [] [] [] [] 
  []
 
 
-Overfull \hbox (155.55504pt too wide) in alignment at lines 329--329
+Overfull \hbox (167.55504pt too wide) in alignment at lines 343--343
 [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 329
+Underfull \vbox (badness 10000) detected at line 343
  []
 
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 329; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-[5]
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 337; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-[6]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
 * \addfontfeature(s) ignored on line 343; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
+*  The current font is "\TU/lmr/m/n/10 ".
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 352; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
+[5]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 353; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 351; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*  The current font is "\TU/lmr/m/n/10 ".
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
+[6]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
@@ -1263,34 +1243,7 @@ Underfull \vbox (badness 10000) detected at line 329
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 359; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 361; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 363; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
@@ -1298,47 +1251,101 @@ Underfull \vbox (badness 10000) detected at line 329
 * \addfontfeature(s) ignored on line 366; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*  The current font is "\TU/lmr/m/it/10.95 ".
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 372; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 367; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
-
-Package bibentry Warning: You have used \nobibliography* 
-(bibentry)                without a following \bibliography.
-(bibentry)                You may not be able to run BibTeX.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 371; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/it/10.95 ".
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 373; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 375; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
 * \addfontfeature(s) ignored on line 377; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 380; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 386; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=2.0". 
+*************************************************
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 391; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
 *  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
+*   The requested feature is "LetterSpace=2.0". 
 *************************************************
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
  (./syllabus_2018_archmiller.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 377.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 391.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 391.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 391.
  ) 
 Here is how much of TeX's memory you used:
  21532 strings out of 492998
  394916 string characters out of 6137852
- 544580 words of memory out of 5000000
+ 544750 words of memory out of 5000000
  25303 multiletter control sequences out of 15000+600000
  532880 words of font info for 44 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,14n,45p,10442b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,14n,45p,10455b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on syllabus_2018_archmiller.pdf (7 pages).
