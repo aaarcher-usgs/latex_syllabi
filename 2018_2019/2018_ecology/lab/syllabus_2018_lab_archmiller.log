@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.8)  24 AUG 2018 11:40
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.8)  27 AUG 2018 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,35 +1122,42 @@ unseling-center-and-disabilityservices/disability/
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 125.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 125.
+
+Overfull \hbox (23.1904pt too wide) in paragraph at lines 119--119
+|\TU/lmr/m/it/10.95 Biology Department policy on use of electronic devices (pho
+nes, smart
+ []
+
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 191; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 130; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 [3]
-Overfull \hbox (164.82005pt too wide) in paragraph at lines 200--256
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 136.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 136.
+
+Overfull \hbox (164.82005pt too wide) in paragraph at lines 211--267
 []  
  []
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 257; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 268; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 [4]
-Overfull \hbox (24.16002pt too wide) in paragraph at lines 261--262
+Overfull \hbox (24.16002pt too wide) in paragraph at lines 272--273
 []\TU/lmr/m/n/10 Students in this lab are required to sign up for a free Open S
 cience Framework (OSF) account at https://osf.io/  
  []
@@ -1158,7 +1165,7 @@ cience Framework (OSF) account at https://osf.io/
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 266; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 277; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1168,55 +1175,10 @@ cience Framework (OSF) account at https://osf.io/
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 272; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 283; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 281; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 282; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 286; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/it/10.95 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 288; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/sc/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 290; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/sc/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 *************************************************
@@ -1225,16 +1187,25 @@ cience Framework (OSF) account at https://osf.io/
 * \addfontfeature(s) ignored on line 292; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
+*  The current font is "\TU/lmr/m/it/10.95 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 293; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
 *  The current font is "\TU/lmr/m/sc/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 295; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 297; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
-*  The current font is "\TU/lmr/m/sc/10 ".
+*  The current font is "\TU/lmr/m/it/10.95 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 *************************************************
@@ -1264,35 +1235,71 @@ cience Framework (OSF) account at https://osf.io/
 *  The current font is "\TU/lmr/m/sc/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 306; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 310; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 312; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 314; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 309; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 320; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
  (./syllabus_2018_lab_archmiller.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 309.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 320.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
  ) 
 Here is how much of TeX's memory you used:
  21187 strings out of 492998
  391314 string characters out of 6137852
- 510047 words of memory out of 5000000
+ 512047 words of memory out of 5000000
  24959 multiletter control sequences out of 15000+600000
  532888 words of font info for 45 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,11n,46p,10446b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,11n,45p,10446b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on syllabus_2018_lab_archmiller.pdf (6 pages).
