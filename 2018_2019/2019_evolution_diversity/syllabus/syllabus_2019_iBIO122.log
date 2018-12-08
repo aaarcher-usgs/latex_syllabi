@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.8)  7 DEC 2018 13:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.8)  7 DEC 2018 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1084,15 +1084,46 @@ LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-
-Overfull \hbox (22.10008pt too wide) in paragraph at lines 115--139
-[]  
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 143.
+(Font)              <8> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 143.
+(Font)              <6> on input line 131.
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 158; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/n/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 160; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 166; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 168; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+*  
+*  The current font is "\TU/lmr/m/sc/10 ".
+*   The requested feature is "LetterSpace=5.0". 
+*************************************************
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
@@ -1102,29 +1133,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *  The current font is "\TU/lmr/m/n/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 178; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/bx/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 183; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-*  
-*  The current font is "\TU/lmr/m/n/10 ".
-*   The requested feature is "LetterSpace=5.0". 
-*************************************************
 [3]
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 214; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 192; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1134,7 +1147,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 225; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 203; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/12 ".
@@ -1143,7 +1156,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 227; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 205; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1152,115 +1165,115 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 229; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 207; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 
-Overfull \hbox (156.75499pt too wide) in alignment at lines 664--664
+Overfull \hbox (156.75499pt too wide) in alignment at lines 642--642
 [] [] 
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (6.66pt too wide) in paragraph at lines 664--664
+Overfull \hbox (6.66pt too wide) in paragraph at lines 642--642
 []|  []
  []
 
 
-Overfull \hbox (9.99pt too wide) in paragraph at lines 664--664
+Overfull \hbox (9.99pt too wide) in paragraph at lines 642--642
 []|   []
  []
 
 
-Overfull \hbox (156.75499pt too wide) in alignment at lines 664--664
+Overfull \hbox (156.75499pt too wide) in alignment at lines 642--642
 [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 664
+Underfull \vbox (badness 10000) detected at line 642
  []
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 664; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 642; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1270,7 +1283,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 664; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 642; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1280,7 +1293,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 664; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 642; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1290,7 +1303,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 666; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 644; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1299,7 +1312,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 672; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 650; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
@@ -1309,7 +1322,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 678; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 656; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
@@ -1318,7 +1331,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 687; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 665; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
@@ -1327,7 +1340,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 688; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 666; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1336,7 +1349,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 692; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 670; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/it/10.95 ".
@@ -1345,7 +1358,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 694; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 672; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1354,7 +1367,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 696; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 674; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1363,7 +1376,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 698; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 676; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1372,7 +1385,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 701; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 679; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1381,7 +1394,7 @@ Underfull \vbox (badness 10000) detected at line 664
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 707; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 685; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/sc/10 ".
@@ -1392,30 +1405,30 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 712.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 712; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 690; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 *  
 *  The current font is "\TU/lmr/m/n/10 ".
 *   The requested feature is "LetterSpace=5.0". 
 *************************************************
 [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 712.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
  (./syllabus_2019_iBIO122.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 712.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 712.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 712.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 690.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 690.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 690.
  ) 
 Here is how much of TeX's memory you used:
  21330 strings out of 492998
  392632 string characters out of 6137852
- 546558 words of memory out of 5000000
+ 546429 words of memory out of 5000000
  25104 multiletter control sequences out of 15000+600000
  532880 words of font info for 44 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 51i,14n,45p,10439b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,14n,45p,10439b,641s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on syllabus_2019_iBIO122.pdf (9 pages).
