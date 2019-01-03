@@ -1,0 +1,174 @@
+\documentclass{tufte-handout}
+\usepackage[letterpaper]{geometry}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{graphicx}
+
+
+\geometry{
+  left=1in, % left margin
+  bottom=1in,
+  top=1in,
+  textwidth=25pc, % main text block
+  marginparsep=2pc, % gutter between main text block and margin notes
+  marginparwidth=12pc % width of margin notes
+}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=10.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=2.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{2019 Syllabus for BIOL487: Directed Research}										% change each year
+\author{Weekly Schedule: Tuesdays 2-4pm}										% change per section
+\date{308 ISC}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~ArchMiller\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 220 Integrated Science Center\\
+218.299.3793 (office) / 218.556.8053 (cell)\\
+Email: aarchmil@cord.edu\\
+Twitter: @aaarchmiller\\
+Office Hours: Mon/Wed 10:30-11:00 \& T/Th 10:30-12:00
+
+
+\begin{fullwidth}
+
+\section{Course Description \& Goals}
+
+This course provides an opportunity for individual students to conduct research in a specific area of study, completed under the direction of a faculty mentor.% Specific expectations of the research experience to be determined by the faculty.
+
+%\subsection{Course Goals}
+
+The primary objective of this course is to provide hands-on and authentic experience with the scientific research process. 
+
+\newthought{Learning outcomes} are to:
+
+\begin{enumerate}
+	\item Describe the context of the ``reproducbility crisis'' in science
+	\item Identify areas where specific manuscripts are not reproducible
+	\item Hone your writing and programming skills
+	\item Maintain detailed and organized statistical analysis programs and datasets
+	\item Develop a reproducble workflow for your future research projects
+	\item Communicate your scientific knowledge in meaningful and effective ways
+	\item Overcome challenges inherent in scientific research
+\end{enumerate}
+
+%\newthought{Your personal learning outcomes} are being able to: 
+
+%%\vspace{1.5cm}
+
+%\subsection{Required Material}
+%
+%\begin{itemize}
+%	\item Murrell. \emph{Vascular Plant Taxonomy}. 2010. 6$^{th}$ Edition. Kendall Hunt.
+%	\item Chadde. \emph{Minnesota Flora: An Illustrated Guide to the Vascular Plants of Minnesota}. 2013. 
+%	\item Dedicated plant collection notebook such as ``Rite in the Rain'' or Moleskin. I recommend one with numbered pages and blank or faint horizontal lines. Sketchbooks also work well.
+%	\item 10x Hand Lens available for purchase from Joy Navratil in the Biology Department Office
+%	\item Various field guide books available in the lab classroom
+%	\item Supplemental material available on Moodle
+%\end{itemize}
+
+%\section{Policies}
+%\newpage
+\end{fullwidth}
+
+%\subsection{Grades}
+
+\newthought{Grades} in this class will be more closely tied to your growth and development as a researcher in the following areas than they will be towards specific tasks or competencies. 
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge94$ & A \\
+90-93.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+By the end of the semester, I expect you to have accomplished the following:
+
+\begin{itemize}
+	\item Test the reproducibility of at least one study. This includes saving and processing data, writing scripts, reporting on your findings in the reproducibility\_notes document and in the Google form, and drafting an email of your results to the author(s).
+	\item Complete a full draft of poster for COSS to be presented at Homecoming (September 29, 2018)
+	\item Draft the introduction, methods, results (if applicable), and literature cited of our research manuscript in JWM format. 
+	\item Initialize presentation file and design for 2019 Centennial Lecture (February 12, 2019)
+\end{itemize}
+
+\begin{fullwidth}
+
+\subsection{Attendance Policy}
+
+Regular attendance and participation in class is critical to your success at Concordia College. Because any absence, excused or unexcused, detracts from the learning experience, you are expected to be present during the scheduled course time. However, I also understand that you are an advanced learner capable of balancing your personal schedule, coursework, and research. As such, I trust you to make up the requisite research hours if you are absent during scheduled course times. 
+
+
+\subsection{Accommodations for Students with Disabilities}
+
+In accordance with the Americans with Disabilities Act, Concordia College and your instructor are committed to making reasonable accommodations to assist individuals with documented disabilities to reach their academic potential. Such disabilities include, but are not limited to, learning or psychological disabilities, or impairments to health, hearing, sight, or mobility. If you believe you require accommodations for a disability that may impact your performance in this course, you must schedule an appointment with Disability Services to determine eligibility. Students are then responsible for giving instructors a letter from Disability Services indicating the type of accommodation to be provided; please note that accommodations will not be retroactive. The Disability Services office is in Academy 106, phone 218-299-3514; https://www.concordiacollege.edu/directories/offices-services/counseling-center-and-disabilityservices/disability/ 
+
+
+\subsection{Respect for Diversity}
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Disrespectful, rude, or exclusive behavior will not be tolerated.
+
+\newthought{Official Diversity Statement:} Concordia College aspires to be a diverse community that affirms an abundance of identities, experiences, and perspectives in order to imagine, examine, and implement possibilities for individual and communal thriving. Critical thinking grounded in the liberal arts compels us to participate in intentional dialogue, careful self-reflection, and honest interactions about difference, power, and inequity. As responsible engagement in the world calls us to recognize worlds that are familiar or unfamiliar, visible or less visible, Concordia will act to increase and support diversity in all areas of campus life.
+
+\end{fullwidth}
+
+\section{Academic Integrity (from Student Handbook)}
+
+\marginnote{Concordia College has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. \textbf{My role as instructor is to teach each of my students how to become responsible scholars.} As a student at Concordia College and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me for clarification in advance.}
+
+``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to cheating, plagiarism, falsification, facilitation, or impeding.
+
+%\begin{itemize}
+%	\item cheating: using a resource other than one's own work to answer questions;
+%	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+%	\item falsification: submitting falsified or fabricated information;
+%	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+%	\item impeding: placing barriers in the way of others' academic pursuits''
+%\end{itemize}
+
+%\newpage
+
+
+
+
+
+
+\end{document}                              
