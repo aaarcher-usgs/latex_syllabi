@@ -1,0 +1,395 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{BIOL 327: Conservation Biology 2020 -- Syllabus}										% change each year
+\author{Tuesday \& Thursday 12:50-2:30pm - ISC136}										% change per section
+\date{}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~ArchMiller\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 220 Integrated Science Center\\
+Phone: 218.299.3793\\
+Email: aarchmil@cord.edu\\
+Twitter: @aaarchmiller\\
+Office Hours:  MW 10:30am-12:00pm; T 8-9:30am\\
+
+
+\begin{fullwidth}
+
+\subsection{Course Goals}
+
+The primary goal of this course is to provide students with the tools they need to understand and appreciate biodiversity, to actively participate in the science and management of Earth’s biological systems, and to develop their individual perspectives on how they can be responsibly engaged in the world. Following the course, the student should expect to:
+
+\begin{itemize}
+	\item Comfortably read, interpret and synthesize scientific literature
+	\item Persuasively argue their viewpoints while actively listening to, acknowledging and reflecting on the viewpoints of others
+	\item Present scientific information in both oral and visual formats
+	\item Work effectively as a member of a team
+	\item Determine their own conservation priorities, and act on and advocate for them
+	\item Become comfortable in camping situations and with camping equipment
+	\item Understand the relationship between conservation priorities, socioeconomical issues, and geography
+\end{itemize}
+
+\subsection{Required Textbook \& Lab Material}
+
+\begin{itemize}
+	\item Kareiva, P and Marvier, M (2015). Conservation Science, 2nd edition. Balancing the Needs of People and Nature. Roberts and Company, Greenwood Village CO
+	\item Scientific literature accessed from Concordia's library website or  Moodle
+	\item Dedicated notebook or journal
+\end{itemize}
+
+\section{Attendance Policy}
+
+Regular attendance and participation in class is critical to your success in this class and at Concordia College. Because any absence, excused or unexcused, detracts from the learning experience, \textbf{you are expected to attend all classes}. Attendance in class is crucial to gaining participation points and participation in the spring break trip is required for the field component of the class (and 30\% of the grade, see below).  In extreme cases (4 unexcused absences), I may assign a failing grade. 
+
+If you know you will be gone for a school sanctioned event, please let me know ahead of time. If you are ill, please email me as soon as possible. \textbf{No matter the nature of your absence, you are still responsible for obtaining and understanding the material you missed.} 
+
+If you miss an exam for an excused absence (e.g. documented illness, travel for school sports or music) you must make arrangements with me to make up the exam in a time reasonable for the absence. The format of the make-up exam may be different than the one given in class.
+
+
+
+\section{Accommodations for Students with Disabilities}
+
+In accordance with the Americans with Disabilities Act, Concordia College and your instructor are committed to making reasonable accommodations to assist individuals with documented disabilities to reach their academic potential. Such disabilities include, but are not limited to, learning or psychological disabilities, or impairments to health, hearing, sight, or mobility. If you believe you require accommodations for a disability that may impact your performance in this course, you must schedule an appointment with Disability Services to determine eligibility. Students are then responsible for giving instructors a letter from Disability Services indicating the type of accommodation to be provided; please note that accommodations will not be retroactive. The Disability Services office is in Old Main 109A, phone 218-299-3514; https://cobbernet.cord.edu/directories/offices-services/counseling-center-disability-services/
+
+\section{Respect for Diversity}
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Disrespectful, rude, or exclusive behavior will not be tolerated.
+
+\end{fullwidth}
+
+\section{Academic Integrity (from Student Handbook)}
+
+\marginnote{Concordia College has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. \textbf{My role as instructor is to teach each of my students how to become responsible scholars.} As a student at Concordia College and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits''
+\end{itemize}
+
+\begin{fullwidth}
+
+\subsection{Biology Department policy on use of electronic devices (phones, smart watches, laptops, tablets, etc.)}
+
+Faculty in the Biology Department work to make the classroom and laboratory a space conducive to student learning. We encourage writing notes by hand because it is an effective learning strategy for many students. However, the Biology Department also understands the valuable role of electronic devices in learning and scholarship. Thus, the Biology Department policy on the use of these devices in the classroom is as follows:
+
+
+\begin{enumerate}
+\item Electronic devices used during class time should be limited to appropriate class-related activities as outlined by the instructor. We reserve the right to check devices at any time and to ask you to put them away or leave if we see you using them inappropriately. Please reduce distractions to yourself and your fellow classmates.
+\item All electronic devices must be set to silent during scheduled classroom and laboratory sessions. Tones and vibrations are distracting.
+\item Only approved electronic devices (such as non-programmable calculators) may be available or used during examination periods. We expect that all non-approved electronic devices will be turned off and stored away from the exam areas.
+\item Sharing calculators during exams is not allowed without permission. 
+\item Cheating in any form, including through use of an electronic device, will not be tolerated. See the academic integrity policy for more information.
+\end{enumerate}
+
+Inappropriate or distracting use of electronic devices in the classroom may adversely affect your  grade. 
+
+\end{fullwidth}
+
+\subsection{Grades}
+
+%\begin{table}
+\begin{tabular}{l l l r}
+Category & Item &  Date &  \%  \\
+\hline
+Exams \\
+& Exam 1 & Feb.\ 11 & 12 \\							
+& Exam 2 & Mar.\ 24 & 12 \\							
+&  Exam 3 & Apr.\ 30 & 16 \\	
+Journal Club \\			
+& Discussion Leader 1 &   & 10 \\
+& Discussion Leader 2 &   & 10 \\ 
+& Discussion Participation & various & 10 \\		
+%& Annotated Bibliography & various & 5 \\		
+Field Trip \\	
+& Trip Participation & various & 20 \\
+& Field Notebook & Mar.\ 7 & 5 \\				
+& Infographic Project & Mar. 31 & 5 \\
+\hline
+Total & &   100\%
+\end{tabular}
+%\end{table}
+
+
+\begin{margintable}
+%Final grades will be based on the following scale:\\
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge94$ & A \\
+90-93.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+
+\begin{fullwidth}
+
+
+%This course will be a combination of quizzes, brief lectures, questions, discussion, activities, and laboratory. In order to learn the material, students must actively participate in learning. There is a limited amount of time; therefore you must come prepared to dive into the material. 
+
+
+\newthought{{Exams}} will be comprised of essay and short answer questions. You will be able to use your textbook, journal articles (printed), notes, and annotated bibliography (printed, see below) on the exams. You will hand in your annotated bibliography with each exam, and it will be worth 5\% of that exam's grade. Answers will be graded based on the level of detail, evidence of comprehension of the literature and topics, and ability to interpret scientific graphs and tables. 
+
+\newthought{{Journal Club}} discussions will consist of discussion leaders presenting the material in the scientific article and also providing any contextual information required to understand the paper. Discussion leaders will be expected to summarize the main points of the paper, including an overview of the methods, results, and main conclusions. The presentation of the paper should take about 30 minutes and can include a PowerPoint, although this is not required. After presenting the paper, discussion leaders should first ask for any questions that other students have about the paper, and then they will need to facilitate an indepth discussion of the paper and how it applies to topics that we are covering in class. Discussion leadership will be graded based on ability to synthesize the paper, teach the main methods and findings, and lead a discussion that includes everyone in the class. 
+
+All students are expected to read the paper ahead of the journal club and participate in the discussion. Bring questions about parts of the paper that you didn't understand. Discussion participation grade (out of 10) will be determined as follows:
+
+\begin{itemize}
+\item 10 points: Student participates in 13/13 discussions in which they did not lead. 
+\item 9 points: Student participates in 11-12/13 discussions in which they did not lead. 
+\item 8 points: Student participates in 9-10/13 discussions in which they did not lead.
+\item 7 points: Student participates in 7-8/13 discussions in which they did not lead.
+\item 6 points: Student participates in 5-6/13 discussions in which they did not lead.
+\item 5 points: Student participates in <5 discussions in which they did not lead.
+\end{itemize}
+
+If you miss a Journal Club because of an excused absence, you can hand in a one-page review of that paper that includes a summary of the main methods and findings as well as a discussion of how the paper applies to conservation science. 
+
+\newthought{Annotated Bibliography} should include all of the Journal Club papers. The format should be the paper cited with Ecology journal format, followed by an indepth summary of the paper's justification, goals, hypotheses (if applicable), methods, findings, and implications. The more indepth that this is, the better it will help you during the exams. You will hand in your annotated bibliography with each exam, and it will be worth 5\% of that exam's grade. 
+
+\newthought{Field Notebook} requirements...
+
+\newthought{Field Trip Participation} will be based on your participation in discussions, driving, camp set-up and breakdown, cooking, cleaning, hikes and activities. Students will be assigned specific tasks and meals in which you will be expected to participate. Professional and respectful behavior will be required at all times on the trip.
+
+\newthought{Infographic Project} will be done in groups of 2-3 students and based on a conservation issue that we discover during the field trip. Your group will be expected to create a visually clear and informative infographic outlining the conservation issues surrounding your topic of choice. More information will be provided in class.
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\subsection{Course Schedule (version dated 12/30/2019)}
+%
+
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/6/20}{17}
+
+ \skipday%[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+ \skipday%[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+ \skipday%[Friday]{\noclassday} % Friday
+    \skipday
+    \skipday % weekend (no class)
+   % \skipday
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 1
+
+\caltext{1/9/20}{\textbf{First Day of Class}} % Lecture/Lab 1
+\caltext{1/9/20}{Syllabus, Human Population}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 2
+\caltext{1/14/20}{Kareiva \& Marvier: Ch 1\dotfill}
+\caltext{1/14/20}{Introduction to Conservation Science, Human Impacts}
+
+\caltext{1/16/20}{Journal Club: Vitousek et al. 1997. Human domination of earth's ecosystems. Science 277:494-499 (Graham, Skyler)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 3
+\caltext{1/21/20}{Kareiva \& Marvier: Ch 2\dotfill}
+\caltext{1/21/20}{Extinction and biodiversity}
+
+\caltext{1/23/20}{Journal Club: Ceballos et al. 2015. Accelerated modern human-induced species losses: Entering the sixth mass extinction. Science Advancements. \textbf{and} Urban. 2015. Accelerating extinction risk from climate change. Science 348 (Emma, Sam)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 4
+\caltext{1/28/20}{Kareiva \& Marvier: Ch 4\dotfill}
+\caltext{1/28/20}{Policy responses to conservation priorities}
+
+\caltext{1/30/20}{Journal Club: Dunn. 2002. Using decline in bird populations to identify needs for conservation action. Conservation Biology 16:1632-1637 
+(Thomas, Arthur)
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 5
+\caltext{2/4/20}{Kareiva \& Marvier: Ch 5\dotfill}
+\caltext{2/4/20}{Protected areas}
+
+\caltext{2/6/20}{Journal Club: Butt et al. 2016. Challenges in assessing the vulnerability of species to climate change to inform conservation actions. Biological Conservation 199:10-15 (Karl, Maya)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 6
+\caltext{2/11/20}{Exam 1}
+
+\caltext{2/13/20}{Journal Club: de Thoisy et al. 2016. Predators, prey and habitat structure: Can key conservation areas and early signs of population collapse be detected in neotropical forests? PLoS ONE 11:e0165362 (Marley, Mia)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 7
+\caltext{2/18/20}{Kareiva \& Marvier: Ch 7\dotfill}
+\caltext{2/18/20}{Conservation genetics and small populations}
+
+\caltext{2/20/20}{Journal Club: Britt et al. 2018. The importance of non-academic coauthors in bridging the conservation genetics gap. Biological Conservation 218:118-123 (Jake, Casey)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 8
+\caltext{2/25/20}{Kareiva \& Marvier: Ch 8\dotfill}
+\caltext{2/25/20}{Conservation population dynamics}
+
+\caltext{2/27/20}{Journal Club: Isle Royale TBD (Leah, Faith)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 9
+\caltext{3/3/20}{\emph{Spring Break}}
+
+\caltext{3/5/20}{\emph{Spring Break}}
+\caltext{3/5/20}{Discussion leaders: (Emma, Olivia) \& (Jake, Arthur) \& (Maya, Casey) 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 10
+\caltext{3/10/20}{Kareiva \& Marvier: Ch 10\dotfill}
+\caltext{3/10/20}{Islands and metapopulation dynamics}
+
+\caltext{3/12/20}{Journal Club: Young. 2000. Restoration ecology and conservation biology. Biological Conservation 92:73-83 (Karl, Tom)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 11
+\caltext{3/17/20}{Kareiva \& Marvier: Ch 11-12\dotfill}
+\caltext{3/17/20}{Restoration, reintroduction, and adaptive management}
+
+\caltext{3/19/20}{Journal Club: Corlett. 2016. Restoration, reintroduction, and rewilding in a changing world. Trends in Ecology and Evolution 31 (Leah, Marley)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 12
+\caltext{3/24/20}{Exam 2}
+
+\caltext{3/26/20}{Dr.\ ArchMiller out of town, TBD}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 13
+\caltext{3/31/20}{Kareiva \& Marvier: Ch 13\dotfill}
+\caltext{3/31/20}{Forests and forestry}
+
+\caltext{4/2/20}{Journal Club: Ramsfield et al. 2016. Forest health in a changing world: effects of globalization and climate change on forest insect and pathogen impacts (Skyler, Sam)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 14
+\caltext{4/7/20}{Kareiva \& Marvier: Ch 14\dotfill}
+\caltext{4/7/20}{Agriculture and biodiversity}
+
+\caltext{4/9/20}{Easter break, no class}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 15
+\caltext{4/14/20}{Kareiva \& Marvier: Ch 15\dotfill}
+\caltext{4/14/20}{Water conservation}
+
+\caltext{4/16/20}{Journal Club: Erisman et al. 2016. Agriculture and biodiversity: a better balance benefits both (Mia, Faith)
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 16
+\caltext{4/21/20}{Kareiva \& Marvier: Ch 17\dotfill}
+\caltext{4/21/20}{Invasive species}
+
+\caltext{4/23/20}{Journal Club: Courchamp et al. 2017. Invasion biology: specific problems and possible solutions. Trends in Ecology and Evolution 32 (Graham, Olivia)
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Week 17
+\caltext{4/28/20}{Study day}
+
+\caltext{4/30/20}{Exam 3: 11am-1pm}
+
+
+  \end{calendar}
+
+
+
+\end{fullwidth}
+
+
+
+\newpage
+
+\subsection{Syllabus Acknowledgement}
+
+I, \underline{\hspace{5cm}}, have received a copy of the syllabus for BIOL 327 Conservation Biology, and understand all of the policies and procedures outlined herein. 
+
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+
+\subsection{Use of Photographic Likeness Release}
+
+For good and valuable consideration, I authorize Dr.~ArchMiller to record photographs of me and use, reproduce, modify, distribute, and exhibit such photographs, in whole or in part, without restrictions or limitation for marketing and instructional purposes. 
+
+I release Dr.~ArchMiller, Concordia College, its successors and assigns, agents, and all persons for whom it is acting from any liability by virtue of any blurring, distortion, alteration, optical illusion, or use in composite form, whether intentional or otherwise, that may occur or be produced in the photographic process and waive any right that I may have to inspect or approve the finished recordings.
+
+\newthought{Printed name}  \hrulefill
+\newthought{Signature}  \underline{\hspace{5cm}} {Date}  \hrulefill
+
+\subsection{Optional Information}
+
+\newthought{Preferred name or nickname} \hrulefill
+
+\newthought{Major} \hrulefill
+
+\newthought{Contact phone number} \hrulefill
+
+\newthought{Where's ``home?''} \hrulefill
+
+
+\newthought{What is your favorite part about nature?} \hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\newthought{What is your experience with camping?}\hrulefill
+
+\hrulefill
+
+\hrulefill
+\end{document}                              
