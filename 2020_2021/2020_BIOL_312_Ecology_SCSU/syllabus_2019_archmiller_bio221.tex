@@ -1,0 +1,383 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{2020 Syllabus for Biology 312: General Ecology}										% change each year
+\author{Lecture: Monday/Wednesday/Friday 10:00am--10:50am}										% change per section
+\date{Lab: Thursday 8-10:50}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+320-308-4975 (office) / 218.556.8053 (cell)\\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+Office Hours: Mon/Fri 12:15-1:15pm \& Th 11:30-12:30\\
+Virtual Office Hours Link: https://minnstate.zoom.us/j/99287589339\\Meeting ID: 992 8758 9339\\Passcode: Archer
+
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+Interactions between organisms and their organic and inorganic environment. Biomes, climate, populations, communities, biotic interactions, energy and nutrients, landscape and spatial ecology, biodiversity patterns.
+
+\subsection{Learning Outcomes}
+
+You will learn to draw together elements from biology, chemistry, physics, geology, and mathematics to gain a greater understanding of ecological relationships in the natural world. The goals of the course are to:
+
+
+\begin{enumerate}
+	\item Access, critically evaluate, and correctly use scientific literature
+	\item Classify organizational levels observed in ecology
+	\item Explain how populations are regulated and how data can be collected, analyzed, and interpreted using statistics, life tables, graphs, and survivorship curves
+	\item Describe the interactions between different species and how they impact one another
+	\item Illustrate the major forces responsible for community structure, how community structure can be represented by food webs, and how communities change in both space and time
+	\item Discuss patterns and measurements of biodiversity and predict the consequences of continued species loss
+	\item Accurately and effectively document field observations with field notes and data collection
+	\item Link field observations with key ecological concepts and relevant scientific literature
+	\item Execute the scientific method using reproducible research methods
+	\item Effectively communicate scientific research results through oral and written presentations
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item SimUText Ecology
+	\item Recommended: McMillan, V.E. 2012. \emph{Writing Papers in the Biological Sciences}. 5th ed. New York: Bedford/St. Martin's
+\end{itemize}
+
+\subsection{Attendance Policy}
+
+Regular attendance and participation in class is critical to your success. This course will be offered in a hybrid format. Most of the lectures will be convened online via synchronous Zoom meetings, and the textbook assignments will be conducted through an interactive online textbook. The first five labs will require in-person activities in an outdoor setting. You will be working with small groups during each lab, and will be required to wear a mask. 
+
+\textbf{Students/faculty/staff displaying signs and symptoms compatible with COVID-19 (fever/chills, cough, shortness of breath, fatigue, body aches, headache, loss of smell/taste, sore throat, congestion,  nausea/vomiting, diarrhea) will be asked to stay home (not enter the classroom) and will be encouraged to self-isolate/seek medical attention.}
+
+\newthought{Participation} in class and lab will not go towards your grade directly. However, a record throughout the semester of exemplary participation and attendance can help in the case of a borderline final grade. Active participation also nurtures learning, and will improve the quality of future recommendation letters from your instructors.  
+
+\subsection{Accommodations for Students with Disabilities}
+
+If you have a mental or physical disability and qualify for accommodations under the Americans With Disabilities Act (for instance, additional time for exams), please contact the SCSU Student Disability Services office. If notified that a student qualifies for accommodations, I will make individual arrangements.
+
+\subsection{Respect for Diversity}
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Disrespectful, rude, or exclusive behavior will not be tolerated.
+
+\section{Grades}
+
+%Final grades will be based on the following:
+
+\begin{table}
+\begin{tabular}{l l l r}
+Category & Item & Details & \% \\
+\hline
+SimUText Readings & Completion \& Graded Questions & Various dates & 10\\
+\hline
+Exams \& Quizzes \\
+% & Quizzes & 2 lowest scores dropped$^*$ & 15 \\
+& Exam 1 & Oct.~9; Unit 1 material & 15 \\
+& Exam 2 & Nov.~13; Unit 2 material & 15 \\
+& Final Exam & Dec.~17; 66\% Unit 3; 34\% Units 1\&2 & 20 \\ 							% change for each unit
+\hline
+Laboratory & & \emph{see laboratory syllabus} & 30 \\
+\hline
+& & & Total 100
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+\newthought{SimUText Readings} are from the interactive textbook for this class, and each module has integrated, feedback-focused questions followed by a series of graded questions. \textbf{You are expected to have read that day's SimUText material prior to coming to class. } SimUText graded questions are due by 10:00pm on the due date, which is usually Friday (see schedule). The two lowest SimUText grades will be dropped.
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge94$ & A \\
+90-93.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+\textbf{Graded Questions} will be worth another 5\% of your final grade; however, the two lowest scores will be dropped before final grades are completed. You may work through the SimUText material with your peers; however, mastering the material is your individual responsibility.
+
+
+
+\begin{fullwidth}	
+
+\newthought{{Quizzes}} are designed to quickly check for reading and comprehension of that lecture date's SimUText material. Quizzes will be short ($\sim$3 questions) and given at the beginning of class time on most days. I will drop the two lowest quiz scores.
+
+$^*$In addition, I will make homework available for students that have excused absenses. If you have an excused absense (thus a 0 for that quiz), you may---up to 3 times over the course of the semester---complete homework to replace a zero quiz score. The homework assignments will be designed to give you more hands-on practice with quantitative topics covered in lecture and in the SimUText readings; however, they will be more difficult than quizzes.
+	
+\newpage 
+
+\newthought{{Lecture Exams}} will be of variable format, including---but not limited to---multiple choice, true/false, matching, short answer, and brief essays. All exams will be somewhat cumulative but will primarily focus on the associated SimUText Unit material (see table above); in addition, the final exam will be one-third cumulative. 
+					
+												
+\newthought{{Group Discussions}} allow you to work as a team of scientists with your colleagues to critically discuss readings related to class material. Group discussions will occur in person and through a forum format on Moodle. You will be graded based on the quantity, quality and timing of your comments (see specifics below). Each discussion is worth a total of 5 points.
+
+On the discussion day, you will be expected to have read the assigned pages and submit one question to the Moodle forum (1.5 points, pass/fail). We will then discuss the material in that day's class. After reflecting on our in-class discussion, you will need to respond to \emph{at least} one other student's question on the Moodle forum (1.5 points, pass/fail). The quality of your question and responses will be worth 2 points, as shown in grading rubric below.
+
+Every student is responsible for engaging in a good discussion, through which we should all be able to come to a better understanding of ecology and evolution. You should take this opportunity to learn from and respectfully teach each other.
+
+%\begin{table}
+\begin{tabular}{l l l l}
+\\
+\hline
+\textbf{Grading Criteria} & \textbf{Exemplary} & \textbf{Adequate} & \textbf{Poor} \\
+\hline
+%Quantity of Comments & $>$2 Comments & 2 Comments & 1 Comment \\
+%& (2pts) & (1.5pts) & (1pt) \\
+%\hline
+Quality of Comments & Focused on ecological & Indicated a superficial & Conveyed little \\
+& aspects and tackled & understanding of reading & understanding of reading; \\
+& central themes of & or focused on details w/o& not relevant to ecology \\
+& reading &  conveying importance to & or main themes of text \\
+& & ecology or main themes & \\
+& & of text & \\
+& (2pts) & (1.5pts) & (1pt) \\
+\hline
+%Timing of 1$^\mathrm{st}$ Comment & $>$48 hrs before due & 24--48 hrs before due & $<$24 hrs before due \\
+%& (1pt) & (0.5pt) & (0pts) \\
+%\hline \\
+\end{tabular}
+%\end{table}
+
+\newthought{{The Symposium Paper}} is a 3-page, 1.5-spaced, 12-pt font paper, that is due at 
+11:55pm on Wednesday, September 25 (upload on Moodle). 											% change each year
+The 2019 Symposium, Speech: Freedom vs. Responsibility, 		 % change each year
+takes place on September 17--18, 													 % change each year
+and you are required to attend. The Symposium Paper should name and summarize the session you attended, including questions/answers raised during the Q/A of the session, and your reaction. At least one page of your paper should explore how the symposia relate to ecology, the environment, campus life or the scientific process. You will be graded out of 100 points based on the following (detailed rubric is on Moodle): 
+
+\begin{itemize}
+\item Spelling and grammar (20pts)
+\item Summary of session and Q/As (40pts)
+%\item Relation of session topic to ecology and the environment (30pts)
+\item Relation of session topic to campus life and science (40pts)
+\end{itemize}
+
+%\newthought{\textbf{Homework}} will be designed to give you more hands-on practice with quantitative topics covered in lecture and in the SimUText readings. The due date and timewill be specified on each homework assignment. 
+
+%\newpage
+
+
+\end{fullwidth}
+
+\section{Academic Integrity (from Student Handbook)}
+
+\marginnote{Concordia College has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. \textbf{My role as instructor is to teach each of my students how to become responsible scholars.} }
+
+``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to:
+
+\marginnote{As a student at Concordia College and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits''
+\end{itemize}
+
+\begin{fullwidth}
+
+\subsection{Biology Department policy on use of electronic devices (phones, smart watches, laptops, tablets, etc.)}
+
+Faculty in the Biology Department work to make the classroom and laboratory a space conducive to student learning. We encourage writing notes by hand because it is an effective learning strategy for many students. However, the Biology Department also understands the valuable role of electronic devices in learning and scholarship. Thus, the Biology Department policy on the use of these devices in the classroom is as follows:
+
+
+\begin{enumerate}
+\item Electronic devices used during class time should be limited to appropriate class-related activities as outlined by the instructor. We reserve the right to check devices at any time and to ask you to put them away or leave if we see you using them inappropriately. Please reduce distractions to yourself and your fellow classmates.
+\item All electronic devices must be set to silent during scheduled classroom and laboratory sessions. Tones and vibrations are distracting.
+\item Only approved electronic devices (such as non-programmable calculators) may be available or used during examination periods. We expect that all non-approved electronic devices, including smart watches, will be turned off and stored away from the exam areas.
+\item Sharing calculators during exams is not allowed without permission. 
+\item Cheating in any form, including through use of an electronic device, will not be tolerated. See the academic integrity policy for more information.
+\end{enumerate}
+
+Inappropriate or distracting use of electronic devices in the classroom may adversely affect your course grade. 
+
+
+
+
+
+\newpage
+
+\section{Course Schedule (version dated 8/6/2019)}
+
+\begin{itemize}
+	\item SimUText Sections: You are expected to come to class prepared by reading that lecture's associated SimUText Module.  There will be quizzes on reading material at the beginning of lecture.
+	\item Discussion: In-class discussion days. You will be graded based on your participation and are expected to post at least one question to Moodle by the start of class that day.
+	\item Response: Responses to other students' questions are due on the Moodle forum  by 11:55pm. 
+	%\item OH: Dr.~ArchMiller's office hours, ISC 224 (MWF, but at varying times; see schedule for details)
+\end{itemize}
+
+
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{9/2/19}{16}
+
+  \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+  \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+  \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{9/2/19}{First day of class}
+\caltext{9/4/19}{{SimUText Unit 1:} Evolution for Ecology 1}
+\caltext{9/4/19}{\textbf{Discussion:} Beak of the Finch ch4}
+\caltext{9/6/19}{\textbf{Response:} Beak of the Finch ch4}
+
+% Week 2
+\caltext{9/9/19}{{SimUText Unit 1:} Evolution for Ecology 2-3}
+\caltext{9/11/19}{{SimUText Unit 1:} Biogeography 3-4}
+\caltext{9/12/19}{\emph{Dr.\ ArchMiller out of town, no office hours}}
+\caltext{9/13/19}{\emph{Dr.\ ArchMiller out of town}}
+
+
+% Week 3
+\caltext{9/16/19}{Library Materials Lecture in Library classroom}
+\caltext{9/16/19}{\textbf{Discussion:} Sixth Extinction ch5}
+\caltext{9/20/19}{\textbf{Response:}  Sixth Extinction ch5}
+\caltext{9/18/19}{\textbf{Symposium} \\ No office hours}
+
+\caltext{9/20/19}{\textbf{Library Materials assignment due} on Lab Moodle page by 11:55pm}
+
+% Week 4
+
+\caltext{9/23/19}{{SimUText Unit 1:} Physiological Ecology 1-2}
+\caltext{9/25/19}{{SimUText Unit 1:} Physiological Ecology 3-4}
+\caltext{9/25/19}{\textbf{Symposium Paper due} on Moodle by 11:55pm}
+
+
+% Week 5
+\caltext{9/30/19}{{SimUText Unit 1:} Ecosystem Ecology 1-3}
+\caltext{9/30/19}{\emph{Dr.\ ArchMiller out of town, no office hours}}
+\caltext{10/1/19}{\emph{Dr.\ ArchMiller out of town, no office hours}}
+\caltext{10/2/19}{{SimUText Unit 1:} Climate Change 1-2}
+\caltext{10/2/19}{\textbf{Discussion:} Sand County Almanac}
+\caltext{10/2/19}{\emph{Dr.\ ArchMiller out of town, no office hours}}
+\caltext{10/3/19}{\emph{Dr.\ ArchMiller out of town, no office hours}}
+\caltext{10/4/19}{\textbf{Response:} Sand County Almanac}
+
+% Week 6
+\caltext{10/7/19}{{SimUText Unit 1:} Climate Change 3-5}
+\caltext{10/7/19}{\textbf{Unit 1 SimUText Graded Questions Due at 8am}}
+\caltext{10/9/19}{\textbf{EXAM 1}}
+
+% Week 7
+\caltext{10/14/19}{SimUText Unit 2: Nutrient Cycling 1-2}
+\caltext{10/14/19}{\textbf{Discussion:} Omnivore's Dilemma}
+\caltext{10/16/19}{SimUText Unit 2: Nutrient Cycling 3-4}
+\caltext{10/16/19}{\textbf{Response:} Omnivore's Dilemma}
+
+
+% Week 8
+\caltext{10/22/19}{\emph{Mid Semester Break--No Class}}
+\caltext{10/23/19}{\emph{Mid Semester Break--No Class}}
+\caltext{10/24/19}{\emph{Mid Semester Break--No Class}}
+\caltext{10/25/19}{\emph{Mid Semester Break--No Class}}
+\caltext{10/21/19}{\emph{Mid Semester Break--No Class}}
+
+% Week 9
+\caltext{10/28/19}{SimUText Unit 2: Life History 1-2}
+\caltext{10/30/19}{SimUText Unit 2: Life History 3-4}
+\caltext{10/30/19}{\textbf{Discussion:} Serengeti  ch 1-2}
+\caltext{11/1/19}{\textbf{Response:} Serengeti Rules ch 1-2}
+
+
+% Week 10
+
+\caltext{11/4/19}{SimUText Unit 2: Population Growth 1-3}
+\caltext{11/4/19}{\textbf{In Class:} Understanding Population Growth Models}
+\caltext{11/6/19}{SimUText Unit 2: Population Growth 4-5}
+\caltext{11/6/19}{\textbf{Discussion:} Serengeti  ch 3-5}
+\caltext{11/8/19}{\textbf{Response:} Serengeti Rules ch 3-5}
+
+% Week 11
+\caltext{11/11/19}{SimUText Unit 2: Biogeography 1-2}
+\caltext{11/11/19}{\textbf{Unit 2 SimUText Graded Questions Due at 8am}}
+\caltext{11/13/19}{\textbf{EXAM 2}}
+
+
+% Week 12
+\caltext{11/18/19}{SimUText Unit 3: Community Dynamics 1-2}
+\caltext{11/20/19}{SimUText Unit 3: Community Dynamics 3-5}
+\caltext{11/20/19}{\textbf{Discussion:} Serengeti  ch 6-8}
+\caltext{11/22/19}{\textbf{Response:} Serengeti Rules ch 6-8}
+
+% Week 13
+\caltext{11/25/19}{SimUText Unit 3: Competition 1-2}
+\caltext{11/27/19}{\emph{Thanksgiving}}
+\caltext{11/28/19}{\emph{Thanksgiving}}
+\caltext{11/29/19}{\emph{Thanksgiving}}
+
+% Week 14
+\caltext{12/2/19}{SimUText Unit 3: Competition 3-4}
+\caltext{12/4/19}{SimUText Unit 3: Predation, Herbivory and Parasitism 1-2}
+\caltext{12/4/19}{\textbf{Discussion:} Serengeti  ch 9-10}
+\caltext{12/6/19}{\textbf{Response:} Serengeti Rules ch 9-10}
+
+% Week 15
+
+\caltext{12/9/19}{SimUText Unit 3: Predation, Herbivory and Parasitism 3-4}
+\caltext{12/11/19}{\textbf{Unit 3 SimUText Graded Qs Due at 8am}}
+
+% Week 16
+\caltext{12/17/19}{\textbf{FINAL EXAM 8:30-10:30am}}							% change by section
+
+
+
+  \end{calendar}
+
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
