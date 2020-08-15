@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  14 AUG 2020 07:37
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  14 AUG 2020 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -993,16 +993,10 @@ LaTeX Info: Redefining \selectfont on input line 33.
 
 LaTeX Warning: Marginpar on page 1 moved.
 
-
-Overfull \hbox (4.32pt too wide) in paragraph at lines 43--43
-[]\EU1/lmr/m/n/10 Virtual Office Hours Link: https://minnstate.zoom.us/j/992875
-89339  
- []
-
 [1
 
 ]
-Overfull \hbox (11.88002pt too wide) in paragraph at lines 83--84
+Overfull \hbox (11.88002pt too wide) in paragraph at lines 84--85
 []\EU1/lmr/bx/n/10 Students/faculty/staff displaying signs and symptoms compati
 ble with COVID-19 (fever/chills, 
  []
@@ -1010,68 +1004,48 @@ ble with COVID-19 (fever/chills,
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 85; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 98; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
-* The current font is "\EU1/lmr/bx/n/10 ".
+* The current font is "\EU1/lmr/m/it/10.95 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 100.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 100.
+(Font)              <5> on input line 104.
 
-Overfull \hbox (169.09007pt too wide) in paragraph at lines 100--115
+Overfull \hbox (122.25008pt too wide) in paragraph at lines 104--126
 [][] 
  []
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 119; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-* 
-* The current font is "\EU1/lmr/m/it/10 ".
-* The requested feature is "LetterSpace=5.0".
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 120; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 130; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/n/10 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
 [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 122.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 122.
-
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 147; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-* 
-* The current font is "\EU1/lmr/bx/n/10 ".
-* The requested feature is "LetterSpace=5.0".
-*************************************************
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 151; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 132; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/n/10 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
-[3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 136.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 136.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 153; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 154; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/n/10 ".
@@ -1080,7 +1054,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 156; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 159; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/sc/10 ".
@@ -1089,106 +1063,88 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 185; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 170; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
-* The current font is "\EU1/lmr/bx/n/10 ".
+* The current font is "\EU1/lmr/m/sc/10 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
+*************************************************
+* fontspec warning: "addfontfeatures-ignored"
+* 
+* \addfontfeature(s) ignored on line 183; it cannot be used with a font that
+* wasn't selected by a fontspec command.
+* 
+* The current font is "\EU1/lmr/m/n/10 ".
+* The requested feature is "LetterSpace=5.0".
+*************************************************
+[3]
 
 LaTeX Warning: Marginpar on page 4 moved.
+
+
+Overfull \hbox (155.55504pt too wide) in alignment at lines 331--331
+[] [] [] [] [] 
+ []
+
+
+Overfull \hbox (155.55504pt too wide) in alignment at lines 331--331
+[] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 331
+ []
 
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 212; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 331; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/n/10 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
 [4]
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-
-Overfull \hbox (2.67595pt too wide) in paragraph at lines 225--225
-[]\EU1/lmr/m/it/10.95 Biology Department policy on use of electronic devices (p
-hones, smart watches, laptops, tablets, etc.)| 
- []
-
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 244; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 331; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/n/10 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
 [5]
-Overfull \hbox (155.55504pt too wide) in alignment at lines 375--375
-[] [] [] [] [] 
- []
 
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
 
-Overfull \hbox (155.55504pt too wide) in alignment at lines 375--375
-[] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 375
- []
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
 *************************************************
 * fontspec warning: "addfontfeatures-ignored"
 * 
-* \addfontfeature(s) ignored on line 375; it cannot be used with a font that
+* \addfontfeature(s) ignored on line 341; it cannot be used with a font that
 * wasn't selected by a fontspec command.
 * 
 * The current font is "\EU1/lmr/m/n/10 ".
 * The requested feature is "LetterSpace=5.0".
 *************************************************
 [6]
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 375; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-* 
-* The current font is "\EU1/lmr/m/n/10 ".
-* The requested feature is "LetterSpace=5.0".
-*************************************************
-[7]
-
-Package bibentry Warning: You have used \nobibliography* 
-(bibentry)                without a following \bibliography.
-(bibentry)                You may not be able to run BibTeX.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
-*************************************************
-* fontspec warning: "addfontfeatures-ignored"
-* 
-* \addfontfeature(s) ignored on line 385; it cannot be used with a font that
-* wasn't selected by a fontspec command.
-* 
-* The current font is "\EU1/lmr/m/n/10 ".
-* The requested feature is "LetterSpace=5.0".
-*************************************************
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
  (./syllabus_2019_archmiller_bio221.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 385.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 385.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 341.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 341.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
  ) 
 Here is how much of TeX's memory you used:
- 24240 strings out of 493591
- 425205 string characters out of 6143546
- 508407 words of memory out of 5000000
- 27415 multiletter control sequences out of 15000+600000
- 6272 words of font info for 39 fonts, out of 8000000 for 9000
+ 24258 strings out of 493591
+ 425353 string characters out of 6143546
+ 503181 words of memory out of 5000000
+ 27435 multiletter control sequences out of 15000+600000
+ 6264 words of font info for 38 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 63i,14n,46p,10447b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,46p,10447b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on syllabus_2019_archmiller_bio221.pdf (8 pages).
+Output written on syllabus_2019_archmiller_bio221.pdf (6 pages).
