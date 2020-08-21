@@ -1,0 +1,69 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{Lab Safety Policy and Procedures}										% change each year
+\author{Dr.\ Althea Archer}										% change per section
+\date{BIOL 312: General Ecology}
+
+\begin{document}
+\maketitle
+
+
+\begin{fullwidth}
+%\section{Lab Safety Policy and Procedures}
+
+Many labs in this class will be off-campus and outdoors. This form includes some basic directions for your personal protection, but you should be aware that your greatest protection comes directly from your own actions. Learn how to protect yourself and others by preventing accidents. 
+
+\newthought{Keep Safety First}. Although most field classes pose little or no health or safety risk to students, some hazards may occur including sun exposure, heat or cold exposure, inclement weather, or insect bites/stings. Follow all written and verbal instructions carefully. If you do not understand a direction or part of a procedure, ask the instructor before proceeding.
+
+\newthought{Covid Hazards}. Before attending lab, please complete the self-assessment. If your results indicate that you shoudl not be on campus, then please do not come to lab and let me know immediately of your absence. Please drive separately to lab, and wear a mask while working with other group members. Use hand sanitizer before and after lab and after using shared equipment.
+
+\newthought{Wear appropriate clothing and be prepared for all types of weather}
+
+\begin{itemize}
+\item It is unwise to wear nice clothing in the field
+\item Wear full-length pants for terrestrial labs (optional for aquatic labs)
+\item Sunscreen \& sunhat are recommended in summer; layered clothing in fall/winter
+\item Rain or snow gear
+\item Shoes or boots that completely cover your feet should be worn in the field at all times to protect from environmental hazards
+\end{itemize}
+
+\newthought{Be alert. Proceed with caution at all times}. 
+
+\newthought{Keep hands away from face during or after handling any wildlife, unknown plants or fungi, insects, or chemicals.} Wash your hands thoroughly after lab or after touching shared equipment, wildlife, or other hazardous surfaces.
+
+\newthought{Follow instructions.} Do not perform unauthorized experiments or methods.
+
+\newthought{Notify instructor immediately in case of fire or accident.}
+
+\newthought{Students with known life-threatening allergies to insect bites or stings must take precautions.} Please inform the instructor or a trusted classmate ahead of lab---if there is an emergency, you may not have the ability to tell us.
+
+\end{fullwidth}
+
+
+\end{document}                              
