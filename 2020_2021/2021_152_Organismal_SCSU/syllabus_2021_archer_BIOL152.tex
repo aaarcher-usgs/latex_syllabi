@@ -1,0 +1,430 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{Syllabus for Biology 152: Organismal Biology}										% change each year
+\author{Lecture: Tues/Thurs 10:00am--10:50am \\ Meeting ID: \color{red}986 6598 6713 \color{black}
+ Passcode: \color{red}564377\color{black}}								% change per 
+\date{Lab: Depends on section \, Spring 2021}
+
+\begin{document}
+\maketitle
+
+Instructors: \marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.} \\
+Dr.~Althea A.~Archer\\
+Office: 267 Wick Science Building\\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+Virtual Office Hours: By request\\
+\, \\
+
+Dr.\ Michelle Wagner \\
+Email: mlwagner@stcloudstate.edu
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+Organisms at the cellular, organismal, and ecological levels. Integrate knowledge, terminology, and concepts from all fields of biology to gain an appreciation of the origin of life and how species diversity arose.
+
+\subsection{Learning Outcomes}
+
+The goals of the course are to:
+
+
+\begin{enumerate}
+	%\item Access, critically evaluate, and correctly use scientific literature
+	\item Learn enough about biology to allow you to make informed decisions about some of the important issues concerning biology that face society today
+	\item Begin to develop an understanding of science, its scope, and its limitations
+	\item Begin to develop an appreciation of both the incredible diversity and the unity of life, of which humans are one part
+	\item Develop a knowledge and conceptual base in the areas of diversity, evolution, and ecology
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item Biology. Raven. 12th edition. Do not purchase individually, instead sign up through D2L. More information will be shared soon
+	\item McMillan, V.E. 2014 or later. \emph{Writing Papers in the Biological Sciences}. Bedford/St.\ Martin's
+\end{itemize}
+
+%\subsection{Email and Phone Policy}
+
+\newthought{Contact Us:} The best way to get ahold of me is by emailing us. We will always try to get back to emails within 24 hours or 48 hours, if it is a weekend. We get a lot of emails, so please begin emails with ``BIOL 152'' so that we can prioritize your email. 
+
+\newthought{Regular attendance and participation in class is critical to your success.} This course will be offered in a synchronous Zoom format. Textbook assignments will be conducted through an interactive online textbook. Lectures slides will be posted to D2L. 
+
+
+\newthought{Accommodations for Students with Disabilities: } SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\newthought{Respect for Diversity: } It is our intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let us know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+\end{fullwidth}
+
+\newthought{Grades}
+
+%Final grades will be based on the following:
+\begin{fullwidth}
+
+\begin{table}
+\begin{tabular}{l l l r r }
+Category & Item & Details & points &  \% \\
+\hline
+Textbook Assignments  & & drop lowest 2 & 100 & 10\% \\
+\hline
+Lecture Exams & Exam 1 & Feb.~4; Unit 1 material & 140 & 14\% \\
+& Exam 2 & Mar.~2; Unit 2 material & 140  & 14\% \\
+& Exam 3 & Apr.~6; Unit 3 material & 140 & 14\% \\ 
+& Final Exam & May 6; Cumulative & 180 & 18\%		\\					% change for each unit
+\hline
+Laboratory & Total &  &  & 30\% \\
+& Introductory paragraph & Feb.~5 & 10 \\
+& Evaluating Science & Feb.~12 & 25 \\
+& Primary Sources & Feb.~19 & 10 \\
+& Citing Sources & Feb.~26 & 30 \\
+& Paraphrasing & Mar.~5 & 30 \\
+& Hypothesis Testing & Mar.~19 & 20 \\
+& Figures and Tables & Mar.~26 & 20 \\
+& Predator-Prey Selfie & Apr.~2 & 5 \\
+& Predatory-Prey Paper & Apr.~23 & 100 \\
+& Participation/Attendance & Drop lowest 2 & 50 \\
+\hline
+Total & & & 1000 & 100\% \\
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+
+\newthought{Textbook Assignments} will be a series of reading assignments on D2L/Connect that correspond with textbook readings. You can complete these assignments as many times as you would like, and your highest grade by the time of the due date will be retained for the gradebook. 
+
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+90-98.9 & A \\
+%90-92.9 & A- \\
+89-89.9 & B+ \\
+80-88.9 & B \\
+%80-82.9 & B- \\
+79-79.9 & C+ \\
+70-78.9 & C \\
+%70-72.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+There will be approximately one assignment per week, and each assignment is worth 10points. Your lowest 2 grades will be dropped. 
+
+
+
+
+\newpage 
+\begin{fullwidth}
+
+\newthought{{Lecture Exams}} will be comprised of multiple choice questions and will be conducted via D2L. The first three exams will primarily focus on the associated unit material. The final exam will be $\sim$25\% cumulative. 
+
+
+
+
+\newthought{Laboratory} grades will be based around a semester-long project and participation in Zoom lab sessions. Please see laboratory syllabus for more information. 
+
+
+\newthought{St.\ Cloud's Statement on Covid-19}
+
+St.\ Cloud State University (SCSU), in coordination with state and local health departments, is closely monitoring the spread of COVID-19 and following the State of Minnesota's laws and guidelines to keep everyone safe. We have developed a list of ways that all of us can participate to assure our campus is safe for living and learning. We expect that all of us will honor and respect ourselves and each other by following the ``Keep the Pack Safe'' guidelines. As a reminder:
+
+\begin{itemize}
+\item Complete the self-assessment every morning before you come to campus or attend classes. You can locate the self-assessment tool at https://www.stcloudstate.edu/emergency/covid19/self-assessment/default.aspx 
+\item You must wear a face mask/covering every time you enter an SCSU building including in our classroom. Keep it on during class.
+\item If you are unable to wear a face mask or covering for medical reasons, please contact the Student Accessibility Services Office at https://www.stcloudstate.edu/sas/ for an accommodation.
+\item Wash your hands frequently and use the hand sanitizers available to you.
+\item Practice physical distancing at all times. Be sure to sit in the designated classroom seats marked for safe distancing. Remain 6 feet apart at all times. Greet each other without shaking hands.
+\item If you are not feeling well, be sure to call the SCSU Medical Clinic for assistance at (320) 308-3193 or email myhealthservices@stcloudstate.edu. 
+%\item If you are not feeling well, do not come to class that day. You can contact me to make alternative arrangements.
+\end{itemize}
+
+\section{Academic Integrity}
+
+
+
+{St.\ Cloud State University has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. }
+
+%``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+%``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to:
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of SCSU, but please do not hesitate to ask us in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. We are happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+
+
+
+
+\newpage
+
+\section{Course Schedule (version dated \today)}
+
+Lecture Zoom Meeting
+https://minnstate.zoom.us/j/98665986713
+
+Meeting ID: 986 6598 6713
+Passcode: 564377
+
+
+  \setlength{\calwidth}{6.8in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/11/21}{17}
+
+  \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+ \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+  \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{1/11/21}{\emph{No labs this week}}
+
+\caltext{1/12/21}{\textbf{Introduction to Biology}}
+\caltext{1/12/21}{\emph{Ch 1.1-1.4}}
+
+\caltext{1/14/21}{\textbf{Life on Earth}}
+\caltext{1/14/21}{\emph{Ch 25.1-25.2}}
+
+
+
+
+% Week 2
+\caltext{1/18/21}{\color{red} Connect Ch 1\&25 Due \color{black}}
+\caltext{1/18/21}{\emph{No labs this week}}
+
+\caltext{1/19/21}{\textbf{Evidence for Evolution}}
+\caltext{1/19/21}{\emph{Ch 21.1-21.6}}
+
+\caltext{1/21/21}{\textbf{Microevolution}}
+\caltext{1/21/21}{\emph{Ch 20.1-20.2}}
+
+
+% Week 3
+\caltext{1/25/21}{\color{red} Connect Ch 20\&21 Due \color{black}}
+
+\caltext{1/26/21}{\textbf{Natural Selection}}
+\caltext{1/26/21}{\emph{Ch 20.3-20.7}}
+
+\caltext{1/28/21}{\textbf{Macroevolution}}
+\caltext{1/28/21}{\emph{Ch 22.1-22.7}}
+
+% Week 4
+\caltext{2/1/21}{\color{red} Connect Ch 22\&23 Due \color{black}}
+
+\caltext{2/2/21}{\textbf{Phylogeny}}
+\caltext{2/2/21}{\emph{Ch 23.1-23.3}}
+
+\caltext{2/4/21}{\color{blue} \textbf{Exam 1} \color{black}}
+%\caltext{2/4/21}{\emph{Ch 22.1-22.7}}
+
+\caltext{2/5/21}{\color{red} Introductory Paragraph Due \color{black}}
+
+
+% Week 5
+%\caltext{2/8/21}{\color{red} Connect Ch 22\&23 Due \color{black}}
+
+\caltext{2/9/21}{\textbf{Viruses}}
+\caltext{2/9/21}{\emph{Ch 26.1}}
+
+\caltext{2/11/21}{\textbf{Prokaryotes}}
+\caltext{2/11/21}{\emph{Ch 27.1, 27.5}}
+
+\caltext{2/12/21}{\color{red} Evaluating News Assignment Due \color{black}}
+
+
+% Week 6
+\caltext{2/15/21}{\color{red} Connect Ch 26\&27 Due \color{black}}
+
+\caltext{2/16/21}{\textbf{Endosymbiosis}}
+\caltext{2/16/21}{\emph{Ch 28.1-28.2}}
+
+\caltext{2/18/21}{\textbf{Protists}}
+\caltext{2/18/21}{\emph{Ch 28.3-28.8}}
+
+\caltext{2/19/21}{\color{red} Primary Sources Due \color{black}}
+
+% Week 7
+\caltext{2/22/21}{\color{red} Connect Ch 28 Due \color{black}}
+
+\caltext{2/23/21}{\textbf{Fungi}}
+\caltext{2/23/21}{\emph{Ch 31.1-31.4}}
+
+\caltext{2/25/21}{\textbf{Fungi}}
+\caltext{2/25/21}{\emph{Ch 31.5-31.9}}
+
+\caltext{2/26/21}{\color{red} Citing Sources Due \color{black}}
+
+
+% Week 8
+\caltext{3/1/21}{\color{red} Connect Ch 31 Due \color{black}}
+
+\caltext{3/2/21}{\color{blue} \textbf{Exam 2} \color{black}}
+%\caltext{3/2/21}{\emph{Ch 31.1-31.4}}
+
+\caltext{3/4/21}{\textbf{Intro to Animals}}
+\caltext{3/4/21}{\emph{Ch 32.1-32.3}}
+
+\caltext{3/5/21}{\color{red} Paraphrasing Sources Due \color{black}}
+
+
+% Week 9
+\caltext{3/8/21}{\emph{Spring Break}}
+\caltext{3/9/21}{\emph{Spring Break}}
+\caltext{3/10/21}{\emph{Spring Break}}
+\caltext{3/11/21}{\emph{Spring Break}}
+\caltext{3/12/21}{\emph{Spring Break}}
+
+% Week 10
+%\caltext{3/15/21}{\color{red} Connect Ch 32 Due \color{black}}
+
+\caltext{3/16/21}{\textbf{Parazoa}}
+\caltext{3/16/21}{\emph{Ch 32.4-32.5}}
+
+\caltext{3/18/21}{\textbf{Lophotrochozoa}}
+\caltext{3/18/21}{\emph{Ch 33.1-33.7}}
+
+\caltext{3/19/21}{\color{red} Hypothesis Testing Due \color{black}}
+
+% Week 11
+\caltext{3/22/21}{\color{red} Connect Ch 32 Due \color{black}}
+
+\caltext{3/23/21}{\textbf{Ecdysozoa}}
+\caltext{3/23/21}{\emph{Ch 33.8-33.9}}
+
+\caltext{3/25/21}{\textbf{Deuterostomes}}
+\caltext{3/25/21}{\emph{Ch 34.1}}
+
+\caltext{3/26/21}{\color{red} Figures and Tables Due \color{black}}
+
+
+% Week 12
+\caltext{3/29/21}{\color{red} Connect Ch 33 Due \color{black}}
+
+\caltext{3/30/21}{\textbf{Chordates}}
+\caltext{3/30/21}{\emph{Ch 34.2-34.6}}
+
+\caltext{4/1/21}{\textbf{Amniotes}}
+\caltext{4/1/21}{\emph{Ch 34.7-34.10}}
+
+\caltext{4/2/21}{\color{red} Predator-Prey Selfie Due \color{black}}
+
+% Week 13
+\caltext{4/5/21}{\color{red} Connect Ch 34 Due \color{black}}
+
+
+\caltext{4/6/21}{\color{blue} \textbf{Exam 3} \color{black}}
+%\caltext{4/6/21}{\emph{Ch 34.2-34.6}}
+
+\caltext{4/8/21}{\textbf{Plant Evolution}}
+\caltext{4/8/21}{\emph{Ch 29.1}}
+
+%\caltext{4/8/21}{\color{red} Predator-Prey Selfie Due \color{black}}
+
+% Week 14
+%\caltext{4/12/21}{\color{red} Connect Ch 34 Due \color{black}}
+\caltext{4/12/21}{\emph{No labs this week}}
+
+\caltext{4/13/21}{\textbf{Bryophytes}}
+\caltext{4/13/21}{\emph{Ch 29.2}}
+
+\caltext{4/15/21}{\textbf{Monilophyta}}
+\caltext{4/15/21}{\emph{Ch 29.3-29.5}}
+
+%\caltext{4/8/21}{\color{red} Predator-Prey Selfie Due \color{black}}
+
+% Week 15
+\caltext{4/19/21}{\color{red} Connect Ch 29 Due \color{black}}
+
+
+\caltext{4/20/21}{\textbf{Gymnosperms}}
+\caltext{4/20/21}{\emph{Ch 30.1-30.2}}
+
+\caltext{4/22/21}{\textbf{Double Fertilization}}
+\caltext{4/22/21}{\emph{Ch 30.3-30.5}}
+
+\caltext{4/23/21}{\color{red} Predator-Prey Paper Due \color{black}}
+
+
+% Week 16
+\caltext{4/26/21}{\color{red} Connect Ch 30 Due \color{black}}
+\caltext{4/26/21}{\emph{No labs this week}}
+
+\caltext{4/27/21}{\textbf{Angiosperm Reproduction}}
+\caltext{4/27/21}{\emph{Ch 40.1-40.6}}
+
+\caltext{4/29/21}{\textbf{Angiosperm Anatomy}}
+\caltext{4/29/21}{\emph{Ch 35.1-35.5}}
+
+%\caltext{4/30/21}{\color{red} Predator-Prey Paper Due \color{black}}
+
+
+% Week 17
+\caltext{5/3/21}{\color{red} Connect Ch 35\&40 Due \color{black}}
+\caltext{5/6/21}{\color{blue} \textbf{FINAL EXAM 9:55am - 12:10am} \color{blue}}							% change by section
+
+
+
+  \end{calendar}
+
+
+
+
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
