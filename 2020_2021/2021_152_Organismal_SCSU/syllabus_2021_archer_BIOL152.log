@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  5 JAN 2021 20:43
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  6 JAN 2021 08:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -894,13 +894,13 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 430.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
 Package rerunfilecheck Info: File `syllabus_2021_archer_BIOL152.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: E2820C87955284387417D2B402B8AFA0;577.
+(rerunfilecheck)             Checksum: 04EF58A8299B61CAED3DA1C202415DEF;577.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
  ) 
 Here is how much of TeX's memory you used:
  14830 strings out of 479418
  271401 string characters out of 5884586
- 646500 words of memory out of 5000000
+ 647500 words of memory out of 5000000
  32096 multiletter control sequences out of 15000+600000
  534946 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
