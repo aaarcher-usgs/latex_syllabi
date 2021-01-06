@@ -1,0 +1,302 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{Syllabus for BIOL 339: Statistical Design \\
+Spring 2021}										% change each year
+\author{Lecture: Tuesdays 9:30am--10:20pm }										% change per section
+\date{Synchronous Zoom Meeting ID: \color{red} \textbf{943 8405 4341} \color{black} \\
+Passcode: \color{red} \textbf{stats} \color{black}}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+Phone: 320-308-4975 (office) \\ %/ 218.556.8053 (cell)\\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+Virtual Office Hours: by request
+
+
+\begin{fullwidth}
+
+\newthought{Contact Me:} The best way to get ahold of me is by emailing me. I will always try to get back to emails within 24 hours, or 48 hours if it is a weekend. I get a lot of emails, so please begin emails with ``BIOL 339'' so that I can prioritize your email. Because of the global pandemic, I will rarely be in my office in WSB.
+
+\section{Course Description}
+
+Statistical technique selection, design, and interpretation for biology majors. Supplement to STAT 239. 
+
+\subsection{Learning Outcomes}
+
+This course is designed for students majoring in biology, as a companion to STAT 239 (Statistics for the Biological and Physical Sciences). BIOL 339 is designed to add conceptual context to STAT 239 by teaching you how a biologist looks at and applies statistical techniques. By the end of the semester, you should be able to: 
+
+\begin{itemize}
+\item Recognize  statistical designs appropriate to a variety of experiments \& observational studies.
+\item Select statistical techniques appropriate to selected experimental design.
+\item Make appropriate interpretations from statistical applications 
+\end{itemize}
+
+BIOL 339 will reinforce parts of STAT 239 related to experimental design, technique selection and interpretation, and will teach you how biologists recognize the differences among experiments and research projects that lead you to selecting the correct technique to your data. \textbf{If you have not taken a general course in statistics and are currently not enrolled in STAT 239, you probably should not be in BIOL 339.}
+
+Because BIOL 339 functions simultaneously as a supplement to STAT 239, BIOL 339 is conducted online via Desire2Learn (D2L). This will make it possible for all biology students to take essentially the same BIOL 339 course, regardless of which section, date and time their STAT 239 meets. 
+
+
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item BIOL 339 does not require a separate textbook. However, if you are concurrently enrolled in STAT 239 and BIOL 339, having your copy of the STAT 239 text assigned in that course will be helpful.
+\end{itemize}
+
+%\subsection{Email and Phone Policy}
+
+
+
+\newthought{Regular attendance and participation in class is critical to your success.} Lectures will be convened online via synchronous Zoom meetings. During lecture, new material will be discussed with accompanying homework/quizzes due by the next Monday night at 11:59pm. Occasionally, we will have review sessions that will include reviewing concepts and working through homework answers. 
+
+%\textbf{Every person coming to campus must complete the online self-assessment, including students and faculty. If your self-assessment states that you must stay home, please inform me of your absence as soon as possible so that we can make alternate arrangements.}
+
+
+
+
+\subsection{Online Code of Conduct: } 
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated. 
+
+
+\end{fullwidth}
+
+\newthought{Grades}
+
+
+
+
+\begin{table}
+\begin{tabular}{l l l r}
+Item & Details & Points &  \% \\
+\hline
+Assignments/Quizzes  &  5 points each & 40 & 40\\
+Midterm Exam & March 2 & 25 & 25 \\
+Final Exam & May 4 & 25 & 25 \\
+Attendance & 1 points each; 2 free & 10 & 10 \\
+\hline
+Total & & 100 & 100 
+\end{tabular}
+\end{table}
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+90-98.9 & A \\
+%90-92.9 & A- \\
+89-89.9 & B+ \\
+80-88.9 & B \\
+%80-82.9 & B- \\
+79-79.9 & C+ \\
+70-78.9 & C \\
+%70-72.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+%Final grades will be based on the following:
+
+
+
+%\newpage
+
+Generally, each week will include a Lesson Topic and a Homework Assignment that will be made available on Tuesday and will be due on the following Monday by 11:59 pm. The schedule for assignment due dates is also viewable on D2L. Lessons will be delivered online synchronously but not recorded. 
+
+\begin{fullwidth}
+
+\newthought{Assignments \& Quizzes:}  D2L ``quizzes'' that are associated with homework assignment. You will have one week to complete each quiz, and once the window for the quiz closes, it will not be reopened. You may take the quiz twice, and your highest attempt will be recorded as your final score.
+
+
+
+\newthought{{Lecture Exams:}} There are two D2L exams that will cover material from their respective portion of the course. Exam problems are similar to the problems given in the assignments. Exams are timed, and cannot be taken more than once. Exams must be completed by yourself.
+
+
+
+\newthought{Attendance}: You will be required to attend each Zoom lecture (12 total). You are free to miss up to two classes with no penalty to your final grade, however perfect attendance will contribute to up to 2 points of extra credit (1 point to attend 11 classes, 2 points to attend all 12 classes).
+
+
+
+\subsection{Accommodations for Students with Disabilities: } 
+
+SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+
+\subsection*{St.\ Cloud's Statement on Covid-19}
+
+St.\ Cloud State University (SCSU), in coordination with state and local health departments, is closely monitoring the spread of COVID-19 and following the State of Minnesota's laws and guidelines to keep everyone safe.
+
+We have developed a list of ways that all of us can participate to assure our campus is safe for living and learning. I expect that all of us will honor and respect ourselves and each other by following the ``Keep the Pack Safe'' guidelines in our classroom. As a reminder:
+
+\begin{itemize}
+\item Complete the self-assessment every morning before you come to campus or attend classes. You can locate the self-assessment tool at https://www.stcloudstate.edu/emergency/covid19/self-assessment/default.aspx 
+\item You must wear a face mask/covering every time you enter an SCSU building including in our classroom. Keep it on during class.
+\item If you are unable to wear a face mask or covering for medical reasons, please contact the Student Accessibility Services Office at https://www.stcloudstate.edu/sas/ for an accommodation.
+\item Wash your hands frequently and use the hand sanitizers available to you.
+\item Practice physical distancing at all times. Be sure to sit in the designated classroom seats marked for safe distancing. Remain 6 feet apart at all times. Greet each other without shaking hands.
+\item If you are not feeling well, be sure to call the SCSU Medical Clinic for assistance at (320) 308-3193 or email myhealthservices@stcloudstate.edu. Contact me to make alternative arrangements if you cannot make it to class.
+%\item If you are not feeling well, do not come to class that day. You can contact me to make alternative arrangements.
+\end{itemize}
+
+\subsection{Academic Integrity}
+
+%\marginnote{Concordia College has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. \textbf{My role as instructor is to teach each of my students how to become responsible scholars.} }
+
+%``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+%``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to:
+
+\emph{As a student at St.~Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+
+
+\newpage 
+
+\section{Course Schedule (version dated \today)}
+
+
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.7in}
+  \begin{calendar}{1/11/21}{17}
+
+  \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+  \skipday\skipday\skipday     
+  \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{1/12/21}{\emph{No class this week}}
+%\caltext{1/12/21}{\textbf{Topic 1:} Subjects, variables, statistics}
+
+
+% Week 2
+\caltext{1/19/21}{\textbf{Topic 1:} Individuals \& Variables}
+
+
+% Week 3
+\caltext{1/25/21}{\color{blue} Topic 1 Quiz Due 11:59pm \color{black}}
+\caltext{1/26/21}{\textbf{Topic 2:} Variable Types}
+
+
+% Week 4
+\caltext{2/1/21}{\color{blue} Topic 2 Quiz Due 11:59pm \color{black}}
+\caltext{2/2/21}{\textbf{Review:} Topics 1 and 2}
+
+
+
+% Week 5
+\caltext{2/9/21}{\textbf{Topic 3:} Summarizing Quantitative Variables}
+
+
+
+% Week 6
+\caltext{2/15/21}{\color{blue} Topic 3 Quiz Due 11:59pm \color{black}}
+\caltext{2/16/21}{\textbf{Topic 4:} Analyzing Quantitative Variables}
+
+
+
+% Week 7
+\caltext{2/22/21}{\color{blue} Topic 4 Quiz Due 11:59pm \color{black}}
+\caltext{2/23/21}{\textbf{Review:} Topics 3 and 4}
+
+
+% Week 8
+\caltext{3/2/21}{\color{red} \textbf{Midterm Exam} \color{red}}
+
+
+% Week 9
+\caltext{3/8/21}{\emph{Spring break}}
+\caltext{3/9/21}{\emph{Spring break}}
+
+
+% Week 10
+\caltext{3/16/21}{\textbf{Topic 5:} Summarizing Categorical Variables}
+
+
+% Week 11
+\caltext{3/22/21}{\color{blue} Topic 5 Quiz Due 11:59pm \color{black}}
+\caltext{3/23/21}{\textbf{Topic 6:} Analyzing Categorical Variables}
+
+
+% Week 12
+\caltext{3/29/21}{\color{blue} Topic 6 Quiz Due 11:59pm \color{black}}
+\caltext{3/30/21}{\textbf{Review:} Topics 5 and 6}
+
+% Week 13
+\caltext{4/6/21}{\textbf{Topic 7:} Categorical \& Quantitative Variables}
+
+% Week 14
+\caltext{4/12/21}{\color{blue} Topic 7 Quiz Due 11:59pm \color{black}}
+\caltext{4/13/21}{\emph{No class}}
+
+% Week 15
+\caltext{4/20/21}{\textbf{Topic 8:} Experimental Designs}
+
+% Week 16
+\caltext{4/26/21}{\color{blue} Topic 8 Quiz Due 11:59pm \color{black}}
+\caltext{4/27/21}{\textbf{Review:} Topics 7 and 8}
+
+% Week 17
+\caltext{5/4/21}{\color{red} \textbf{FINAL EXAM} 9:55am to 12:10pm \color{black}}							% change by section
+
+
+
+  \end{calendar}
+
+
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
