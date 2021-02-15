@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  11 JAN 2021 17:22
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  15 FEB 2021 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,21 +851,21 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 209; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [3]
-Overfull \hbox (177.23625pt too wide) in alignment at lines 420--420
+Overfull \hbox (177.23625pt too wide) in alignment at lines 421--421
 [] [] [] [] [] 
  []
 
 
-Overfull \hbox (177.23625pt too wide) in alignment at lines 420--420
+Overfull \hbox (177.23625pt too wide) in alignment at lines 421--421
 [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 420
+Underfull \vbox (badness 10000) detected at line 421
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 420; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 421; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -878,9 +878,9 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 434.
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 433; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 434; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -888,29 +888,22 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 433; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 434.
  (./syllabus_2021_archer_BIOL152.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 433.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
-
-
-Package rerunfilecheck Warning: File `syllabus_2021_archer_BIOL152.out' has cha
-nged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `syllabus_2021_archer_BIOL152.out':
-(rerunfilecheck)             Before: 67DA8D5BE5C0856F37EC33F5E94D0F97;577
-(rerunfilecheck)             After:  CD74985B37DF4964E9A01CC8BF2971A7;582.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 434.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 434.
+Package rerunfilecheck Info: File `syllabus_2021_archer_BIOL152.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 41B34A7F380A95BF06B5B7D0AF255AF0;587.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 434.
  ) 
 Here is how much of TeX's memory you used:
  14830 strings out of 479418
  271401 string characters out of 5884586
- 646500 words of memory out of 5000000
+ 647510 words of memory out of 5000000
  32096 multiletter control sequences out of 15000+600000
  534946 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,14n,56p,678b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,56p,678b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on syllabus_2021_archer_BIOL152.pdf (5 pages).
