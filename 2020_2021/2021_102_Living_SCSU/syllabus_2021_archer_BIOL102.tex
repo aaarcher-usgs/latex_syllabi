@@ -1,0 +1,411 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{Syllabus for Biology 102: The Living World}										% change each year
+\author{Spring 2021}								% change per 
+\date{Asynchronous Lecture}
+
+\begin{document}
+\maketitle
+
+Instructors: \marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.} \\
+Dr.~Althea A.~Archer\\
+Office: 267 Wick Science Building\\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+Virtual Office Hours: By request\\
+
+
+\newthought{Contact Me:} The best way to get ahold of me is by emailing me. I will always try to get back to emails within 48 hours or 72 hours, if it is a weekend. I get a lot of emails, so please begin emails with ``BIOL 102'' so that we can prioritize your email. 
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+During this course, students will learn about all life on Earth, including plants, animals, and microorganisms. We will study interactions between humans and the planet, as well as dynamic changes on Earth and how they impact life. This course will cover how life has changed over geologic time, and the evolutionary processes that determine new species and relationships among organisms.
+
+\subsection{Learning Outcomes}
+
+By the end of this course, students should be able to:  
+
+\begin{enumerate}
+	\item distinguish between deductive and inductive reasoning and explain the scientific method
+	\item describe different types of ecosystems and niches
+	\item explain how evolution occurs’ and provide examples of evolutionary relationships among organisms
+	\item list homologous structures that humans share with different animals
+	\item interpret an evolutionary phylogeny
+	\item gain understanding of how the changing planet impacts the biosphere
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item Edward O. Wilson, Diversity of Life, (1992). Publisher: Harvard University Press.
+	\item Neil Shubin, Your Inner Fish (2009). Publisher: Random House.
+	\item SimUText Online textbook. Must purchase and download software to complete the labs. Link provided on D2L
+\end{itemize}
+
+%\subsection{Email and Phone Policy}
+
+\newpage
+
+
+\newthought{Accommodations for Students with Disabilities: } SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\newthought{Respect for Diversity: } It is our intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let us know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+
+
+\end{fullwidth}
+
+\newthought{Grades}
+
+
+
+\begin{table}
+\begin{tabular}{l l l r r }
+Item & Dates & Details & points &  \% \\
+\hline
+Labs & Mondays & 4 points each & 16 & 16\% \\
+Video Reflections  & Wednesdays & 4 points each & 32 & 32\% \\
+Reading Quizzes & Fridays & 5 points each & 40 & 40\% \\
+Final Exam & & 12 points & 12\% \\
+\hline
+Total & & & 1000 & 100\% \\
+\end{tabular}
+\end{table}
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+90-98.9 & A \\
+%90-92.9 & A- \\
+89-89.9 & B+ \\
+80-88.9 & B \\
+%80-82.9 & B- \\
+79-79.9 & C+ \\
+70-78.9 & C \\
+%70-72.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+\newthought{Labs} will be include three simulated labs via SimUText, an online textbook and one lab that will be conducted on D2L. Each lab is worth 4 points, for a total of 16\% of your final grade. 
+
+
+\begin{fullwidth}
+
+\newthought{Video Reflections} are 2-3 sentence reflections that you will write in response to watching videos on D2L. These videos will show scientific case studies that relate to course material. Each reflection must include 2-3 complete sentences that you write in your own words. Each sentence should start with one of our starter phrases, which are listed below. You will be graded on your grammar and punctuation and on your ability to show that you watched the video (specific details, etc).
+
+Starter phrases that you should use are:
+
+\begin{itemize}
+\setlength{\parskip}{0pt} \setlength{\itemsep}{0pt plus 1pt}
+	\item I was surprised by \ldots
+ 	\item I found it interesting that \ldots
+	\item I wonder why \ldots
+	\item It's really cool that \ldots
+	\item I am disturbed by \ldots
+	\item I want to know more about \ldots
+	\item The science behind that seems \ldots
+	\item I saw that before when \ldots
+	\item I did not want to know that \ldots
+\end{itemize}
+
+
+
+
+\newthought{Reading Quizzes} will be a series of quizzes on D2L that correspond with readings and video lectures.  These quizzes are all open-book/open-note and are due at 10:00 pm each Friday (see the schedule for reading assignments). You do NOT have to wait until the due date to take these quizzes, but can take them at any point after they are posted. You will be given one week for each quiz. You will have as much time as you need to complete the Quizzes, and you will receive your score as soon as the quiz is over. You must take the quizzes via D2L. Each quiz is worth 5 points, for a total of 40\% of your final grade.
+
+
+
+
+\newthought{{The Final Exam}} will be comprised of multiple choice questions and will be conducted via D2L. It will be cumulative and cover the entire class' material. It is worth 12\% of your final grade.
+
+
+
+
+
+\section{Academic Integrity}
+
+
+
+{St.\ Cloud State University has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. }
+
+%``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+%``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to:
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of SCSU, but please do not hesitate to ask us in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. We are happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+
+
+\color{blue} \newthought{Condensed Class Schedule:} This is a full-semester, 3-credit course that is condensed into 9 weeks. That means that this class will be very fast-paced, and you will need to keep up on the readings to succeed in this class!  I will be emailing you with reminders, but we do not meet as a class over Zoom or in person. You will be responsible for making time to read, watch videos, and complete labs in your own time.
+
+\color{black}
+
+\newpage
+
+\section{Course Schedule (version dated \today)}
+
+
+
+  \setlength{\calwidth}{6.8in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/11/21}{17}
+
+  \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+ \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+  \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{1/11/21}{\emph{No labs this week}}
+
+\caltext{1/12/21}{\textbf{Introduction to Biology}}
+\caltext{1/12/21}{\emph{Ch 1.1-1.4}}
+
+\caltext{1/14/21}{\textbf{Life on Earth}}
+\caltext{1/14/21}{\emph{Ch 25.1-25.2}}
+
+
+
+
+% Week 2
+\caltext{1/18/21}{\color{red} Connect Ch 1\&25 Due \color{black}}
+\caltext{1/18/21}{\emph{No labs this week}}
+
+\caltext{1/19/21}{\textbf{Evidence for Evolution}}
+\caltext{1/19/21}{\emph{Ch 21.1-21.6}}
+
+\caltext{1/21/21}{\textbf{Microevolution}}
+\caltext{1/21/21}{\emph{Ch 20.1-20.2}}
+
+
+% Week 3
+\caltext{1/25/21}{\color{red} Connect Ch 20\&21 Due \color{black}}
+
+\caltext{1/26/21}{\textbf{Natural Selection}}
+\caltext{1/26/21}{\emph{Ch 20.3-20.7}}
+
+\caltext{1/28/21}{\textbf{Macroevolution}}
+\caltext{1/28/21}{\emph{Ch 22.1-22.7}}
+
+% Week 4
+\caltext{2/1/21}{\color{red} Connect Ch 22\&23 Due \color{black}}
+
+\caltext{2/2/21}{\textbf{Phylogeny}}
+\caltext{2/2/21}{\emph{Ch 23.1-23.3}}
+
+\caltext{2/4/21}{\color{blue} \textbf{Exam 1} \color{black}}
+%\caltext{2/4/21}{\emph{Ch 22.1-22.7}}
+
+\caltext{2/5/21}{\color{red} Introductory Paragraph Due \color{black}}
+
+
+% Week 5
+%\caltext{2/8/21}{\color{red} Connect Ch 22\&23 Due \color{black}}
+
+\caltext{2/9/21}{\textbf{Viruses}}
+\caltext{2/9/21}{\emph{Ch 26.1}}
+
+\caltext{2/11/21}{\textbf{Prokaryotes}}
+\caltext{2/11/21}{\emph{Ch 27.1, 27.5}}
+
+\caltext{2/12/21}{\color{red} Evaluating News Assignment Due \color{black}}
+
+
+% Week 6
+\caltext{2/19/21}{\color{red} Connect Ch 26\&27 Due \color{black}}
+
+\caltext{2/16/21}{\textbf{Endosymbiosis}}
+\caltext{2/16/21}{\emph{Ch 28.1-28.2}}
+
+\caltext{2/18/21}{\textbf{Protists}}
+\caltext{2/18/21}{\emph{Ch 28.3-28.8}}
+
+\caltext{2/19/21}{\color{red} Primary Sources Due \color{black}}
+
+% Week 7
+\caltext{2/22/21}{\color{red} Connect Ch 28 Due \color{black}}
+
+\caltext{2/23/21}{\textbf{Fungi}}
+\caltext{2/23/21}{\emph{Ch 31.1-31.4}}
+
+\caltext{2/25/21}{\textbf{Fungi}}
+\caltext{2/25/21}{\emph{Ch 31.5-31.9}}
+
+\caltext{2/26/21}{\color{red} Citing Sources Due \color{black}}
+
+
+% Week 8
+\caltext{3/1/21}{\color{red} Connect Ch 31 Due \color{black}}
+
+\caltext{3/2/21}{\color{blue} \textbf{Exam 2} \color{black}}
+%\caltext{3/2/21}{\emph{Ch 31.1-31.4}}
+
+\caltext{3/4/21}{\textbf{Intro to Animals}}
+\caltext{3/4/21}{\emph{Ch 32.1-32.3}}
+
+\caltext{3/5/21}{\color{red} Paraphrasing Sources Due \color{black}}
+
+
+% Week 9
+\caltext{3/8/21}{\emph{Spring Break}}
+\caltext{3/9/21}{\emph{Spring Break}}
+\caltext{3/10/21}{\emph{Spring Break}}
+\caltext{3/11/21}{\emph{Spring Break}}
+\caltext{3/12/21}{\emph{Spring Break}}
+
+% Week 10
+%\caltext{3/15/21}{\color{red} Connect Ch 32 Due \color{black}}
+
+\caltext{3/16/21}{\textbf{Parazoa}}
+\caltext{3/16/21}{\emph{Ch 32.4-32.5}}
+
+\caltext{3/18/21}{\textbf{Lophotrochozoa}}
+\caltext{3/18/21}{\emph{Ch 33.1-33.7}}
+
+\caltext{3/19/21}{\color{red} Hypothesis Testing Due \color{black}}
+
+% Week 11
+\caltext{3/22/21}{\color{red} Connect Ch 32 Due \color{black}}
+
+\caltext{3/23/21}{\textbf{Ecdysozoa}}
+\caltext{3/23/21}{\emph{Ch 33.8-33.9}}
+
+\caltext{3/25/21}{\textbf{Deuterostomes}}
+\caltext{3/25/21}{\emph{Ch 34.1}}
+
+\caltext{3/26/21}{\color{red} Figures and Tables Due \color{black}}
+
+
+% Week 12
+\caltext{3/29/21}{\color{red} Connect Ch 33 Due \color{black}}
+
+\caltext{3/30/21}{\textbf{Chordates}}
+\caltext{3/30/21}{\emph{Ch 34.2-34.6}}
+
+\caltext{4/1/21}{\textbf{Amniotes}}
+\caltext{4/1/21}{\emph{Ch 34.7-34.10}}
+
+\caltext{4/2/21}{\color{red} Predator-Prey Selfie Due \color{black}}
+
+% Week 13
+\caltext{4/5/21}{\color{red} Connect Ch 34 Due \color{black}}
+
+
+\caltext{4/6/21}{\color{blue} \textbf{Exam 3} \color{black}}
+%\caltext{4/6/21}{\emph{Ch 34.2-34.6}}
+
+\caltext{4/8/21}{\textbf{Plant Evolution}}
+\caltext{4/8/21}{\emph{Ch 29.1}}
+
+%\caltext{4/8/21}{\color{red} Predator-Prey Selfie Due \color{black}}
+
+% Week 14
+%\caltext{4/12/21}{\color{red} Connect Ch 34 Due \color{black}}
+\caltext{4/12/21}{\emph{No labs this week}}
+
+\caltext{4/13/21}{\emph{no class!}}
+
+
+\caltext{4/15/21}{\textbf{Bryophyta and Monilophyta}}
+\caltext{4/15/21}{\emph{Ch 29.2-29.5}}
+%\caltext{4/15/21}{\emph{Ch 29.3-29.5}}
+
+%\caltext{4/8/21}{\color{red} Predator-Prey Selfie Due \color{black}}
+
+% Week 15
+\caltext{4/19/21}{\color{red} Connect Ch 29 Due \color{black}}
+
+
+\caltext{4/20/21}{\textbf{Gymnosperms}}
+\caltext{4/20/21}{\emph{Ch 30.1-30.2}}
+
+\caltext{4/22/21}{\textbf{Double Fertilization}}
+\caltext{4/22/21}{\emph{Ch 30.3-30.5}}
+
+\caltext{4/23/21}{\color{red} Predator-Prey Paper Due \color{black}}
+
+
+% Week 16
+\caltext{4/26/21}{\color{red} Connect Ch 30 Due \color{black}}
+\caltext{4/26/21}{\emph{No labs this week}}
+
+\caltext{4/27/21}{\textbf{Angiosperm Reproduction}}
+\caltext{4/27/21}{\emph{Ch 40.1-40.6}}
+
+\caltext{4/29/21}{\textbf{Angiosperm Anatomy}}
+\caltext{4/29/21}{\emph{Ch 35.1-35.5}}
+
+%\caltext{4/30/21}{\color{red} Predator-Prey Paper Due \color{black}}
+
+
+% Week 17
+\caltext{5/3/21}{\color{red} Connect Ch 35\&40 Due \color{black}}
+\caltext{5/6/21}{\color{blue} \textbf{FINAL EXAM 9:55am - 12:10am} \color{blue}}							% change by section
+
+
+
+  \end{calendar}
+
+
+
+
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
