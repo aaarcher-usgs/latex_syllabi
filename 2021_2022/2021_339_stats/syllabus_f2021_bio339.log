@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  7 AUG 2021 15:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  17 AUG 2021 22:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -730,7 +730,7 @@ LaTeX Info: Redefining \selectfont on input line 37.
 LaTeX Warning: Marginpar on page 1 moved.
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 51; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 53; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -741,7 +741,31 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 51; it cannot be
 
 ]
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 97; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 98; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmr/m/it/10.95 ".
+(fontspec)                  The requested feature is "LetterSpace=5.0". 
+
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 100; it cannot be
+(fontspec)                used with a font that wasn't selected by a fontspec
+(fontspec)                command.
+(fontspec)                 
+(fontspec)                 The current font is "\TU/lmr/m/sc/10 ".
+(fontspec)                  The requested feature is "LetterSpace=5.0". 
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 133.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 133.
+
+Package fontspec Warning: \addfontfeature(s) ignored on line 154; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -749,31 +773,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 97; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 99; it cannot be
-(fontspec)                used with a font that wasn't selected by a fontspec
-(fontspec)                command.
-(fontspec)                 
-(fontspec)                 The current font is "\TU/lmr/m/sc/10 ".
-(fontspec)                  The requested feature is "LetterSpace=5.0". 
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 103.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 129.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 129.
-
-Package fontspec Warning: \addfontfeature(s) ignored on line 150; it cannot be
-(fontspec)                used with a font that wasn't selected by a fontspec
-(fontspec)                command.
-(fontspec)                 
-(fontspec)                 The current font is "\TU/lmr/m/n/10 ".
-(fontspec)                  The requested feature is "LetterSpace=5.0". 
-
-
-Package fontspec Warning: \addfontfeature(s) ignored on line 156; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 162; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -781,7 +781,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 156; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 160; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 166; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -789,7 +789,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 160; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 171; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 177; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -797,27 +797,27 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 171; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [2]
-Overfull \hbox (0.66005pt too wide) in paragraph at lines 192--193
+Overfull \hbox (0.66005pt too wide) in paragraph at lines 198--199
 \TU/lmr/m/it/10 college, but please do not hesitate to ask me in advance if you
  think something might be questionable or if you 
  []
 
 
-Overfull \hbox (155.55504pt too wide) in alignment at lines 299--299
+Overfull \hbox (155.55504pt too wide) in alignment at lines 305--305
 [] [] [] [] [] 
  []
 
 
-Overfull \hbox (155.55504pt too wide) in alignment at lines 299--299
+Overfull \hbox (155.55504pt too wide) in alignment at lines 305--305
 [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 299
+Underfull \vbox (badness 10000) detected at line 305
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 299; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 305; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -830,9 +830,9 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 310; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 316; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -840,13 +840,13 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 310; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (./syllabus_f2021_bio339.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `syllabus_f2021_bio339.out' has not changed.
 (rerunfilecheck)             Checksum: 6E21754738032069F804EB4974A4877E;137.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
  14809 strings out of 479418
@@ -855,6 +855,6 @@ Here is how much of TeX's memory you used:
  32075 multiletter control sequences out of 15000+600000
  534946 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,14n,56p,664b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,56p,656b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on syllabus_f2021_bio339.pdf (4 pages).
