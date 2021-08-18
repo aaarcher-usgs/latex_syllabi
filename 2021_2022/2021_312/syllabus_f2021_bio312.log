@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  6 AUG 2021 15:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  17 AUG 2021 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -921,13 +921,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 503.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 503.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 503.
 Package rerunfilecheck Info: File `syllabus_f2021_bio312.out' has not changed.
-(rerunfilecheck)             Checksum: 02CCBA3E5821A2D875C8230004B112EF;572.
+(rerunfilecheck)             Checksum: E256730107708DD869BAAD3B1B881D58;577.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 503.
  ) 
 Here is how much of TeX's memory you used:
  14829 strings out of 479418
  271394 string characters out of 5884586
- 657463 words of memory out of 5000000
+ 657468 words of memory out of 5000000
  32095 multiletter control sequences out of 15000+600000
  534946 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
