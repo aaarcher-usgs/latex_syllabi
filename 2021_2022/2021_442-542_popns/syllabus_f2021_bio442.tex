@@ -1,0 +1,415 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+
+\renewcommand{\calprintclass}{}
+
+\title{Syllabus for BIOL 442/552: Wildlife Populations}										% change each year
+\author{Lecture: Tuesday/Thursdays 9:30am--12:15pm \\
+\color{gray} Zoom Meeting ID: 946 3327 4450
+Passcode: wildlife \color{black}}								% change per secti
+\date{In-Person: Wick Science Building 244}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+320-308-4975 (office) \\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+\color{gray} Virtual Office Hours: Mon 12:00pm--2:00pm \& Th 1:00--2:00pm\\
+Office Hour Link: https://minnstate.zoom.us/j/98128037816\\
+Meeting ID: 981 2803 7816 Passcode: Archer \color{black}
+
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+Mathematical modeling of population growth, population sampling techniques, and survival/reproduction. Case studies involve theoretical and empirical investigation of single populations, metapopulations, and sources and sinks. Prereq.: BIOL 312.
+
+\subsection{Learning Outcomes}
+
+The goals of the course are to:
+
+
+\begin{enumerate}
+	\item Employ mathematical and computer models to analyze changes in wildlife populations.	
+	\item Evaluate tabular, graphical and written research in population biology and demonstrate correct interpretations of technical literature.
+	\item Demonstrate population sampling techniques in field exercises or in independent research.
+	\item Apply the scientific method to problems in population biology.
+	\item Perform library research related to population biology and generate appropriate scientific communications (written and oral).
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+There are no required textboos to purchase for this class, however I recommend:
+
+\begin{itemize}
+	\item Each person must sign up for an account with the free Open Science Framework at https://osf.io/
+	\item Recommended: McMillan, V.E. 2012+. \emph{Writing Papers in the Biological Sciences}. Bedford/St.\ Martin's
+	\item Recommended: L. Scott Mills. \emph{Conservation of Wildlife Populations} (Available on D2L).
+	\item Recommended: Gibbs, Hunter, Sterling. \emph{Problem-Solving in Conservation Biology and Wildlife Management} (Available on D2L).
+	\item Recommended: Powell and Gale. \emph{Estimation of Parameters for Animal Populations}.
+\end{itemize}
+
+%\subsection{Email and Phone Policy}
+
+\newthought{Contact Me:} The best ways to get ahold of me are by visiting my virtual office hours or by emailing me. I will always try to get back to emails within 48 hours. I get a lot of emails, so please begin emails with ``BIOL 442'' or ``BIOL 542'' so that I can prioritize your email.
+
+\newthought{Regular attendance and participation in class is critical to your success.} This course will be offered in an in-person format with active learning labs required in each class. Each day will begin with introductory lectures followed by tutorial labs on your computer. The lab from each day's work will be graded via OSF. You will only be able to make up daily labs if you have prior consent. 
+
+%\textbf{Every person coming to campus must complete the online self-assessment, including students and faculty. If your self-assessment states that you must stay home, please inform me of your absence as soon as possible so that we can make alternate arrangements.}
+
+\color{blue}
+In order to have an excused absence, you must notify me prior to the beginning of class of your absence. 
+\color{black}
+
+
+\newthought{Accommodations for Students with Disabilities: } SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\newthought{Respect for Diversity: } It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+\end{fullwidth}
+
+\newthought{Grades}
+
+%Final grades will be based on the following:
+\begin{fullwidth}
+
+
+
+\begin{table}
+\begin{tabular}{l l l r r}
+Category & Item & Details & points & \% \\
+\hline
+Daily Lab Exercises & Various dates & 22 labs x 2pts each & 44 & 44.0\% \\
+\hline
+Lecture Exams & Exam 1 & Sept.~21; Unit 1 material & 12 & 12.0\% \\
+& Exam 2 & Oct.~19; Unit 2 material & 12 & 12.0\% \\
+& Exam 3 & Nov.~18; 78\% Unit 3 material & 12 & 12.0\% \\ 		
+\hline
+Applied Research Project & Topic Proposal & Nov.~30 & 5 & 5.0\% \\
+& Final Presentation & Dec.~14 & 15 & 15.0\% \\
+\hline
+Total & & & 100 & 100.0\% 
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+\newthought{Daily Lab Exercises} will be completed during class with Program R, InsightMaker, and/or Windows Excel. Labs will be handed in by the end of the day via html documents uploaded to Open Science Framework. You will be graded based on your completion of the day's tasks and your code neatness and readability. For BIOL 542, the grading standards will be held to a higher level than those for BIOL 442. 
+
+
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+92-98.9 & A \\
+90-91.9 & A- \\
+89-89.9 & B+ \\
+82-88.9 & B \\
+80-81.9 & B- \\
+79-79.9 & C+ \\
+72-78.9 & C \\
+70-71.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+
+
+
+\newthought{{Lecture Exams}} will be of variable format, including---but not limited to---multiple choice, short answer, and brief essays. All exams will be somewhat cumulative but will primarily focus on the associated unit material (see table above). BIOL 542 Exams will be slightly different than BIOL 442 Exams. 
+
+%\textbf{Graded Questions} will be worth another 5\% of your final grade; however, the two lowest scores will be dropped before final grades are completed. 
+\begin{fullwidth}
+
+\newthought{The Applied Research Project} grades will be based around your ability to read, synthesize, and present a topic related to wildlife populations research that we have not covered in class. You will be required to research your topic, including reading pertinent and up-to-date literature, and describe the ways in which wildlife ecologists use your topic's methods or approach your topic's challenges in modern-day wildlife population ecology. You will first present your proposed topic in a short paragraph and with a lightning talk on November 30. Then, you will present the findings of your research in a longer presentation during our finals time on December 14. 
+
+Possible topics include, but are not limited to: 
+
+
+\begin{itemize}
+\item The impact of correlated covariates in occupancy modeling
+\item Sightability models for estimating population size
+\item Multi-species occupancy modeling
+\item Covariates that affect both detection and abundance/occupancy
+\item Spatially clustered animals
+\item Competition 
+\item Invasive species population dynamics
+\item Time series modeling
+\item Predator-prey dynamics
+\item Baiting affects on detection probability
+\end{itemize}
+
+BIOL 542 research proposal and presentation will be graded to a higher standard than BIOL 442. 
+
+
+%\newpage
+
+
+
+\newthought{St.\ Cloud's Statement on Covid-19}
+
+
+Given the increased transmission of COVID-19 variants, such as the delta variant, and the risk it poses to the entire community, (see CDC ``Delta Variant: What We Know About the Science'') we will be adhering to the following masking policies in our classroom:
+
+\begin{itemize}
+\item You must wear a face mask/covering in our classroom at all times. 
+\item If you are unable to wear a face mask or covering for medical reasons,
+please contact the Student Accessibility Services Office for an
+accommodation. 
+\item I encourage you to wash your hands frequently and use the hand
+sanitizers available to you.
+\item If you are not feeling well, be sure to call the SCSU Medical Clinic for
+assistance at (320) 308-3193 or email
+myhealthservices@stcloudstate.edu
+\item If you are concerned that you might have COVID-19, please get tested as
+soon as possible. Testing resources are available on campus through the
+SCSU Medical Clinic and through the State of Minnesota’s Vault: No-Cost
+COVID Testing For All Minnesotans
+\end{itemize}
+
+
+\section{Academic Integrity}
+
+
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty.
+All academic integrity violations will be reported.
+
+
+
+
+
+%\newpage
+
+\section{Course Schedule (version dated \today)}
+
+%\color{red} Meeting ID: 965 4465 0556
+%Passcode: ecology \color{black}
+
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{8/23/21}{17}
+
+  \skipday% \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+ \skipday%  \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+  \skipday% \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{8/24/21}{\textbf{Topic:} Populations Trivia Icebreaker}
+\caltext{8/24/21}{\color{blue} \emph{Lab: Introduction to R/OSF/html} \color{black}}
+
+
+\caltext{8/26/21}{\textbf{Topic:} Review of Life History Parameters}
+\caltext{8/26/21}{\color{blue} \emph{Lab: Test of html creation from R code} \color{black}}
+
+
+
+% Week 2
+\caltext{8/31/21}{\textbf{Topic:} Exponential Growth}
+\caltext{8/31/21}{\color{blue} \emph{Lab: Use of and creation of simulated data} \color{black}}
+
+
+\caltext{9/2/21}{\textbf{Topic:} Logistic Growth }
+\caltext{9/2/21}{\color{blue} \emph{Lab: Modeling and uncertainty} \color{black}}
+
+
+
+% Week 3
+\caltext{9/7/21}{\textbf{Topic:} Modeling Framework}
+\caltext{9/7/21}{\color{blue} \emph{Lab: t-test and p-values} \color{black}}
+
+
+\caltext{9/9/21}{\textbf{Topic:} Modeling Framework, continued}
+\caltext{9/9/21}{\color{blue} \emph{Lab: ANOVA/ANCOVA} \color{black}}
+
+
+
+% Week 4
+\caltext{9/14/21}{\textbf{Topic:} Distributions }
+\caltext{9/14/21}{\color{blue} \emph{Lab: Regression (normal and logistic)} \color{black}}
+
+
+\caltext{9/16/21}{\textbf{Topic:} Distributions, continued}
+\caltext{9/16/21}{\color{blue} \emph{Lab: Binary, counts, and overdispersion} \color{black}}
+
+
+
+
+
+% Week 5
+\caltext{9/21/21}{\textbf{Topic:} Exam 1}
+%\caltext{9/721}{\color{blue} \emph{Lab: Regression (normal and logistic)} \color{black}}
+
+
+\caltext{9/23/21}{\textbf{Topic:} Population estimation}
+\caltext{9/23/21}{\color{blue} \emph{Lab: Basics of estimating populations} \color{black}}
+
+
+% Week 6
+\caltext{9/28/21}{\textbf{Topic:} Population estimation}
+\caltext{9/28/21}{\color{blue} \emph{Lab: Known fate surveys} \color{black}}
+
+
+\caltext{9/30/21}{\textbf{Topic:} Population estimation}
+\caltext{9/30/21}{\color{blue} \emph{Lab: Distance surveys} \color{black}}
+
+
+% Week 7
+\caltext{10/5/21}{\textbf{Topic:} Population estimation }
+\caltext{10/5/21}{\color{blue} \emph{Lab: Double observer surveys} \color{black}}
+
+
+\caltext{10/7/21}{\textbf{Topic:} Population estimation}
+\caltext{10/7/21}{\color{blue} \emph{Lab: Mark-recapture surveys} \color{black}}
+
+
+% Week 8
+\caltext{10/12/21}{\textbf{Topic:} Population estimation }
+\caltext{10/12/21}{\color{blue} \emph{Lab: Marked individual surveys} \color{black}}
+
+
+\caltext{10/14/21}{\textbf{Topic:} Population estimation}
+\caltext{10/14/21}{\color{blue} \emph{Lab: Recovery surveys} \color{black}}
+
+% Week 9
+\caltext{10/19/21}{\textbf{Topic:} Exam 2}
+%\caltext{10/19/21}{\color{blue} \emph{Lab: Marked individual surveys} \color{black}}
+
+
+\caltext{10/21/21}{\textbf{Topic:} Modeling Populations}
+\caltext{10/21/21}{\color{blue} \emph{Lab: Occupancy with perfect detection} \color{black}}
+
+
+% Week 10
+\caltext{10/26/21}{\textbf{Topic:} Modeling Populations}
+\caltext{10/26/21}{\color{blue} \emph{Lab: Abundance with perfect detection} \color{black}}
+
+
+\caltext{10/28/21}{\textbf{Topic:} Modeling Populations}
+\caltext{10/28/21}{\color{blue} \emph{Lab: Occupancy with imperfect detection} \color{black}}
+
+
+
+% Week 11
+\caltext{11/2/21}{\textbf{Topic:} Modeling Populations}
+\caltext{11/2/21}{\color{blue} \emph{Lab: Abundance with imperfect detection} \color{black}}
+
+
+\caltext{11/4/21}{\textbf{Topic:} Modeling Populations}
+\caltext{11/4/21}{\color{blue} \emph{Lab: Dynamic occupancy} \color{black}}
+
+
+% Week 12
+
+\caltext{11/9/21}{\textbf{Topic:} Modeling Populations}
+\caltext{11/9/21}{\color{blue} \emph{Lab: Dynamic abundance} \color{black}}
+
+\caltext{11/11/21}{\emph{No class}}
+%\caltext{11/11/21}{\textbf{No class}}
+%\caltext{11/11/21}{\color{blue} \emph{Lab: Dynamic occupancy} \color{black}}
+
+
+
+% Week 13
+\caltext{11/16/21}{\textbf{Topic:} Modeling Populations}
+\caltext{11/16/21}{\color{blue} \emph{Lab: Metapopulations} \color{black}}
+
+
+\caltext{11/18/21}{\textbf{Topic:} Exam 3}
+%\caltext{11/18/21}{\color{blue} \emph{Lab: Dynamic occupancy} \color{black}}
+
+
+% Week 14
+\caltext{11/22/21}{\emph{No class}}
+\caltext{11/23/21}{\emph{No class}}
+\caltext{11/24/21}{\emph{No class}}
+\caltext{11/25/21}{\emph{No class}}
+\caltext{11/26/21}{\emph{No class}}
+
+% Week 15
+\caltext{11/30/21}{\textbf{Topic:} Applied Research Project Proposal}
+\caltext{11/30/21}{\color{blue} \emph{Due: Proposal Presentation} \color{black}}
+
+
+\caltext{12/2/21}{\textbf{Topic:} Applied Research Project work day}
+%\caltext{11/18/21}{\color{blue} \emph{Lab: Dynamic occupancy} \color{black}}
+
+% Week 16
+\caltext{12/7/21}{\textbf{Topic:} Applied Research Project work day}
+%\caltext{11/30/21}{\color{blue} \emph{Lab: Metapopulations} \color{black}}
+
+
+\caltext{12/9/21}{\textbf{Topic:} Applied Research Project work day}
+%\caltext{11/18/21}{\color{blue} \emph{Lab: Dynamic occupancy} \color{black}}
+
+
+\caltext{12/14/21}{\color{blue}\textbf{Applied Research Project Presentations} \\ \color{black} 9:55am - 12:10pm}						% change by section
+
+
+
+  \end{calendar}
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
