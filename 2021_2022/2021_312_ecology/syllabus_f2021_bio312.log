@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  18 AUG 2021 11:14
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  23 AUG 2021 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -936,8 +936,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 514.
  (./syllabus_f2021_bio312.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 514.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 514.
-Package rerunfilecheck Info: File `syllabus_f2021_bio312.out' has not changed.
-(rerunfilecheck)             Checksum: 1FEC20DE6CBBAF01FDAF5837429D49FF;577.
+
+
+Package rerunfilecheck Warning: File `syllabus_f2021_bio312.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `syllabus_f2021_bio312.out':
+(rerunfilecheck)             Before: 1FEC20DE6CBBAF01FDAF5837429D49FF;577
+(rerunfilecheck)             After:  2C34F56EB09F46F720D8091214329839;577.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 514.
  ) 
 Here is how much of TeX's memory you used:
