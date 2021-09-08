@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  23 AUG 2021 12:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  6 SEP 2021 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -981,21 +981,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 415.
  (./syllabus_f2021_bio442.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 415.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 415.
-
-
-Package rerunfilecheck Warning: File `syllabus_f2021_bio442.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `syllabus_f2021_bio442.out':
-(rerunfilecheck)             Before: C36C12DFEFCC31EA9FFC5BAF8CA35ECC;577
-(rerunfilecheck)             After:  2C34F56EB09F46F720D8091214329839;577.
+Package rerunfilecheck Info: File `syllabus_f2021_bio442.out' has not changed.
+(rerunfilecheck)             Checksum: 6A4697FF4DE1113F7A056EDBF452A99F;587.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 415.
  ) 
 Here is how much of TeX's memory you used:
  14643 strings out of 479418
  269590 string characters out of 5884586
- 629465 words of memory out of 5000000
+ 629475 words of memory out of 5000000
  31903 multiletter control sequences out of 15000+600000
  534970 words of font info for 49 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
