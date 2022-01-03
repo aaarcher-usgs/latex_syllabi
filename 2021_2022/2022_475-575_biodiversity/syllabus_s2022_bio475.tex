@@ -1,0 +1,384 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+
+\renewcommand{\calprintclass}{}
+
+\title{Syllabus for BIOL 475/575: Biodiversity Informatics}										% change each year
+\author{Lecture: Wednesdays 2:00pm--4:50pm \\
+\color{gray} Zoom Meeting ID: 924 3442 2002
+Passcode: diversity \color{black}}								% change per secti
+\date{In-Person: iSELF 204}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+320-308-4975 (office) \\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+\color{gray} Virtual Office Hours: Tues \& Friday 10:00am--11:00am \\
+Office Hour Link: https://minnstate.zoom.us/j/98128037816\\
+Meeting ID: 981 2803 7816 Passcode: Archer \color{black}
+
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+Biological collections, collection stewardship, biological collections databases, networks, cybertaxonomy, taxonomic concepts, ontology, specimen digitization, georeferenced specimens, predictive ecogeographic modeling, genomic databases, genomic partitioning strategies, models of molecular evolution, phylogenomics. Prereq.: BIOL 456.
+
+\subsection{Learning Outcomes}
+
+%The goals of the course are to:
+
+
+\begin{enumerate}
+	\item Summarize the history of biological collections and their importance to ecological and evolutionary biology
+	\item Demonstrate good collection stewardship and relevant database information of biological collections
+	\item Analyze the role of cybertaxonomy in addressing the challenges of modern taxonomy
+	\item Evaluate methods of specimen digitization and applications of this data for taxonomic, phylogenetic, and evolutionary studies 
+	\item Determine the important of georeferencing biological collections and how to access databases with georeferenced information
+	\item Apply ecogeographic predictive modeling for ecological and evolutionary studies.
+	\item Examine genomic databases associated with biological collections. 
+	\item Synthesize genomic partitioning strategies, models of molecular evolution, and fundamentals of phylogenomics.
+	\item Apply methods and applications of phylogenomic studies. 
+	\item Evaluate and explain the data and conclusions drawn from primary literature, particularly in relation to cybertaxonomy, phylogenomics, and bioinformatics.
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item Buffalo, Vince. 2015. Bioinformatics Data Skills. O'Reilly publishing 
+	\item Each person must sign up for an account with GitHub (free with educational affiliation)
+	\item Recommended: McMillan, V.E. 2012+. \emph{Writing Papers in the Biological Sciences}. Bedford/St.\ Martin's
+\end{itemize}
+
+%\subsection{Email and Phone Policy}
+
+\newthought{Contact Me:} The best ways to get ahold of me are by visiting my virtual office hours or by emailing me. I will always try to get back to emails within 48 hours. I get a lot of emails, so please begin emails with ``BIOL 475'' or ``BIOL 575'' so that I can prioritize your email.
+
+\newthought{Regular attendance and participation in class is critical to your success.} This course will be offered in an in-person format with active learning labs required in each class. Each day will begin with introductory lectures followed by tutorial labs on your computer. The lab from each day's work will be graded via D2L (first lab) or GitHub. You will only be able to make up daily labs if you have prior consent. 
+
+%\textbf{Every person coming to campus must complete the online self-assessment, including students and faculty. If your self-assessment states that you must stay home, please inform me of your absence as soon as possible so that we can make alternate arrangements.}
+
+\color{blue}
+In order to have an excused absence, you must notify me prior to the beginning of class of your absence. 
+\color{black}
+
+
+\newthought{Accommodations for Students with Disabilities: } SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\newthought{Respect for Diversity: } It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+\end{fullwidth}
+
+\newthought{Grades}
+
+%Final grades will be based on the following:
+\begin{fullwidth}
+
+
+
+\begin{table}
+\begin{tabular}{l l l r r}
+Item & Date & Details & points & \% \\
+\hline
+Daily Lab Exercises & Various dates & 10 labs x 5pts each & 50 & 50.0\% \\
+Journal Club Leader & Sign up for date & With partner & 10 & 10.0\% \\	
+Journal Club Reader & Various dates & Participation grading & 5 & 5.0\% \\
+Data Source Presentation &  Feb.~2 & With partner & 15 & 15.0\% \\
+SDM Abstract & April 20 & In groups & 5 & 5.0\% \\
+SDM Presentation & April 27 or May 2 & In groups & 15 & 15.0\% \\
+\hline
+Total & & & 100 & 100.0\% 
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+\newthought{Daily Lab Exercises} will be completed during class with Program R. Other than the first lab, labs will be handed in by 10pm on each Monday following that class via html documents uploaded to GitHub. You will be graded based on your completion of the day's tasks and your code neatness and readability. For BIOL 575, the grading standards will be held to a higher level than those for BIOL 475. 
+
+
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+92-98.9 & A \\
+90-91.9 & A- \\
+89-89.9 & B+ \\
+82-88.9 & B \\
+80-81.9 & B- \\
+79-79.9 & C+ \\
+72-78.9 & C \\
+70-71.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+
+
+
+\newthought{{Journal Clubs}} will be held nearly every class period (see schedule) during the final 30 minutes of class. 
+
+
+\begin{fullwidth} 
+
+Journal club leaders will be responsible for presenting the main findings of the focal paper as a group and for creating 3-5 questions that will spark discussion. Discussions on the paper will be done in two smaller groups, each lead by one of the Journal Club Leaders for that day. Journal club papers will be chosen by the instructor (for 475 students) or by the leaders (for 575 students) and will be related to that day's lesson topic. 
+
+
+Journal club readers will be responsible for reading the paper ahead of time and coming to class prepared to discuss the paper. To get 100\% participation as a journal club reader, you must participate in the discussion during each journal club. BIOL 542 Exams will be slightly different than BIOL 442 Exams. 
+
+%\textbf{Graded Questions} will be worth another 5\% of your final grade; however, the two lowest scores will be dropped before final grades are completed. 
+
+
+\newthought{Data Source Presentations} will take place during class on February 2. Each group of students (2 per group) will choose and sign up for an online data source of biodiversity data. I will present a possible list of data sources; however if your group would like to choose a different data source, please double check with me. In class on February 2, each group will present on the data source, including information such as data formats, data extent (geographical, chronological), data access issues or costs, etc. Basically, you should answer questions such as: who would use this data source, how could one use it, and how are data added to this source? 
+
+BIOL 575 presentations will be graded to a higher standard than BIOL 475. 
+
+
+\newthought{Species Distribution Modeling (SDM) Abstract and Presentations} will take place during the last weeks of class (see schedule). Each group of students (3 per group for 475 students, 2 per group for 575 students) will choose and sign up for a focal species to analyze. Each species' data will be downloaded, processed, and mapped, and then analyzed with SDM methods, including cross-validation and mapping. 
+
+The abstract will be written as though you were presenting the results of your research at the Ecological Society of America. I will provide specific guidance in class. This abstract writing exercise will strengthen your ability to write concisely and scientifically.
+
+The presentations will be held during the last class period and during the final exam period. Each group's SDM presentation will be graded on your professionalism, use of time, use of visuals, results of your analysis, and your overall story cohesion. 
+
+BIOL 575 abstracts and presentations will be graded to a higher standard than BIOL 475. 
+
+%\newpage
+
+
+\subsection{Academic Integrity}
+
+
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty.
+All academic integrity violations will be reported.
+
+
+
+
+
+%\newpage
+
+\section{Course Schedule (version dated \today)}
+
+%\color{red} Meeting ID: 965 4465 0556
+%Passcode: ecology \color{black}
+
+
+  \setlength{\calwidth}{6.8in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/10/22}{17}
+
+
+ \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+\calday[Wednesday]{\classday}
+ \skipday\skipday
+%  \calday[Thursday]{\classday} % Thursday (unnumbered)
+% \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{1/12/22}{\textbf{Topic:} Introduction to biodiversity informatics, introduction to reproducible research}
+\caltext{1/12/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 1} \color{black}}
+\caltext{1/12/22}{\color{blue} \emph{Lab 1: Molecular Evolution} \color{black}}
+
+
+
+
+
+% Week 2
+
+\caltext{1/17/22}{\color{blue} \emph{Lab 1 due on D2L by 10pm} \color{black}}
+
+
+\caltext{1/19/22}{\textbf{Topic:} Introduction to Project Management, git/GitHub, RStudio}
+\caltext{1/19/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 2, 5} \color{black}}
+\caltext{1/19/22}{\color{blue} \emph{Lab 2: Set up GitHub/RStudio} \color{black}}
+
+
+
+% Week 3
+
+\caltext{1/24/22}{\color{blue} \emph{Lab 2 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{1/26/22}{\textbf{Topic:} Data Sources \& Downloading data}
+\caltext{1/26/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 6} \color{black}}
+\caltext{1/26/22}{\color{orange} \emph{Journal Club 1} \color{black}}
+
+
+% Week 4
+
+\caltext{2/2/22}{\textbf{Data Source Presentations}}
+
+
+
+
+% Week 5
+
+\caltext{2/9/22}{\textbf{Topic:} Introduction to R}
+\caltext{2/9/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 8} \color{black}}
+\caltext{2/9/22}{\color{blue} \emph{Lab 3: R analysis code} \color{black}}
+\caltext{2/9/22}{\color{orange} \emph{Journal Club 2} \color{black}}
+
+% Week 6
+\caltext{2/14/22}{\color{blue} \emph{Lab 3 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{2/16/22}{\textbf{Topic:} R continued}
+\caltext{2/16/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 8} \color{black}}
+\caltext{2/16/22}{\color{blue} \emph{Lab 4: R graphing code} \color{black}}
+\caltext{2/16/22}{\color{orange} \emph{Journal Club 3} \color{black}}
+
+% Week 7
+\caltext{2/21/22}{\color{blue} \emph{Lab 4 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{2/23/22}{\textbf{Topic:} Working with Range data}
+\caltext{2/23/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 9} \color{black}}
+\caltext{2/23/22}{\color{blue} \emph{Lab 5: Basic Range Arithmetic} \color{black}}
+
+
+
+% Week 8
+\caltext{2/28/22}{\color{blue} \emph{Lab 5 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{3/2/22}{\textbf{Topic:} Working with Range data}
+\caltext{3/2/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 9} \color{black}}
+\caltext{3/2/22}{\color{blue} \emph{Lab 6: Finding Overlaps in Range data} \color{black}}
+
+% Week 9
+
+\caltext{3/7/22}{\emph{No class}}
+\caltext{3/8/22}{\emph{No class}}
+\caltext{3/9/22}{\emph{No class}}
+
+% Week 10
+\caltext{3/14/22}{\color{blue} \emph{Lab 6 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{3/16/22}{\textbf{Topic:} Working with Range data}
+\caltext{3/16/22}{\color{teal} \emph{Bioinformatics Data Skills Ch 9} \color{black}}
+\caltext{3/16/22}{\color{blue} \emph{Lab 7: Advanced Range Operations}\color{black}}
+\caltext{3/16/22}{\color{orange} \emph{Journal Club 4} \color{black}}
+
+
+% Week 11
+\caltext{3/21/22}{\color{blue} \emph{Lab 7 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{3/23/22}{\textbf{Topic:} Metabarcoding}
+\caltext{3/23/22}{\color{teal} \emph{Read metabaR article} \color{black}}
+\caltext{3/23/22}{\color{blue} \emph{Lab 8: metabaR package}\color{black}}
+\caltext{3/23/22}{\color{orange} \emph{Journal Club 5} \color{black}}
+
+
+
+% Week 12
+\caltext{3/28/22}{\color{blue} \emph{Lab 8 due on GitHub by 10pm} \color{black}}
+
+
+\caltext{3/30/22}{\textbf{Topic:} Environmental DNA}
+%\caltext{3/30/22}{\color{teal} \emph{Read metabaR article} \color{black}}
+\caltext{3/30/22}{\color{blue} \emph{No lab}\color{black}}
+\caltext{3/30/22}{\color{orange} \emph{Journal Club 6} \color{black}}
+
+
+
+
+
+
+% Week 13
+
+\caltext{4/6/22}{\textbf{Topic:} Species Distribution Modeling}
+%\caltext{3/30/22}{\color{teal} \emph{Read SDM article} \color{black}}
+\caltext{4/6/22}{\color{blue} \emph{Lab 9: SDM analysis }\color{black}}
+\caltext{4/6/22}{\color{orange} \emph{Journal Club 7} \color{black}}
+
+
+% Week 14
+\caltext{4/11/22}{\color{blue} \emph{Lab 9 due on GitHub by 10pm} \color{black}}
+
+\caltext{4/13/22}{\textbf{Topic:} Species Distribution Modeling}
+%\caltext{3/30/22}{\color{teal} \emph{Read SDM article} \color{black}}
+\caltext{4/13/22}{\color{blue} \emph{Lab 10: SDM validation }\color{black}}
+
+
+% Week 15
+\caltext{4/18/22}{\color{blue} \emph{Lab 10 due on GitHub by 10pm} \color{black}}
+
+\caltext{4/20/22}{\textbf{Topic:} SDM Work day}
+\caltext{4/20/22}{\color{orange} \emph{Journal Club 8} \color{black}}
+%\caltext{3/30/22}{\color{teal} \emph{Read SDM article} \color{black}}
+%\caltext{4/20/22}{\color{blue} \emph{Lab 10: SDM validation }\color{black}}
+
+% Week 16
+\caltext{4/27/22}{\textbf{SDM Presentations}}
+
+
+\caltext{5/2/22}{\color{black}\textbf{SDM Presentations} \\ \color{black} Final Exam Period: \\ 12:20pm - 2:35pm}						% change by section
+
+
+
+  \end{calendar}
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
