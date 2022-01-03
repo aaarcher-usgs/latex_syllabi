@@ -1,0 +1,514 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{Syllabus for Biology 312: General Ecology \\ 
+Spring 2022}										% change each year
+\author{Lecture: Monday/Wednesday/Friday 9:00am--9:50am \\
+Meeting ID: \color{red} 999 2844 8285 \color{black} \\
+Passcode: \color{red} ecology \color{black}}								% change per secti
+\date{Lab: Monday 2:00-4:50pm}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+320-308-4975 (office) / 218.556.8053 (cell)\\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+Virtual Office Hours: by request
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+Interactions between organisms and their organic and inorganic environment. Biomes, climate, populations, communities, biotic interactions, energy and nutrients, landscape and spatial ecology, biodiversity patterns.
+
+\subsection{Learning Outcomes}
+
+You will learn to draw together elements from biology, chemistry, physics, geology, and mathematics to gain a greater understanding of ecological relationships in the natural world. The goals of the course are for you to be able to:
+
+
+\begin{enumerate}
+\item Apply the scientific method to experimental problems in ecology.
+\item Calculate measures of population growth and biodiversity indices.
+\item Summarize principles of behavioral ecology, population ecology, community ecology, physiological ecology, and ecosystem ecology.
+\item Generate experimental hypotheses and carry out ecological research experiments, including correct data analysis and conclusions.
+\item Compare characteristics of aquatic and terrestrial environments, and explain the abiotic principles that determine those characteristics.
+\item Analyze the adaptations and responses living organisms have to their environment.
+\end{enumerate}
+
+\subsection{Required Textbooks}
+
+\begin{itemize}
+	\item SimUText Ecology
+	%\item At least one person from each research group must sign up for an account with the free Open Science Framework at https://osf.io/
+	\item Recommended: McMillan, V.E. 2012. \emph{Writing Papers in the Biological Sciences}. Bedford/St.\ Martin's
+	\item Recommended: Molles, Jr., M.C. \emph{Ecology: Concepts and Applications}. (Posted in Content on D2L)
+\end{itemize}
+
+\newpage
+
+\subsection{Email Policy}
+
+\newthought{Contact Me:} The best way to get ahold of me is by visiting my virtual office hours or by emailing me. I will always try to get back to emails within 24 hours, or 48 hours if it is a weekend. I get a lot of emails, so please begin emails with ``BIOL 312'' so that I can prioritize your email. Also, I included my personal cell phone number above so that you can get ahold of me during lab if there is an emergency.
+
+\subsection{Attendance Policy}
+
+\newthought{Regular attendance and participation in class is critical to your success.} This course will be offered in a hybrid format. Lectures will be convened online via synchronous Zoom meetings, and the textbook assignments will be conducted through an interactive online textbook. Lectures slides will be posted to D2L. The last few labs will require in-person activities in an outdoor setting. You will be working with small groups during each in-person lab, and you will be required to wear a mask and maintain physical distancing. 
+
+%\textbf{Every person coming to campus must complete the online self-assessment, including students and faculty. If your self-assessment states that you must stay home, please inform me of your absence as soon as possible so that we can make alternate arrangements.}
+
+\color{blue}
+In order to have an excused absence, you must notify me prior to the beginning of class of your absence.
+\color{black}
+
+\subsection{Accommodations for Students with Disabilities: }
+
+SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\subsection{Respect for Diversity: } 
+
+It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+
+\end{fullwidth}
+
+\section{Grades}
+
+%Final grades will be based on the following:
+\begin{fullwidth}
+
+\begin{table}
+\begin{tabular}{l l l r r}
+Category & Item & Details & points & \% \\
+\hline
+Assignments & Participation & 55 x 2pts each; drop lowest 5 & 100 & 10.0\% \\
+& SimUText Readings   & 36 x 2pts each; drop lowest 1 & 70 & 7.0\% \\
+& Reading Quizzes  & 38 x 2pts each; drop lowest 3 & 70 & 7.0\% \\
+\hline
+Lecture Exams & Exam 1 & Feb.~17; Unit 1 material & 140 & 14.0\% \\
+& Exam 2 & Apr.~2; Unit 2 material & 140 & 14.0\% \\
+& Final Exam & May~3; 78\% Unit 3; 22\% Units 1\&2 & 180 & 18.0\% \\ 		
+\hline
+Laboratory & Field Journals & Apr.~11, 18, 25 & 75 & 7.5\% \\
+& Literature List & Jan.~12 & 10 & 1.0\% \\
+& Annotated Bibliography & Jan.~26 & 20 & 2.0\% \\
+& Methods Section & Feb.~9 & 25 & 2.5\% \\
+& Data Plan Section & Feb.~23 & 20 & 2.0\% \\
+& Expected Outcomes Section & Mar.~16 & 25 & 2.5\% \\
+& Presentation & Mar.~30 & 25 & 2.5\% \\
+& Research Proposal & Apr.~13 & 100 & 10.0\% \\
+\hline
+Total & & & 1000 & 100.0\% 
+\end{tabular}
+\end{table}
+
+
+
+%\newpage
+
+\newthought{Participation} will be determined by your completion of zoom polls, surveys, and/or homework assignments that will pop up during Zoom lectures and labs. Each of these activities will be graded on a pass/fail basis, and you automatically will get 5 free missed participation scores. 
+
+
+
+\newthought{SimUText Readings} are from the interactive textbook for this class, and each module has integrated, feedback-focused questions followed by a series of graded questions. \color{blue}You are expected to have read that day's SimUText material prior to coming to class, and will be quizzed on each reading assignment. \color{black} 
+
+\end{fullwidth}
+
+You will be graded for \textbf{reading completion} (not graded questions) based on the proportion of the reading completion questions you have filled out for each Unit's SimUText sections by 11:30pm the Sunday night before exam review sessions.
+
+
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+92-98.9 & A \\
+90-91.9 & A- \\
+89-89.9 & B+ \\
+82-88.9 & B \\
+80-81.9 & B- \\
+79-79.9 & C+ \\
+72-78.9 & C \\
+70-71.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+SimUText reading completion will be graded for each unit by:
+\begin{itemize}
+\item February 13 at 11:30pm for Unit 1 material
+\item March 29 at 11:30pm for Unit 2 material 
+\item April 28 at 11:30pm for Unit 3 material 
+\end{itemize}
+
+\begin{fullwidth}
+
+You may work through the SimUText material with your peers; however, mastering the material is your individual responsibility. Use the graded questions as a tool to check your understanding. They will not be graded. 
+
+\newthought{Reading Quizzes} will be very short, low-stakes checks to make sure you're staying up-to-date on reading assignments. They will be conducted at the beginning of each Zoom lecture and implemented with Zoom polls. See the schedule for specific material for each day's quiz. Your lowest 3 quiz scores will be automatically dropped. If you have more than 3 excused absences over the course of the semester, I will provide alternate assignments to replace missing quiz grades.
+
+\newthought{{Lecture Exams}} will be of variable format, including---but not limited to---multiple choice, true/false, matching, short answer, and brief essays. All exams will be somewhat cumulative but will primarily focus on the associated lecture and SimUText Unit material (see table above); in addition, the final exam will be $\sim$22\% cumulative. Exams will be proctored through D2L.
+
+%\textbf{Graded Questions} will be worth another 5\% of your final grade; however, the two lowest scores will be dropped before final grades are completed. 
+
+
+\newthought{Laboratory} grades will be based around the iterative, semester-long development of a group research proposal and field notes taken during three outdoor field experiences.  Some components will be independent, and some in groups. Lab assignments are always due at the end of lab on the due date. 
+
+A full description of the assignment and its components will be shared in lab. This is an overview:
+
+\begin{itemize}
+\item Field Journals will be completed in the field during the last 3 labs and are due by end of lab each day. 
+\item Literature List: independently developed list of 5 properly-cited sources around a specific topic
+\item Annotated Bibliography: independently developed list of 3 properly-cited sources with a summary of each 
+\item Methods Section: group-written description of proposed methods, including executive summary of research objectives and hypotheses
+\item Data Plan Section: group-written description of proposed data plan, including data sheet
+\item Expected Outcomes Section: group-written description and graphs/tables demonstrating what results would look like if biological hypothesis were supported as well as what results would look like if null hypothesis were not rejected
+\item Presentation: group presentation of research proposal
+\item Research Proposal: group-written document including introduction, objectives/hypotheses, methods, data plan, expected outcomes, and bibliography (non-annotated)
+\end{itemize}
+
+%\newthought{Participation} in class and lab will not go towards your grade directly. However, a record throughout the semester of exemplary participation and attendance can help in the case of a borderline final grade. Active participation also nurtures learning, and will improve the quality of future recommendation letters from your instructors.  
+
+
+
+%\newpage
+
+
+
+\section{Academic Integrity}
+
+%\marginnote{Concordia College has university-wide policies about academic integrity, and all students are responsible for being familiar with and adhering to them. These policies are in place to protect students, first and foremost. \textbf{My role as instructor is to teach each of my students how to become responsible scholars.} }
+
+%``The Concordia community expects all of our members to act with integrity--to act with honesty, uprightness and sincerity. Every member of our academic community is charged with the responsibility of encouraging and maintaining an environment of academic integrity.
+
+%``Academic misconduct is defined as any activity that comprises the academic integrity of the college or undermines the educational process. Academic misconduct includes but is not limited to:
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+
+
+
+
+
+
+\newpage
+
+\section{Course Schedule (version dated \today)}
+
+Join Zoom Meeting
+https://minnstate.zoom.us/j/99928448285
+
+Meeting ID: 999 2844 8285
+Passcode: ecology
+
+
+  \setlength{\calwidth}{6.5in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/10/22}{17}
+
+  \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+  \calday[Wednesday]{\classday}
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+  \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{1/10/22}{\textbf{Topic:} Photo descriptions}
+\caltext{1/10/22}{\color{teal} \emph{Reading Quiz: Survey (pass/fail)} \color{black}}
+
+\caltext{1/10/22}{\textbf{Zoom Lab:} Searching for literature}
+\caltext{1/10/22}{\color{blue} \emph{Due: Literature List} \color{black}}
+
+\caltext{1/12/22}{\textbf{Topic:} Introduction to Ecology}
+\caltext{1/12/22}{\color{teal} \emph{Reading Quiz: Syllabus} \color{black}}
+
+\caltext{1/14/22}{\textbf{Topic:} Introduction to Ecology}
+\caltext{1/14/22}{\color{teal} \emph{Reading Quiz: Biogeography 1} \color{black}}
+
+
+% Week 2
+\caltext{1/17/22}{\emph{No class}}
+
+\caltext{1/19/22}{\textbf{Topic:} Evolution for Ecology}
+\caltext{1/19/22}{\color{teal} \emph{Reading Quiz: Evolution 1} \color{black}}
+
+\caltext{1/21/22}{\textbf{Topic:} Evolution for Ecology}
+\caltext{1/21/22}{\color{teal} \emph{Reading Quiz: Evolution 2} \color{black}}
+
+
+% Week 3
+\caltext{1/24/22}{\textbf{Topic:} Evolution for Ecology}
+\caltext{1/24/22}{\color{teal} \emph{Reading Quiz: Evolution 3} \color{black}}
+
+\caltext{1/24/22}{\textbf{Zoom Lab:} Measuring Biodiversity}
+%\caltext{1/19/21}{\color{blue} \emph{Due: Literature List} \color{black}}
+
+
+
+\caltext{1/26/22}{\textbf{Topic:} Evolution for Ecology}
+\caltext{1/26/22}{\color{teal} \emph{Reading Quiz: Biogeography 3} \color{black}}
+
+\caltext{1/28/22}{\textbf{Topic:} Behavioral Ecology}
+\caltext{1/28/22}{\color{teal} \emph{Reading Quiz: Behavior 1} \color{black}}
+
+
+
+
+% Week 4
+\caltext{1/31/22}{\textbf{Topic:} Behavioral Ecology}
+\caltext{1/31/22}{\color{teal} \emph{Reading Quiz: Behavior 2} \color{black}}
+
+\caltext{1/31/22}{\textbf{Zoom Lab:} Open Lab}
+\caltext{1/31/22}{\color{blue} \emph{Due: Annotated Bibliography} \color{black}}
+
+
+
+
+\caltext{2/2/22}{\textbf{Topic:} Behavioral Ecology}
+\caltext{2/2/22}{\color{teal} \emph{Reading Quiz: Understanding Experimental Design} \color{black}}
+
+\caltext{2/4/22}{\textbf{Topic:} Biomes}
+\caltext{2/4/22}{\color{teal} \emph{Reading Quiz: Biogeography 4} \color{black}}
+
+
+% Week 5
+\caltext{2/7/22}{\textbf{Topic:} Biomes}
+\caltext{2/7/22}{\color{teal} \emph{Reading Quiz: Physiology 1} \color{black}}
+\caltext{2/7/22}{\textbf{Zoom Lab:} Experimental Design}
+
+
+
+\caltext{2/9/22}{\textbf{Topic:} Adaptations}
+\caltext{2/9/22}{\color{teal} \emph{Reading Quiz: Physiology 2} \color{black}}
+
+\caltext{2/11/22}{\textbf{Topic:} Homeostasis}
+\caltext{2/11/22}{\color{teal} \emph{Reading Quiz: Physiology 3} \color{black}}
+
+
+% Week 6
+\caltext{2/14/22}{\textbf{Topic:} Review Unit 1}
+\caltext{2/14/22}{\color{teal} \emph{No reading quiz} \color{black}}
+
+\caltext{2/14/22}{\textbf{Zoom Lab:} Open Lab}
+\caltext{2/14/22}{\color{blue} \emph{Due: Methods Section} \color{black}}
+
+
+
+\caltext{2/16/22}{\color{red} \textbf{Exam 1} \color{black}}
+%\caltext{2/17/21}{\color{teal} \emph{Reading Quiz: Physiology 2} \color{black}}
+
+\caltext{2/18/22}{\textbf{Topic:} Primary Productivity}
+\caltext{2/18/22}{\color{teal} \emph{Reading Quiz: Physiology 4} \color{black}}
+
+% Week 7
+\caltext{2/21/22}{\textbf{Topic:} Primary Productivity}
+\caltext{2/21/22}{\color{teal} \emph{Reading Quiz: Ecosystem 1-2} \color{black}}
+
+\caltext{2/21/22}{\textbf{Zoom Lab:} Data Skills}
+%\caltext{2/16/21}{\color{blue} \emph{Due: Methods Section} \color{black}}
+
+
+
+\caltext{2/23/22}{\textbf{Topic:} Secondary Productivity}
+\caltext{2/23/22}{\color{teal} \emph{Reading Quiz: Ecosystem 3-4} \color{black}}
+
+\caltext{2/25/22}{\textbf{Topic:} Secondary Productivity}
+\caltext{2/25/22}{\color{teal} \emph{Reading Quiz: Community 3-4} \color{black}}
+
+
+% Week 8
+\caltext{2/28/22}{\textbf{Topic:} Nutrient Ecology}
+\caltext{2/28/22}{\color{teal} \emph{Reading Quiz: Nutrients 1-2} \color{black}}
+
+\caltext{2/28/22}{\textbf{Zoom Lab:} Open Lab}
+\caltext{2/28/22}{\color{blue} \emph{Due: Data Plan Section} \color{black}}
+
+
+
+\caltext{3/2/22}{\textbf{Topic:} Nutrient Ecology}
+\caltext{3/2/22}{\color{teal} \emph{Reading Quiz: Nutrients 3} \color{black}}
+
+\caltext{3/4/22}{\textbf{Topic:} Nutrient Ecology}
+\caltext{3/4/22}{\color{teal} \emph{Reading Quiz: Nutrients 4} \color{black}}
+
+% Week 9
+
+\caltext{3/7/22}{\emph{Spring break}}
+\caltext{3/8/22}{\emph{Spring break}}
+\caltext{3/9/22}{\emph{Spring break}}
+\caltext{3/10/22}{\emph{Spring break}}
+\caltext{3/11/22}{\emph{Spring break}}
+
+
+% Week 10
+\caltext{3/14/22}{\textbf{Topic:} Life History}
+\caltext{3/14/22}{\color{teal} \emph{Reading Quiz: Life History 1-2} \color{black}}
+
+\caltext{3/14/22}{\textbf{Zoom Lab:} Data Analysis}
+%\caltext{3/2/21}{\color{blue} \emph{Due: Data Plan Section} \color{black}}
+
+
+
+\caltext{3/16/22}{\textbf{Topic:} Life History}
+\caltext{3/16/22}{\color{teal} \emph{Reading Quiz: Life History 3} \color{black}}
+
+\caltext{3/18/22}{\textbf{Topic:} Life History}
+\caltext{3/18/22}{\color{teal} \emph{Reading Quiz: Life History 4} \color{black}}
+
+% Week 11
+\caltext{3/21/22}{\textbf{Topic:} Population Growth}
+\caltext{3/21/22}{\color{teal} \emph{Reading Quiz: Population Growth Lab} \color{black}}
+
+\caltext{3/21/22}{\textbf{Zoom Lab:} Open Lab}
+\caltext{3/21/22}{\color{blue} \emph{Due: Expected Outcomes Section} \color{black}}
+
+\caltext{3/23/22}{\textbf{Topic:} Population Growth}
+\caltext{3/23/22}{\color{teal} \emph{Reading Quiz: Popn Growth 1} \color{black}}
+
+\caltext{3/25/22}{\textbf{Topic:} Population Growth}
+\caltext{3/25/22}{\color{teal} \emph{Reading Quiz: Popn Growth 2} \color{black}}
+
+% Week 12
+\caltext{3/28/22}{\textbf{Topic:} Population Growth}
+\caltext{3/28/22}{\color{teal} \emph{Reading Quiz: Popn Growth 3} \color{black}}
+
+\caltext{3/28/22}{\textbf{Zoom Lab:} Presentation Skills}
+%\caltext{3/23/21}{\color{blue} \emph{Due: Expected Outcomes Section} \color{black}}
+
+
+
+\caltext{3/30/22}{\textbf{Topic:} Review}
+\caltext{3/30/22}{\color{teal} \emph{No reading quiz} \color{black}}
+
+\caltext{4/1/22}{\color{red} \textbf{Exam 2} \color{black}}
+%\caltext{4/2/21}{\color{teal} \emph{Reading Quiz: Popn Growth 2} \color{black}}
+
+% Week 13
+\caltext{4/4/22}{\textbf{Topic:} Succession}
+\caltext{4/4/22}{\color{teal} \emph{Reading Quiz: Community 1-2} \color{black}}
+
+\caltext{4/4/22}{\textbf{Zoom Lab:} Presentations}
+\caltext{4/4/22}{\color{blue} \emph{Due: Presentations} \color{black}}
+
+
+
+\caltext{4/6/22}{\textbf{Topic:} Competition}
+\caltext{4/6/22}{\color{teal} \emph{Reading Quiz: Competition 1} \color{black}}
+
+\caltext{4/8/22}{\textbf{Topic:} Competition}
+\caltext{4/8/22}{\color{teal} \emph{Reading Quiz: Competition 2} \color{black}}
+
+% Week 14
+\caltext{4/11/22}{\textbf{Topic:} Competition}
+\caltext{4/11/22}{\color{teal} \emph{Reading Quiz: Competition 3} \color{black}}
+
+\caltext{4/11/22}{\textbf{Field Lab:} Navigation at Riverside Park}
+\caltext{4/11/22}{\color{blue} \emph{Due: Field Journal 1} \color{black}}
+
+
+
+\caltext{4/13/22}{\textbf{Topic:} Competition}
+\caltext{4/13/22}{\color{teal} \emph{Reading Quiz: Competition 4} \color{black}}
+
+
+\caltext{4/15/22}{\emph{no class}}
+\caltext{4/15/22}{\color{blue} \emph{Due: Research Proposal} \color{black}}
+
+
+
+
+% Week 15
+\caltext{4/18/22}{\textbf{Topic:} Exploitation}
+\caltext{4/18/22}{\color{teal} \emph{Reading Quiz: Exploitation 1} \color{black}}
+
+\caltext{4/20/22}{\textbf{Topic:} Exploitation}
+\caltext{4/20/22}{\color{teal} \emph{Reading Quiz: Exploitation 2} \color{black}}
+
+
+
+\caltext{4/18/22}{\textbf{Field Lab:} Plant community survey at Heritage Park}
+\caltext{4/18/22}{\color{blue} \emph{Due: Field Journal 2} \color{black}}
+
+\caltext{4/22/22}{\textbf{Topic:} Exploitation}
+\caltext{4/22/22}{\color{teal} \emph{Reading Quiz: Exploitation 3} \color{black}}
+
+
+
+% Week 16
+\caltext{4/25/22}{\textbf{Topic:} Exploitation}
+\caltext{4/25/22}{\color{teal} \emph{Reading Quiz: Exploitation 4} \color{black}}
+
+\caltext{4/27/22}{\textbf{Topic:} Island Biogeography}
+\caltext{4/27/22}{\color{teal} \emph{Reading Quiz: Biogeography 2} \color{black}}
+
+\caltext{4/25/22}{\textbf{Field Lab:} Water survey at Warner Lake Park}
+\caltext{4/25/22}{\color{blue} \emph{Due: Field Journal 3} \color{black}}
+
+%\caltext{4/28/21}{\textbf{Topic:} Island Biogeography}
+%\caltext{4/28/21}{\color{teal} \emph{Reading Quiz: Exploitation 3} \color{black}}
+
+\caltext{4/29/22}{\textbf{Topic:} Review}
+\caltext{4/29/22}{\color{teal} \emph{No reading quiz} \color{black}}
+
+\caltext{5/2/22}{\color{red} \textbf{FINAL EXAM 7:30am - 9:45am} \color{black}}							% change by section
+
+
+
+  \end{calendar}
+
+
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
