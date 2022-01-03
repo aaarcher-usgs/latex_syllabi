@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  2 JAN 2022 14:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  3 JAN 2022 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,7 +757,7 @@ LaTeX Warning: Marginpar on page 1 moved.
 
 ]
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 81; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 83; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -765,7 +765,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 81; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 85; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 87; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -773,16 +773,16 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 85; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 113.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
+(Font)              <5> on input line 113.
 
-Overfull \hbox (149.76009pt too wide) in paragraph at lines 111--133
+Overfull \hbox (149.76009pt too wide) in paragraph at lines 113--135
 [][] 
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 139; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 141; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -790,7 +790,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 139; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 143; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 145; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -798,7 +798,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 143; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 148; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 150; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -807,15 +807,15 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 148; it cannot be
 
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 152.
+(Font)              <8> on input line 154.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 152.
+(Font)              <6> on input line 154.
 
 
 LaTeX Warning: Marginpar on page 3 moved.
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 182; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 184; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -823,7 +823,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 182; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 184; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 186; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -831,7 +831,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 184; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 189; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 191; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -839,7 +839,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 189; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 194; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 196; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -847,13 +847,13 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 194; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [3]
-Overfull \hbox (0.66005pt too wide) in paragraph at lines 220--221
+Overfull \hbox (0.66005pt too wide) in paragraph at lines 222--223
 \TU/lmr/m/it/10 college, but please do not hesitate to ask me in advance if you
  think something might be questionable or if you 
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 238; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 241; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -861,21 +861,21 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 238; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [4]
-Overfull \hbox (155.55504pt too wide) in alignment at lines 503--503
+Overfull \hbox (155.55504pt too wide) in alignment at lines 506--506
 [] [] [] [] [] 
  []
 
 
-Overfull \hbox (155.55504pt too wide) in alignment at lines 503--503
+Overfull \hbox (155.55504pt too wide) in alignment at lines 506--506
 [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 503
+Underfull \vbox (badness 10000) detected at line 506
  []
 
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 503; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 506; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -884,7 +884,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 503; it cannot be
 
 [5]
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 503; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 506; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -893,7 +893,7 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 503; it cannot be
 
 [6]
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 503; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 506; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -906,9 +906,9 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 514.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 517.
 
-Package fontspec Warning: \addfontfeature(s) ignored on line 514; it cannot be
+Package fontspec Warning: \addfontfeature(s) ignored on line 517; it cannot be
 (fontspec)                used with a font that wasn't selected by a fontspec
 (fontspec)                command.
 (fontspec)                 
@@ -916,14 +916,14 @@ Package fontspec Warning: \addfontfeature(s) ignored on line 514; it cannot be
 (fontspec)                  The requested feature is "LetterSpace=5.0". 
 
 [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 514.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 517.
  (./syllabus_2022_archer_bio312.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 514.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 514.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 517.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 517.
 Package rerunfilecheck Info: File `syllabus_2022_archer_bio312.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: E6250113BF37EDDB9AB51BE06C26C9DA;652.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 514.
+(rerunfilecheck)             Checksum: 9AF59CA442C98547656B42F074130DE4;652.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 517.
  ) 
 Here is how much of TeX's memory you used:
  14830 strings out of 479418
