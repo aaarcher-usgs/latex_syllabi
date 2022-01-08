@@ -1,0 +1,326 @@
+\documentclass{tufte-handout}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{xcolor}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=20.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=5.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+
+\renewcommand{\calprintclass}{}
+
+\title{BIOL 618: Biology and the Scientific Process}										% change each year
+\author{Syllabus}								% change per secti
+\date{Spring 2022}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+320-308-4975 (office) \\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+\color{gray} Virtual Office Hours: Tues \& Friday 10:00am--11:00am \\
+Office Hour Link: https://minnstate.zoom.us/j/98128037816\\
+Meeting ID: 981 2803 7816 Passcode: Archer \color{black}
+
+
+\begin{fullwidth}
+
+\section{Course Description}
+
+The scientific process, history of biology, experimental design, and basic statistics for biologists.
+
+\subsection{Learning Outcomes}
+
+%The goals of the course are to:
+
+
+\begin{enumerate}
+	\item Summarize the major landmarks in the history of biology
+\item Understand the basics of crafting and implementing experimental designs
+\item Analyze the role ethics plays in research design
+\item Evaluate and differentiate between basic applications of statistics for biological research design and methods.
+\item Evaluate and explain the data and conclusions drawn from primary literature.
+\item Successfully complete a peer-review of a scientific paper.
+\item Synthesize information to write a literature review on a topic of interest in biology. 
+\end{enumerate}
+
+
+
+%\subsection{Email and Phone Policy}
+
+\newthought{Contact Me:} The best ways to get ahold of me are by visiting my virtual office hours or by emailing me. I will always try to get back to emails within 48 hours. I get a lot of emails, so please begin emails with ``BIOL 618''  so that I can prioritize your email.
+
+\newthought{Class format is on-line, asynchronous:} This class will be run on-line through D2L. I will be emailing you with reminders, but we do not meet as a class over Zoom or in person. You will be responsible for making time to read, watch videos, and complete assignments on your own time.
+
+
+%\textbf{Every person coming to campus must complete the online self-assessment, including students and faculty. If your self-assessment states that you must stay home, please inform me of your absence as soon as possible so that we can make alternate arrangements.}
+
+\color{blue}
+Please pay careful attention to all emails that I send you: I will not send emails unless important and timely. 
+\color{black}
+
+
+\newthought{Accommodations for Students with Disabilities: } SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\newthought{Respect for Diversity: } It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+\end{fullwidth}
+
+\newthought{Grades}
+
+%Final grades will be based on the following:
+\begin{fullwidth}
+
+
+
+\begin{table}
+\begin{tabular}{l l l r r}
+Item & Due Date & Details & points & \% \\
+\hline
+Annotated Bibliography & Various & 10 citations x 2pts each & 20 & 20.0\% \\
+Statistical Assignments & Various & 5 assignments x 4pts each & 20 & 20.0\% \\	
+Science Ethics Infographic & Feb.~4 &  & 10 & 10.0\% \\
+Mock Peer Review & April 1 & & 15 & 15.0\% \\
+Draft Literature Review &  April 22 &  & 5 & 5.0\% \\
+Lightning Talk & April 29 &  & 10 & 10.0\% \\
+Final Literature Review & May 4 &  & 20 & 20.0\% \\
+\hline
+Total & & & 100 & 100.0\% 
+\end{tabular}
+\end{table}
+
+\end{fullwidth}
+
+\newthought{The Annotated Bibliography} will be developed over the course of the semester. Starting in Week 3, you will be adding one new citation to your annotated bibliography each week for 10 weeks. Each week you must submit the cumulative bibliography, not just the new paper's entry. 
+
+For each citation, you must include a properly cited bibliography of the paper, followed by keywords and a description of the paper in complete sentences and in your own words. Include any and all important details so that future you can read the description and use it to write your literature review (for this class) or future manuscripts. As such, I highly recommend choosing papers that follow a specific theme and/or relate directly to your professional interests; however, I will not be judging the topic of the papers that you choose to review--only that they 
+
+
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge99$ & A+ \\
+92-98.9 & A \\
+90-91.9 & A- \\
+89-89.9 & B+ \\
+82-88.9 & B \\
+80-81.9 & B- \\
+79-79.9 & C+ \\
+72-78.9 & C \\
+70-71.9 & C- \\
+69-69.9 & D+ \\
+60-68.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+
+
+
+
+
+\newthought{The Statistical Assignments} will be a series of five video lectures and assignments with multiple choice questions asking you to apply statistical understanding to biology study scenarios. These assignments and their corresponding lectures will be similar to BIOL 339: Statistical Design. However, the lectures will be more advanced and quantitative to match the graduate level learning outcomes. The assignment will be posted as a PDF that you can work through with a corresponding quiz for you to submit your answers. 
+
+
+\begin{fullwidth} 
+
+
+\newthought{The Science Ethics Infographic} will be your chance to delve deeper into a topic of science ethics and practice your science communication skills. You will research a topic of science ethics and create a visual infographic. I will expect you to properly use images and text to communicate the nuances of your topic to an undergraduate level audience. You must use open access images or create your own, and I will provide more guidance about developing an engaging infographic that has properly copyrighted visuals in lecture videos.
+
+
+\newthought{The Mock Peer Review} will provide an opportunity to experience the process of reviewing a manuscript. You will be asked to choose a preprint related to your own professional interests and then write up a complete and analytical review of that preprint. You'll be writing a response to authors with guidance as to how to improve the paper and a response to the editor, just as though you were completing an authentic peer review. Further guidance on the peer review process will be given in video lectures prior to this exercise. 
+
+\newthought{The Literature Review paper and lightning talk} will further push you to experience the scientific process through writing and oral communication. You will be writing a literature review on a topic of your choice. I will expect you to synthesize your literature sources, and will provide examples of how to write literature reviews in class. You will first submit a draft literature review, to which I will give you feedback. Then, you'll be asked to record a lightning talk, which is a short presentation that highlights your main arguments from the literature review. Finally, you will provide a final literature review at the end of the semester. This should be written at the quality that you could use it in a thesis or manuscript, and so I hope that you choose a topic that pertains to your specific professional interests.  
+
+\subsection{Academic Integrity}
+
+
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty.
+All academic integrity violations will be reported.
+
+
+
+
+
+\newpage
+
+\section{Course Schedule (version dated \today)}
+
+%\color{red} Meeting ID: 965 4465 0556
+%Passcode: ecology \color{black}
+
+
+  \setlength{\calwidth}{6.8in}
+  \setlength{\calboxdepth}{0.3in}
+  \begin{calendar}{1/10/22}{17}
+
+
+ \calday[Monday]{\classday} % Monday
+  \calday[Tuesday]{\classday} % Wednesday
+\calday[Wednesday]{\classday}
+ %\skipday\skipday
+  \calday[Thursday]{\classday} % Thursday (unnumbered)
+ \calday[Friday]{\classday} % Friday
+    \skipday\skipday % weekend (no class)
+
+
+% Week 1
+\caltext{1/10/22}{\textbf{Week 1 Topic:} Literature sources and citations}
+
+
+
+% Week 2
+
+
+\caltext{1/17/22}{\textbf{Week 2 Topic:} The scientific process and science ethics}
+
+
+
+
+% Week 3
+
+
+\caltext{1/24/22}{\textbf{Week 3 Topic:} Reproducibility and transparency in science}
+
+\caltext{1/28/22}{\color{teal} \emph{Annotation 1 Due} \color{black}}
+
+
+% Week 4
+
+
+
+\caltext{1/31/22}{\textbf{Week 4 Topic:} Statistics 1: Variables and Individuals}
+
+\caltext{2/4/22}{\color{teal} \emph{Annotation 2 Due} \color{black}}
+\caltext{2/4/22}{\color{orange} \emph{Infographic Due} \color{black}}
+
+
+
+
+% Week 5
+
+\caltext{2/7/22}{\textbf{Week 5 Topic:} Statistics 2: Continuous Variable Analysis }
+\caltext{2/11/22}{\color{teal} \emph{Annotation 3 Due} \color{black}}
+\caltext{2/11/22}{\color{blue} \emph{Statistics Quiz 1 Due} \color{black}}
+
+% Week 6
+\caltext{2/14/22}{\textbf{Week 6 Topic:} Statistics 3: Categorical Variable Analysis}
+\caltext{2/18/22}{\color{teal} \emph{Annotation 4 Due} \color{black}}
+\caltext{2/18/22}{\color{blue} \emph{Statistics Quiz 2 Due} \color{black}}
+
+% Week 7
+\caltext{2/21/22}{\textbf{Week 7 Topic:} Statistics 4: t-test and ANOVA}
+\caltext{2/25/22}{\color{teal} \emph{Annotation 5 Due} \color{black}}
+\caltext{2/25/22}{\color{blue} \emph{Statistics Quiz 3 Due} \color{black}}
+
+
+
+% Week 8
+\caltext{2/28/22}{\textbf{Week 8 Topic:} Statistics 5: Experimental Design}
+\caltext{3/4/22}{\color{teal} \emph{Annotation 6 Due} \color{black}}
+\caltext{3/4/22}{\color{blue} \emph{Statistics Quiz 4 Due} \color{black}}
+
+% Week 9
+
+\caltext{3/7/22}{\emph{No class}}
+\caltext{3/8/22}{\emph{No class}}
+\caltext{3/9/22}{\emph{No class}}
+\caltext{3/10/22}{\emph{No class}}
+\caltext{3/11/22}{\emph{No class}}
+
+% Week 10
+\caltext{3/14/22}{\textbf{Week 9 Topic:} Peer Review process}
+\caltext{3/18/22}{\color{teal} \emph{Annotation 7 Due} \color{black}}
+\caltext{3/18/22}{\color{blue} \emph{Statistics Quiz 5 Due} \color{black}}
+
+
+% Week 11
+\caltext{3/21/22}{\textbf{Week 10 Topic:} Figures \& tables: captions and styles}
+\caltext{3/25/22}{\color{teal} \emph{Annotation 8 Due} \color{black}}
+
+
+
+% Week 12
+\caltext{3/28/22}{\textbf{Week 11 Topic:} Secondary literature sources: reviews and meta-analyses}
+\caltext{4/1/22}{\color{teal} \emph{Annotation 9 Due} \color{black}}
+\caltext{4/1/22}{\color{orange} \emph{Peer Review Due} \color{black}}
+
+
+
+
+
+% Week 13
+
+\caltext{4/4/22}{\textbf{Week 12 Topic:} Synthesizing literature and hypotheses}
+\caltext{4/8/22}{\color{teal} \emph{Annotation 10 Due} \color{black}}
+
+
+% Week 14
+\caltext{4/11/22}{\textbf{Week 13 Topic:} Presentation Skills}
+\caltext{4/15/22}{\color{red} \emph{Draft Literature Review Due} \color{black}}
+
+
+% Week 15
+\caltext{4/18/22}{\textbf{Week 14 Topic:} Manuscript organization}
+\caltext{4/22/22}{\color{red} \emph{Lightning Talk} \color{black}}
+
+% Week 16
+\caltext{4/25/22}{\textbf{Week 15 Topic:} Fellow classmates' presentations}
+
+
+\caltext{5/4/22}{\color{red} \emph{Final Literature Review Due} \color{black}}
+
+
+
+
+  \end{calendar}
+
+
+\end{fullwidth}
+
+
+
+%\newpage
+
+\end{document}                              
