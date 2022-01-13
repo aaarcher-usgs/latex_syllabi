@@ -1,0 +1,157 @@
+\documentclass{tufte-handout}
+\usepackage[letterpaper]{geometry}
+\usepackage{fontspec}
+\usepackage{termcal}
+\usepackage{graphicx}
+
+
+\geometry{
+  left=1in, % left margin
+  bottom=1in,
+  top=1in,
+  textwidth=25pc, % main text block
+  marginparsep=2pc, % gutter between main text block and margin notes
+  marginparwidth=12pc % width of margin notes
+}
+
+\makeatletter
+\providecommand\tuftedate{}
+\@ifpackageloaded{termcal}{%
+  \renewcommand{\date}[1]{%
+    \gdef\@date{#1}%
+    \begingroup%
+    % TODO store contents of \thanks command
+    \renewcommand{\thanks}[1]{}% swallow \thanks contents
+    \protected@xdef\tuftedate{#1}%
+    \endgroup%
+  }{%
+    % Do nothing else, there's no need to redefine \date
+  }
+}
+\makeatother
+\defaultfontfeatures{Mapping=tex-text}
+
+\renewcommand{\allcapsspacing}[1]{{\addfontfeature{LetterSpace=10.0}#1}}
+\renewcommand{\smallcapsspacing}[1]{{\addfontfeature{LetterSpace=2.0}#1}}
+\renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+
+\renewcommand{\calprintclass}{}
+
+\title{BIOL 451: Directed Research}										% change each year
+\author{Spring 2022}										% change per section
+\date{Syllabus}
+
+\begin{document}
+\maketitle
+
+Instructor: Dr.~Althea A.~Archer\marginnote{The schedules and policies associated with this course may be subject to revision or change as a consequence of changing circumstances or events. Reasonable notification will be provided to students prior to any major changes in course policies or procedures.}\\
+Office: 267 Wick Science Building\\
+320-308-4975 (office) \\
+Email: althea.archer@stcloudstate.edu\\
+Twitter: @aaarchmiller
+
+\color{gray} Virtual Office Hours: Tues \& Friday 10:00am--11:00am \\
+Office Hour Link: https://minnstate.zoom.us/j/98128037816\\
+Meeting ID: 981 2803 7816 Passcode: Archer \color{black}
+
+
+\begin{fullwidth}
+
+\section{Course Description \& Goals}
+
+This course provides an opportunity for individual students to conduct research in a specific area of study, completed under the direction of a faculty mentor.
+
+The primary objective of this course is to provide hands-on and authentic experience with the scientific research process.
+
+\newthought{Learning outcomes} are to:
+
+\begin{enumerate}
+	\item Develop data analysis literacy skills in R (troubleshooting, programming, data processing, etc)
+	\item Read, interprete, and synthesize relevant and contemporary literature
+	\item Hone scientific writing skills
+	\item Experience cooperative research, including interpersonal communication, collaborative coding, etc
+	\item Adopt and follow a reproducible workflow for statistical analysis 
+	\item Overcome challenges inherent in scientific research and analysis 
+\end{enumerate}
+
+
+\end{fullwidth}
+
+%\subsection{Grades}
+
+\newthought{Grades} in this class will be more closely tied to your growth and development as a scientist in the following areas than they will be towards specific tasks or competencies. 
+
+\begin{margintable}
+\begin{tabular}{rl}
+Percentage & Grade \\
+\hline 
+$\ge93$ & A \\
+90-92.9 & A- \\
+87-89.9 & B+ \\
+83-86.9 & B \\
+80-82.9 & B- \\
+77-79.9 & C+ \\
+73-76.9 & C \\
+70-72.9 & C- \\
+67-69.9 & D+ \\
+60-66.9 & D \\
+$<60$ & F \\
+\hline
+\end{tabular}
+\end{margintable}
+
+The format of this class will be a mixture of introductory lectures, collaborative meetings, independent reading assignments, and analysis in program R. 
+
+By the end of the semester, I expect you to have accomplished the following research tasks:
+
+\begin{itemize}
+	\item Create and maintain independent annotated bibliographies on research literature
+	\item Complete the Motus R tutorial
+	\item Collaborate on the Project 332 code
+	\item Further our understanding of Kestrel migration, behavior, and/or our analytical approach 
+\end{itemize}
+
+
+
+\begin{fullwidth}
+
+\subsection{Attendance Policy}
+
+Regular attendance and participation in class is critical to your success in college and in research. Because any absence, excused or unexcused, detracts from the learning experience, you are expected to be present during the scheduled research time. However, I also understand that you are an advanced learner capable of balancing your personal schedule, coursework, and research. As such, I trust you to make up the requisite hours if you are absent during scheduled research times. 
+
+
+\newthought{Accommodations for Students with Disabilities: } SCSU is an affirmative action, equal opportunity employer and educator. We are committed to a policy of nondiscrimination in employment and education opportunity and work to provide reasonable accommodations for all persons with disabilities. Accommodations are provided on an individualized, as-needed basis, determined through appropriate documentation of need. Please contact Student Accessibility Services (SAS), sas@stcloudstate.edu or 320-308-4080, Centennial Hall 202, to meet and discuss reasonable and appropriate accommodations. 
+
+\newthought{Respect for Diversity: } It is my intent that students from diverse backgrounds and perspectives be well-served by this course, and that the diversity that students bring to this class be viewed as a resource. Please let me know ways to improve the effectiveness of the course for you, personally, or for other students or student groups. As a student in this class, you are required to treat other members of the class with respect and kindness. Diverse perspectives are welcome and disagreeing is fine. However, disrespectful, rude, or exclusive behavior will not be tolerated.
+
+
+
+
+
+\subsection{Academic Integrity}
+
+
+
+\emph{As a student at St.\ Cloud State University and as a student in this class, you are expected to fully and properly acknowledge the work of others. Every instance of plagiarism will be reported, as per the policies of the college, but please do not hesitate to ask me in advance if you think something might be questionable or if you are unsure about what is considered to be plagiarism. I am happy to help, as long as you inquire in advance! }
+
+Academic misconduct includes but is not limited to:
+
+\begin{itemize}
+	\item cheating: using a resource other than one's own work to answer questions;
+	\item plagiarism: misrepresenting another's ideas as one's own or not giving credit to the creator of a work;
+	\item falsification: submitting falsified or fabricated information;
+	\item facilitating others' violations: knowingly permitting or facilitating the dishonesty of others;
+	\item impeding: placing barriers in the way of others' academic pursuits'
+\end{itemize}
+
+Instances of academic dishonesty will result in either a failing grade for that activity or for the course, according to the perceived intent and extent of the instance(s) of academic dishonesty.
+All academic integrity violations will be reported.
+
+\end{fullwidth}
+
+
+
+
+
+\end{document}                              
